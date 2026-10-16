@@ -1,0 +1,8424 @@
+{
+ "meta": {
+  "title": "信息素养与科研工具速查手册",
+  "source": "https://csc.xxsuyang.com/Knowledge",
+  "modules": 50,
+  "uses": 10,
+  "platforms": 200,
+  "questions": 56,
+  "explore": 99
+ },
+ "uses": [
+  {
+   "id": "U1",
+   "name": "AI 工具实操",
+   "desc": "打开某个 AI 产品，查找功能、生成内容或完成操作",
+   "count": 6,
+   "nos": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "platforms": [
+    "ai.cnki.net",
+    "aistudio.baidu.com",
+    "archive-beta.ics.uci.edu",
+    "archive.ics.uci.edu",
+    "ascend.developer.huaweicloud.com",
+    "chatglm.cn",
+    "developer.aliyun.com",
+    "docs.github.com",
+    "eci.elsevier.cn",
+    "github.com",
+    "metaso.cn",
+    "modelscope.cn",
+    "mp.weixin.qq.com",
+    "opendatalab.com",
+    "paper.iflytek.com",
+    "tianchi.aliyun.com",
+    "wenxin.baidu.com",
+    "www.aidaxue.com",
+    "www.datafountain.cn",
+    "www.deepseek.com",
+    "www.doubao.com",
+    "www.elementsofai.com",
+    "www.heywhale.com",
+    "www.kimi.com",
+    "www.lib.szu.edu.cn",
+    "www.n.cn",
+    "www.openml.org",
+    "www.sciencedirect.com",
+    "xinghuo.xfyun.cn",
+    "yuanbao.tencent.com",
+    "zh.d2l.ai"
+   ]
+  },
+  {
+   "id": "U2",
+   "name": "AI 政策法规与伦理",
+   "desc": "查阅 AI 相关法律法规、规范性文件的名称、条款与适用范围",
+   "count": 1,
+   "nos": [
+    1
+   ],
+   "platforms": [
+    "202.115.54.22",
+    "aisg.tongji.edu.cn",
+    "hulianhutongshequ.cn",
+    "research.bjmu.edu.cn",
+    "unesdoc.unesco.org",
+    "www.cac.gov.cn",
+    "www.cas.cn",
+    "www.gov.cn",
+    "www.sjtu.edu.cn"
+   ]
+  },
+  {
+   "id": "U3",
+   "name": "法律法规 · 标准 · 知识产权",
+   "desc": "查阅法律条文、判例、国家标准、商标、专利、地理标志",
+   "count": 4,
+   "nos": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "platforms": [
+    "epub.cnipa.gov.cn",
+    "flk.npc.gov.cn",
+    "gb2760.cfsa.net.cn",
+    "ggfw.cnipa.gov.cn",
+    "gongbao.court.gov.cn",
+    "ie.espacenet.com",
+    "lawpro.cnki.net",
+    "mp.weixin.qq.com",
+    "openstd.samr.gov.cn",
+    "patentscope2.wipo.int",
+    "pss-system.cponline.cnipa.gov.cn",
+    "rmfyalk.court.gov.cn",
+    "sbj.cnipa.gov.cn",
+    "sppt.cfsa.net.cn:8086",
+    "sppt.cfsa.net.cn:8087",
+    "std.samr.gov.cn",
+    "tingshen.court.gov.cn",
+    "wenshu.court.gov.cn",
+    "www.cnipa.gov.cn",
+    "www.cnki.net",
+    "www.cqvip.com",
+    "www.gov.cn",
+    "www.mee.gov.cn",
+    "www.mohurd.gov.cn",
+    "www.moj.gov.cn",
+    "www.piyao.org.cn",
+    "www.uspto.gov",
+    "www.wanfangdata.com.cn",
+    "xzfg.moj.gov.cn",
+    "zxgk.court.gov.cn"
+   ]
+  },
+  {
+   "id": "U4",
+   "name": "政府公开信息与事实核查",
+   "desc": "查阅统计数据、年鉴、开放数据、医卫／文教／证书资质等事实性信息",
+   "count": 5,
+   "nos": [
+    8,
+    9,
+    14,
+    15,
+    16
+   ],
+   "platforms": [
+    "",
+    "chkd.cnki.net",
+    "cmis.cicpa.org.cn",
+    "credit.acla.org.cn",
+    "cy.ncss.cn",
+    "data.stats.gov.cn",
+    "data.worldbank.org",
+    "datasearch.nmpa.gov.cn",
+    "gj.ncss.cn",
+    "gs.sac.net.cn",
+    "jhsjk.people.cn",
+    "mp.weixin.qq.com",
+    "press.nppa.gov.cn",
+    "www.12371.cn",
+    "www.amac.org.cn",
+    "www.china-cba.net",
+    "www.chsi.com.cn",
+    "www.escience.org.cn",
+    "www.ncss.cn",
+    "www.neea.edu.cn",
+    "www.nhc.gov.cn",
+    "www.scidb.cn",
+    "xhsz.news.cn",
+    "yz.chsi.com.cn"
+   ]
+  },
+  {
+   "id": "U5",
+   "name": "学术文献检索",
+   "desc": "在各类学术数据库中检索期刊、会议、学位论文并获取全文",
+   "count": 5,
+   "nos": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "platforms": [
+    "academic.oup.com",
+    "arxiv.org",
+    "asmedigitalcollection.asme.org",
+    "bioone.org",
+    "conf.cnki.net",
+    "dl.acm.org",
+    "doaj.org",
+    "dspace.mit.edu",
+    "fz.people.com.cn",
+    "iopscience.iop.org",
+    "kd.nsfc.cn",
+    "onlinelibrary.wiley.com",
+    "read.nlc.cn",
+    "www.cambridge.org",
+    "www.cell.com",
+    "www.chinaxiv.org",
+    "www.cnki.net",
+    "www.cqvip.com",
+    "www.ieee.org",
+    "www.jstor.org",
+    "www.medrxiv.org",
+    "www.modernhistory.org.cn",
+    "www.nature.com",
+    "www.ncpssd.cn",
+    "www.oalib.com",
+    "www.science.org",
+    "www.sciencedirect.com",
+    "www.tandfonline.com",
+    "www.wanfangdata.com.cn"
+   ]
+  },
+  {
+   "id": "U6",
+   "name": "检索系统与搜索工具",
+   "desc": "使用学术搜索、图片搜索、网址导航、网络指数、馆藏系统",
+   "count": 5,
+   "nos": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "platforms": [
+    "ai-bot.cn",
+    "hao.uisdc.com",
+    "image.baidu.com",
+    "image.cnki.net",
+    "image.so.com",
+    "index.baidu.com",
+    "lib.scu.edu.cn",
+    "mp.weixin.qq.com",
+    "opac.nlc.cn",
+    "pic.sogou.com",
+    "pixabay.com",
+    "pubmed.ncbi.nlm.nih.gov",
+    "pubscholar.cn",
+    "scidraw.io",
+    "smart.servier.com",
+    "trendinsight.oceanengine.com",
+    "unsplash.com",
+    "www.chaoxing.com",
+    "www.duxiu.com",
+    "www.hippter.com",
+    "www.iconfont.cn",
+    "www.nstl.gov.cn",
+    "www.wenxianxue.cn",
+    "xueshu.baidu.com"
+   ]
+  },
+  {
+   "id": "U7",
+   "name": "检索语法与策略",
+   "desc": "布尔逻辑、截词、字段限定、精确／模糊匹配、结果筛选等检索技术",
+   "count": 7,
+   "nos": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "platforms": [
+    "dl.acm.org",
+    "epub.cnipa.gov.cn",
+    "ieeexplore.ieee.org",
+    "onlinelibrary.wiley.com",
+    "pubmed.gov",
+    "www.baidu.com",
+    "www.cnki.net",
+    "www.cqvip.com",
+    "www.sciencedirect.com",
+    "www.spiedigitallibrary.org",
+    "www.tandfonline.com",
+    "www.wanfangdata.com.cn"
+   ]
+  },
+  {
+   "id": "U8",
+   "name": "图书 · 课程 · 学习资源",
+   "desc": "查找电子书、开放课程、慕课、国家图书馆数字资源",
+   "count": 4,
+   "nos": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "platforms": [
+    "academic.oup.com",
+    "aistudio.baidu.com",
+    "basic.smartedu.cn",
+    "higher.smartedu.cn",
+    "k.cnki.net",
+    "lifelong.smartedu.cn",
+    "open.163.com",
+    "read.nlc.cn",
+    "suyang.zxhnzq.com",
+    "tianchi.aliyun.com",
+    "video.wanfangdata.com.cn",
+    "vocational.smartedu.cn",
+    "www.bilibili.com",
+    "www.cambridge.org",
+    "www.datafountain.cn",
+    "www.heywhale.com",
+    "www.icourse163.org",
+    "www.icourses.cn",
+    "www.ilab-x.com",
+    "www.loc.gov",
+    "www.ncbi.nlm.nih.gov",
+    "www.nlc.cn",
+    "www.ted.com",
+    "www.xiaohongshu.com",
+    "www.xuetangx.com",
+    "www.xuexi.cn",
+    "www.xueyinonline.com",
+    "www.yixi.tv",
+    "www.zhihu.com",
+    "www.zhihuishu.com",
+    "zhida.zhihu.com"
+   ]
+  },
+  {
+   "id": "U9",
+   "name": "文献管理 · 写作 · 排版",
+   "desc": "文献管理软件、参考文献著录、投稿选刊、学术伦理、论文排版",
+   "count": 6,
+   "nos": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "platforms": [
+    "cx.wanfangdata.com.cn",
+    "mp.weixin.qq.com",
+    "navi.cnki.net",
+    "publishmedia.cbpt.cnki.net",
+    "pubmed.ncbi.nlm.nih.gov",
+    "shimo.im",
+    "www.nppa.gov.cn",
+    "www.sciencedirect.com",
+    "www.wps.cn",
+    "x.cnki.net"
+   ]
+  },
+  {
+   "id": "U10",
+   "name": "通用工具与知识管理",
+   "desc": "思维导图、笔记、插件、截图录屏、PDF、数据处理与可视化",
+   "count": 7,
+   "nos": [
+    38,
+    39,
+    40,
+    41,
+    48,
+    49,
+    50
+   ],
+   "platforms": [
+    "ai.cnki.net",
+    "docs.qq.com",
+    "echarts.apache.org",
+    "gw.xkonglong.com",
+    "note.youdao.com",
+    "public.tableau.com",
+    "www.citexs.com",
+    "www.cockos.com",
+    "www.doubao.com",
+    "www.epsnet.com.cn",
+    "www.office-ai.cn",
+    "www.qianwen.com",
+    "www.weiciyun.com",
+    "www.wjx.cn",
+    "www.wps.cn",
+    "www.yuketang.cn",
+    "www.yunzhan365.com",
+    "zh.snipaste.com"
+   ]
+  }
+ ],
+ "modules": [
+  {
+   "no": 1,
+   "id": "ecee8d2e-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块01：AI基础知识与伦理规范",
+   "use": "U2",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8d2e-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解AI基础知识与伦理规范。",
+    "2. 熟悉关于AI使用方面的法律法规和规范性文件，包括但不限于：",
+    "（1） 国家网信办等7部委发布的《生成式人工智能服务管理暂行办法》",
+    "（2） 全国网络安全标准化技术委员会发布的《生成式人工智能服务安全基本要求》",
+    "（3） 国家网信办等五部门发布的《人工智能拟人化互动服务管理暂行办法》",
+    "（4） 四川大学发布的《四川大学本科教育教学人工智能工具应用规范（试行）》",
+    "（5） 中国科学院发布的《关于在科研活动中规范使用人工智能技术的诚信提醒》",
+    "（6） 上海交通大学发布的《上海交通大学关于在教育教学中使用AI的规范》",
+    "（7） 中信所等机构联合发布的《学术出版中AIGC使用边界指南3.0》",
+    "（8） 联合国教科文组织发布的《人工智能伦理问题建议书》、《生成式人工智能 教育与研究应用指南》、《学生人工智能能力框架》、《教师人工智能能力框架》等与AI相关的文件",
+    "（9） 欧盟出台的《欧盟人工智能法》（全文中译本）"
+   ],
+   "explore": [
+    "3. 探索：在《生成式人工智能服务安全基本要求》中，查找文件对语料安全、模型安全、安全措施和安全评估提出了哪些要求。",
+    "4. 探索：阅读《人工智能拟人化互动服务管理暂行办法》，了解其适用范围，以及智能客服、知识问答、工作助手、学习教育、科学研究等服务在何种情况下不适用该办法。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在联合国教科文组织的官网上可以找到2024年发布的英文版《学生人工智能能力框架》（AI competency framework for students），这个文件正文第29页有一个表格，这个表格的标题是（）。",
+     "options": [
+      [
+       "A",
+       "Competency blocks for level 1: Understand"
+      ],
+      [
+       "B",
+       "Human-centred mindset"
+      ],
+      [
+       "C",
+       "Ethics of AI"
+      ],
+      [
+       "D",
+       "AI techniques and applications"
+      ]
+     ],
+     "answer": "A",
+     "explain": "在联合国教科文组织的官网上找到这个文件，翻到正文第29页，查看可知。文件地址：https://unesdoc.unesco.org/ark:/48223/pf0000391105"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm",
+     "label": "《生成式人工智能服务管理暂行办法》",
+     "host": "www.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://hulianhutongshequ.cn/upload/tank/report/2024/202403/1/28716c58bcc84f6db5242dd90363c98c.pdf",
+     "label": "《生成式人工智能服务安全基本要求》",
+     "host": "hulianhutongshequ.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+     "label": "《人工智能拟人化互动服务管理暂行办法》",
+     "host": "www.cac.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://202.115.54.22/genai/static/wenjian/%E3%80%8A%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8%E8%A7%84%E8%8C%83%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%20%E3%80%8B%EF%BC%88%E5%B7%9D%E5%A4%A7%E6%95%99%E3%80%942025%E3%80%9528%E5%8F%B7%EF%BC%89.pdf",
+     "label": "《四川大学本科教育教学人工智能工具应用规范（试行）》",
+     "host": "202.115.54.22",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cas.cn/sygz/202409/t20240910_5031186.shtml",
+     "label": "《关于在科研活动中规范使用人工智能技术的诚信提醒》",
+     "host": "www.cas.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sjtu.edu.cn/tg/20250304/207682.html",
+     "label": "《上海交通大学关于在教育教学中使用AI的规范》",
+     "host": "www.sjtu.edu.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://research.bjmu.edu.cn/kycx/0a2253cf83e34201b07578de02cb743a.htm",
+     "label": "《学术出版中AIGC使用边界指南3.0》",
+     "host": "research.bjmu.edu.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://unesdoc.unesco.org/ark:/48223/pf0000381137_chi",
+     "label": "《人工智能伦理问题建议书》",
+     "host": "unesdoc.unesco.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://unesdoc.unesco.org/ark:/48223/pf0000393559",
+     "label": "《生成式人工智能 教育与研究应用指南》",
+     "host": "unesdoc.unesco.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://unesdoc.unesco.org/ark:/48223/pf0000391105",
+     "label": "《学生人工智能能力框架》",
+     "host": "unesdoc.unesco.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://unesdoc.unesco.org/ark:/48223/pf0000391104",
+     "label": "《教师人工智能能力框架》",
+     "host": "unesdoc.unesco.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://aisg.tongji.edu.cn/info/1005/1192.htm",
+     "label": "《欧盟人工智能法》（全文中译本）",
+     "host": "aisg.tongji.edu.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "四川大学本科教育教学人工智能工具应用规范（试行）",
+    "关于在科研活动中规范使用人工智能技术的诚信提醒",
+    "上海交通大学关于在教育教学中使用AI的规范",
+    "学术出版中AIGC使用边界指南3.0",
+    "人工智能拟人化互动服务管理暂行办法",
+    "生成式人工智能 教育与研究应用指南",
+    "生成式人工智能服务安全基本要求",
+    "生成式人工智能服务管理暂行办法",
+    "人工智能伦理问题建议书",
+    "学生人工智能能力框架",
+    "教师人工智能能力框架",
+    "欧盟人工智能法",
+    "AIGC"
+   ]
+  },
+  {
+   "no": 2,
+   "id": "ecee9f6f-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块02：AI学习资源的获取与利用",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9f6f-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能从互联网B站、小红书、CSDN、知乎等平台获取AI学习相关资源；",
+    "2. 熟悉以下几个与AI学习相关的网站：",
+    "（1） 阿里云开发者社区中的人工智能学习路线",
+    "（2） 科大讯飞的AI大学堂",
+    "（3） 华为云开发者学堂中的昇腾AI专区",
+    "（4） 开源学习项目：动手学深度学习",
+    "（5） Elements of AI",
+    "3. 了解各高校图书馆建设的人工智能专题网页"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "深圳大学图书馆网站中有一个生成式人工智能专题网页。这个专题网页中的内容包括（）。",
+     "options": [
+      [
+       "A",
+       "生成式AI简介"
+      ],
+      [
+       "B",
+       "最新AI政策"
+      ],
+      [
+       "C",
+       "Gen AI工具导航"
+      ],
+      [
+       "D",
+       "AI数据库"
+      ]
+     ],
+     "answer": "ABC",
+     "explain": "找到这个专题，即可做出判断。网址：https://www.lib.szu.edu.cn/learning/ai。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://developer.aliyun.com/learning/roadmap/ai",
+     "label": "阿里云开发者社区中的人工智能学习路线",
+     "host": "developer.aliyun.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.aidaxue.com/",
+     "label": "科大讯飞的AI大学堂",
+     "host": "www.aidaxue.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ascend.developer.huaweicloud.com/home",
+     "label": "华为云开发者学堂中的昇腾AI专区",
+     "host": "ascend.developer.huaweicloud.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://zh.d2l.ai/",
+     "label": "动手学深度学习",
+     "host": "zh.d2l.ai",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.elementsofai.com/",
+     "label": "Elements of AI",
+     "host": "www.elementsofai.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.lib.szu.edu.cn/learning/ai",
+     "label": "https://www.lib.szu.edu.cn/learning/ai",
+     "host": "www.lib.szu.edu.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Elements",
+    "CSDN"
+   ]
+  },
+  {
+   "no": 3,
+   "id": "ecee8114-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块03：通用AI工具认知与应用",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8114-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解DeepSeek、豆包、腾讯元宝、智谱清言、通义/千问、Kimi、讯飞星火、文心、纳米AI等常用AI工具，包括网页版、APP、微信小程序、浏览器插件。",
+    "2. 能够利用这些常用的AI工具解决具体问题。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在AI工具腾讯元宝（网页版）首页可以选择AI大模型，其中包括（）。",
+     "options": [
+      [
+       "A",
+       "DeepSeek"
+      ],
+      [
+       "B",
+       "Hunyuan"
+      ],
+      [
+       "C",
+       "Qwen"
+      ],
+      [
+       "D",
+       "文心"
+      ]
+     ],
+     "answer": "AB",
+     "explain": "进入腾讯元宝官网首页，在对话框中可以选择。网址：https://yuanbao.tencent.com/chat/naQivTmsDa。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+     "label": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+     "host": "yuanbao.tencent.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "DeepSeek",
+    "Kimi",
+    "APP"
+   ]
+  },
+  {
+   "no": 4,
+   "id": "ecee8b56-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块04：办公场景下的AI工具",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8b56-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 掌握Kimi的PPT、通义/千问的PPT创作、豆包的PPT生成、智谱清言的PPT制作具体应用。",
+    "2. 掌握通用AI工具文心、豆包、讯飞星火的写作相关功能。",
+    "3. 能够用豆包、智谱清言等AI工具做数据处理和数据分析，并能对结果进行评估。",
+    "4. 能够用通义/千问（网页版和APP）做会议记录并整理。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "使用豆包的PPT生成功能可以快速生成PPT（登录豆包后），在生成时可以选择篇幅和风格，其中可选的风格包括（ ）。",
+     "options": [
+      [
+       "A",
+       "学术风"
+      ],
+      [
+       "B",
+       "简约风"
+      ],
+      [
+       "C",
+       "喜庆风"
+      ],
+      [
+       "D",
+       "创意风"
+      ]
+     ],
+     "answer": "ABD",
+     "explain": "在浏览器中进入豆包官网并登录，在对话框的下方选择PPT生成，可以看到篇幅和风格，点击风格，即可看到可供选择的风格模板。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.kimi.com/",
+     "label": "Kimi（月之暗面）",
+     "host": "www.kimi.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://chatglm.cn/",
+     "label": "智谱清言",
+     "host": "chatglm.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://wenxin.baidu.com/?enter_type=yiyan_site",
+     "label": "文心一言",
+     "host": "wenxin.baidu.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://xinghuo.xfyun.cn/",
+     "label": "讯飞星火",
+     "host": "xinghuo.xfyun.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://www.deepseek.com/",
+     "label": "DeepSeek",
+     "host": "www.deepseek.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://www.n.cn/",
+     "label": "纳米AI",
+     "host": "www.n.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://metaso.cn/",
+     "label": "秘塔AI搜索",
+     "host": "metaso.cn",
+     "access": "open",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "Kimi",
+    "APP",
+    "PPT"
+   ]
+  },
+  {
+   "no": 5,
+   "id": "ecee8cdc-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块05：科研场景下的AI工具",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8cdc-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解AI工具在科研中的应用。",
+    "2. 掌握LeapSpace、CNKI AI、星火科研助手、秘塔AI搜索、豆包、AMiner等与科研相关的AI工具或AI功能。",
+    "3. 重点关注 LeapSpace 的核心功能，如 Trust Card、Claim Radar、Deep Research、Writing Coach 等，并熟悉各项功能的具体用途及其侧重点。"
+   ],
+   "explore": [
+    "3. 探索：使用CNKI AI，利用学术趋势功能，分析近十年发文趋势；输入研究方向，让AI生成文献综述；找到对比分析功能，梳理多篇文献研究方法、结论和创新点，输出对比表格；在学习研读过程中，摘录10条笔记，在辅助创作模块搜索、引用。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "星火科研助手中有一个学术写作的栏目，这个栏目下的具体功能包括（ ）。",
+     "options": [
+      [
+       "A",
+       "学术翻译"
+      ],
+      [
+       "B",
+       "英文润色"
+      ],
+      [
+       "C",
+       "中文润色"
+      ],
+      [
+       "D",
+       "全文审校"
+      ]
+     ],
+     "answer": "ABD",
+     "explain": "注册登录这个网站，进入“学术写作”栏目，即可看到答案。网址：https://paper.iflytek.com/。"
+    },
+    {
+     "type": "单选题",
+     "stem": "在爱思唯尔的科研级AI平台LeapSpace中，哪项功能能够帮助学者高效、便捷地识别AI所生成的陈述观点与现有文献之间的关联及其匹配程度？（ ）。",
+     "options": [
+      [
+       "A",
+       "实验对比"
+      ],
+      [
+       "B",
+       "深度研究"
+      ],
+      [
+       "C",
+       "Claim Radar"
+      ],
+      [
+       "D",
+       "私有文档上传"
+      ]
+     ],
+     "answer": "C",
+     "explain": "查看该网站，并了解具体功能。网址：https://www.sciencedirect.com/leapspace/。Claim Radar可清晰直观地展示已有文献中与某陈述的关联及匹配程度，例如哪些文献支持此论述，哪些持中立态度，哪些与之相悖，方便用户辩证看待LeapSpace给出的观点与结论。故选C"
+    },
+    {
+     "type": "单选题",
+     "stem": "CNKI AI有一个观点网络全景分析功能，具体是在哪个模块下？（ ）",
+     "options": [
+      [
+       "A",
+       "知识问答-Deep Research模式"
+      ],
+      [
+       "B",
+       "学术趋势分析"
+      ],
+      [
+       "C",
+       "智能研读-专题简报"
+      ],
+      [
+       "D",
+       "智能研读－知识卡片"
+      ]
+     ],
+     "answer": "A",
+     "explain": "在知识问答页面开启Deep Research模式，生成的回答内容支持观点网络全景分析，梳理契合、互补、多元三大观点集合，可视化呈现领域研究观点分布，故选A"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.sciencedirect.com/leapspace",
+     "label": "LeapSpace",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://ai.cnki.net/chat/home",
+     "label": "CNKI AI",
+     "host": "ai.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://paper.iflytek.com/",
+     "label": "https://paper.iflytek.com/",
+     "host": "paper.iflytek.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/leapspace/",
+     "label": "https://www.sciencedirect.com/leapspace/",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://eci.elsevier.cn/resource/LeapSpace.html?fid=165&menuid=358&infoid=2004",
+     "label": "https://eci.elsevier.cn/resource/LeapSpace.html?fid=165&menuid=358&infoid=2004",
+     "host": "eci.elsevier.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/yMzjuReWiBDgP6sJLkSA-A",
+     "label": "https://mp.weixin.qq.com/s/yMzjuReWiBDgP6sJLkSA-A",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "LeapSpace",
+    "Research",
+    "Writing",
+    "AMiner",
+    "Claim",
+    "Coach",
+    "Radar",
+    "Trust",
+    "CNKI",
+    "Card",
+    "Deep"
+   ]
+  },
+  {
+   "no": 6,
+   "id": "ecee935f-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块06：多模态AI工具",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee935f-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 熟悉豆包、智谱清言、万相（通义万相）、可灵AI的图像生成、视频生成功能。",
+    "2. 熟悉豆包的音乐生成功能。",
+    "3. 熟悉文心、讯飞星火的图像生成功能。",
+    "4. 了解闪剪、蝉镜等数字人工具。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "使用AI工具豆包可以生成音乐，入口在官网首页对话框下方。使用豆包的这个功能生成音乐，系统会给出提示词模板，其中可以选择音乐风格，其中包括（）。",
+     "options": [
+      [
+       "A",
+       "DJ"
+      ],
+      [
+       "B",
+       "民谣"
+      ],
+      [
+       "C",
+       "戏曲"
+      ],
+      [
+       "D",
+       "朋克"
+      ]
+     ],
+     "answer": "ABD",
+     "explain": "在电脑浏览器中访问豆包（https://www.doubao.com），点击对话框下方的“音乐生成”，打开提示词模板中的音乐风格下拉菜单，可以看到答案。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.doubao.com/",
+     "label": "https://www.doubao.com",
+     "host": "www.doubao.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.doubao.com",
+     "label": "",
+     "host": "www.doubao.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": []
+  },
+  {
+   "no": 7,
+   "id": "ecee8d99-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块07：AI开源与开放数据资源的获取与利用",
+   "use": "U1",
+   "legacy": "AI素养",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8d99-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解AI开源生态与开放数据资源的基本类型，包括开源代码、开源项目、开源模型、开放数据集、数据竞赛资源、模型说明、数据集说明、README文件、许可证信息等。",
+    "2. 能够通过 GitHub（https://github.com）查找 AI 相关开源项目，查看项目名称、作者或机构、README 文件、项目简介、更新时间、License 许可证、Release 或下载入口等信息。",
+    "3. 能够通过魔搭社区 ModelScope（https://modelscope.cn）查找AI模型、数据集和应用体验资源，查看模型或数据集名称、任务类型、资源简介、使用方式、许可证信息和下载入口。",
+    "4. 能够通过百度AI Studio飞桨星河社区（https://aistudio.baidu.com）查找AI项目、模型应用案例和开放数据集，查看资源名称、任务类型、内容简介、数据格式、使用方式和下载入口。",
+    "5. 能够通过和鲸社区HeyWhale、阿里云天池数据集、DataFountain、OpenDataLab、OpenML、UCI Machine Learning Repository（Classic 版：https://archive.ics.uci.edu；Beta 版：https://archive-beta.ics.uci.edu）等平台查找人工智能、机器学习和数据科学相关开放数据集，并能够查看数据集简介、数据类型、文件格式、字段说明、样本数量、下载方式和使用限制。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在 GitHub中有一个名为“ONNX”的项目，进入该项目的 LICENSES/Apache-2.0.txt 文件页面，该文件的Last commit message是什么？（ ），Last commit date是多久？（ ）。",
+     "options": [
+      [
+       "A",
+       "update license to Apache License v2.0 (#3159)"
+      ],
+      [
+       "B",
+       "Introduce Reuse Infra (#5028)"
+      ],
+      [
+       "C",
+       "3 years ago"
+      ],
+      [
+       "D",
+       "5 years ago"
+      ]
+     ],
+     "answer": "BC",
+     "explain": "进入GitHub，找到开源项目ONNX，在https://github.com/onnx/onnx/tree/main/LICENSES页面可以查看到，或者直接与GitHub的AI进行对话获取（该方式有一定出错概率）。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://github.com/",
+     "label": "https://github.com",
+     "host": "github.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://modelscope.cn/",
+     "label": "https://modelscope.cn",
+     "host": "modelscope.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://aistudio.baidu.com/",
+     "label": "https://aistudio.baidu.com",
+     "host": "aistudio.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.heywhale.com/home/dataset",
+     "label": "和鲸社区HeyWhale",
+     "host": "www.heywhale.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://tianchi.aliyun.com/dataset",
+     "label": "阿里云天池数据集",
+     "host": "tianchi.aliyun.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.datafountain.cn/",
+     "label": "DataFountain",
+     "host": "www.datafountain.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://opendatalab.com/",
+     "label": "OpenDataLab",
+     "host": "opendatalab.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.openml.org/search?type=data",
+     "label": "OpenML",
+     "host": "www.openml.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://archive.ics.uci.edu/",
+     "label": "https://archive.ics.uci.edu",
+     "host": "archive.ics.uci.edu",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://archive-beta.ics.uci.edu/",
+     "label": "https://archive-beta.ics.uci.edu",
+     "host": "archive-beta.ics.uci.edu",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://github.com/onnx/onnx/tree/main/LICENSES",
+     "label": "https://github.com/onnx/onnx/tree/main/LICENSES",
+     "host": "github.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://docs.github.com/zh",
+     "label": "https://docs.github.com/zh",
+     "host": "docs.github.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://github.com",
+     "label": "",
+     "host": "github.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://modelscope.cn",
+     "label": "",
+     "host": "modelscope.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://aistudio.baidu.com",
+     "label": "",
+     "host": "aistudio.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://archive.ics.uci.edu",
+     "label": "",
+     "host": "archive.ics.uci.edu",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://archive-beta.ics.uci.edu",
+     "label": "",
+     "host": "archive-beta.ics.uci.edu",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "archive-beta.ics.uci.edu",
+    "archive.ics.uci.edu",
+    "aistudio.baidu.com",
+    "modelscope.cn",
+    "DataFountain",
+    "OpenDataLab",
+    "ModelScope",
+    "Repository",
+    "github.com",
+    "HeyWhale",
+    "Learning",
+    "Classic",
+    "License",
+    "Machine",
+    "Release",
+    "GitHub",
+    "OpenML",
+    "README"
+   ]
+  },
+  {
+   "no": 8,
+   "id": "ecee9f26-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块08：思政信息资源",
+   "use": "U4",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9f26-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够从人民网推出的“习近平系列重要讲话数据库”（http://jhsjk.people.cn）中找到指定资源。",
+    "2.能够从共产党员网（https://www.12371.cn）中找到指定资源。",
+    "3.能够从全国高校课程思政教学资源服务平台（https://xhsz.news.cn）中找到指定资源。"
+   ],
+   "explore": [
+    "1.根据学习要求中提供的网址，进入相关网站，深度体验、探索，熟悉这些网站中的内容。。",
+    "3.探索：习近平总书记在哪些场合提到过“数字素养与技能”？",
+    "4.探索：共产党员网中有哪些可以下载mp4格式视频的党建学习资源？",
+    "5.探索：在全国高校课程思政教学资源服务平台中找一门国家级课程思政示范课程。"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "在“习近平系列重要讲话数据库”中可以查到习近平总书记在二十国集团领导人第十五次峰会第一阶段会议上的讲话，其中提到了“数字货币”，这是习近平总书记在正式发言或署名文章中第一次提到数字货币。",
+     "options": [],
+     "answer": "错误",
+     "explain": "在“习近平系列重要讲话数据库”中以全文为检索点，以“数字货币”为检索词，可以找到至少多条记录，其中可以发现 2020 年 10 月 31 日在《求是》发表的《国家中长期经济社会发展战略若干重大问题》署名文章中就提到了“数字货币”，所以题目表述错误。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://jhsjk.people.cn",
+     "label": "http://jhsjk.people.cn",
+     "host": "jhsjk.people.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.12371.cn",
+     "label": "https://www.12371.cn",
+     "host": "www.12371.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://xhsz.news.cn/",
+     "label": "https://xhsz.news.cn",
+     "host": "xhsz.news.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://xhsz.news.cn",
+     "label": "",
+     "host": "xhsz.news.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "jhsjk.people.cn",
+    "www.12371.cn",
+    "xhsz.news.cn",
+    "https",
+    "http",
+    "mp4"
+   ]
+  },
+  {
+   "no": 9,
+   "id": "ecee97ae-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块09：开放数据资源",
+   "use": "U4",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee97ae-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 能够通过国家统计局网站上的数据查询系统（https://data.stats.gov.cn/dg/website/page.html#/pc/national/home ，可能会有风险提示，忽略即可）查询统计数据。",
+    "2. 能够在国家统计局、各省市统计局、各部委官网中找到各种统计年鉴，并且从中找到指定指标数据。",
+    "3. 能够找到各省会城市和副省级城市的政府公共数据开放平台，并且从中找到指定数据或数据集。",
+    "4. 通过国家科学数据中心（https://www.escience.org.cn/data-center）旗下的20个具体学科科学数据中心获取指定数据资源。",
+    "5. 能够通过科学数据银行 ScienceDB（https://www.scidb.cn）获取指定科学数据资源。",
+    "6. 能够通过世界银行（https://data.worldbank.org）等国际组织网站中的开放数据平台查询指定数据和数据集。",
+    "7. 能够利用AI知数等数据智能分析平台，查询并分析经济、人口、教育、科技等领域的指标数据，完成指标检索、地区比较、时间趋势分析和简单数据运算。"
+   ],
+   "explore": [
+    "1. 根据学习要求中提供的网址，深度体验、探索，熟悉这些网站的内容。",
+    "2. 探索：能够获取的最近一年的《海南统计年鉴》共有多少页？各省市统计年鉴一般可以在对应地方政府统计局网站中找到，虽然每个网站的界面不一样，但统计年鉴存放的位置一般比较明显，大部分可以在首页中找到。",
+    "3. 探索：能不能找到深圳市公共厕所的相关数据集？各地方政府的开放数据平台，最好能够获取其中的数据集（xlsx、csv、rdf、xml等格式文件）。",
+    "4. 探索：在世界银行的开放数据平台中对比我国和美国、日本、德国的GDP数据。",
+    "5. 探索：在科学数据银行 ScienceDB 中查找一个科学数据集，查看其题名、作者、发布时间、DOI 或 CSTR、数据文件和下载方式。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在国家统计局官网的数据查询 系统中查找我国普通本专科生毕业人数。请问：2018 年我国普通本专科毕业生人数是多少万？（ ）",
+     "options": [
+      [
+       "A",
+       "801.2213"
+      ],
+      [
+       "B",
+       "797.1991"
+      ],
+      [
+       "C",
+       "758.5298"
+      ],
+      [
+       "D",
+       "753.3087"
+      ]
+     ],
+     "answer": "D",
+     "explain": "登录国家统计局网站，点击“统计数据”菜单中找到数据查询，在查询页面输入关键词“普通本专科生毕业人数”，在找到的数据项中点击 相关报表，右上角选择“最近10年”，即可看到答案。"
+    },
+    {
+     "type": "单选题",
+     "stem": "根据AI知数分析数据，2025年，我国哪个省份城镇居民人均可支配收入最高？（）",
+     "options": [
+      [
+       "A",
+       "北京"
+      ],
+      [
+       "B",
+       "上海"
+      ],
+      [
+       "C",
+       "浙江"
+      ],
+      [
+       "D",
+       "天津"
+      ]
+     ],
+     "answer": "B",
+     "explain": "通过AI知数搜索“2025年全国各省城镇居民人均可支配收入”，在结果页点击数据运算的按列计算最大值。"
+    }
+   ],
+   "links": [
+    {
+     "u": "file:///C:/Users/15275/Desktop/2026%E5%B9%B4%E4%BF%A1%E6%81%AF%E7%B4%A0%E5%85%BB%E5%A4%A7%E8%B5%9B/2026%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E2%80%9DAI+%E4%BF%A1%E6%81%AF%E7%B4%A0%E5%85%BB%E2%80%9C%E5%A4%A7%E8%B5%9B%E5%AE%A2%E8%A7%82%E9%A2%98%E5%91%BD%E9%A2%98%E8%8C%83%E5%9B%B4%E5%8F%8A%E5%A4%87%E8%B5%9B%E5%BB%BA%E8%AE%AE%EF%BC%882026.7.7%E5%8F%91%E5%B8%83%EF%BC%89/2026%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E2%80%9DAI+%E4%BF%A1%E6%81%AF%E7%B4%A0%E5%85%BB%E2%80%9C%E5%A4%A7%E8%B5%9B%E5%AE%A2%E8%A7%82%E9%A2%98%E5%91%BD%E9%A2%98%E8%8C%83%E5%9B%B4%E5%8F%8A%E5%A4%87%E8%B5%9B%E5%BB%BA%E8%AE%AE%EF%BC%882026.7.8%E4%BF%AE%E8%AE%A2%EF%BC%89.docx#/pc/national/home",
+     "label": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/home",
+     "host": "",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.escience.org.cn/data-center",
+     "label": "https://www.escience.org.cn/data-center",
+     "host": "www.escience.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.scidb.cn",
+     "label": "https://www.scidb.cn",
+     "host": "www.scidb.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://data.worldbank.org/",
+     "label": "https://data.worldbank.org",
+     "host": "data.worldbank.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/uWR2BMvQtpuGkv9oXTZDdQ",
+     "label": "https://mp.weixin.qq.com/s/uWR2BMvQtpuGkv9oXTZDdQ",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/home",
+     "label": "",
+     "host": "data.stats.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://data.worldbank.org",
+     "label": "",
+     "host": "data.worldbank.org",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.escience.org.cn",
+    "data.worldbank.org",
+    "data.stats.gov.cn",
+    "www.scidb.cn",
+    "data-center",
+    "ScienceDB",
+    "page.html",
+    "national",
+    "website",
+    "海南统计年鉴",
+    "https",
+    "CSTR",
+    "home",
+    "xlsx",
+    "DOI",
+    "GDP",
+    "csv",
+    "rdf"
+   ]
+  },
+  {
+   "no": 10,
+   "id": "ecee954d-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块10：法律信息资源",
+   "use": "U3",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee954d-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够使用国家法律法规数据库（https://flk.npc.gov.cn）查询我国各层级法律法规，特别是高级检索功能。",
+    "2.能够使用国家行政法规库（http://www.gov.cn/zhengce/xzfgk/; http://xzfg.moj.gov.cn/search2.html）查找指定行政法规。",
+    "3.能够使用国家规章库（https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm；https://www.moj.gov.cn/pub/sfbgw/gwygzk/index.html)查找指定规章。",
+    "4.能够使用人民法院案例库（https://rmfyalk.court.gov.cn）查询指定案例。",
+    "5.能够使用最高人民法院公报检索系统（http://gongbao.court.gov.cn）查询法院公报。",
+    "6.能够使用中国执行信息网（http://zxgk.court.gov.cn）查询被执行人、失信被执行人、限制消费人员和终本案件。",
+    "7.能够使用中国庭审公开网（http://tingshen.court.gov.cn）查庭审视频。",
+    "8.能够使用中国裁判文书网（https://wenshu.court.gov.cn）查询公开的判决书。",
+    "9. 能够使用中国法律知识资源总库（https://lawpro.cnki.net/）查询法学论文、司法案例和法律法规。"
+   ],
+   "explore": [
+    "1. 根据学习要求中提供的网址，深度体验、探索，熟悉这些网站中的内容。",
+    "2. 探索：在中国法律知识资源总库检索哪些法律法规中出现了“人工智能”这个词，以及如何通过关键词、案由、案情、裁判文书查询类案，分析类案。",
+    "3. 探索：看哪个法律法规中出现了“共享单车”这个词？",
+    "4. 探索：涉及本校的判决书有哪些？必须要看到完整全文哦。",
+    "5. 探索：在中国执行信息网（http://zxgk.court.gov.cn）查询被执行人、失信被执行人、限制消费人员，看看“张三”这个名字是否能查得到？能否找到相关详情？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "星河互联集团有限公司被列为失信被执行人，请问立案时间为2018年10月31日的法律判决需偿还申请执行人多少金额？（ ）",
+     "options": [
+      [
+       "A",
+       "87065"
+      ],
+      [
+       "B",
+       "92245"
+      ],
+      [
+       "C",
+       "88910"
+      ],
+      [
+       "D",
+       "83640"
+      ]
+     ],
+     "answer": "B",
+     "explain": "中国执行信息公开网中搜索星河互联集团有限公司，找到对应日期的案号为(2018)京0108执17244号，点开详情即可查看。"
+    },
+    {
+     "type": "多选题",
+     "stem": "在中国法律知识资源总库中查找案例有哪些入口？",
+     "options": [
+      [
+       "A",
+       "案例库"
+      ],
+      [
+       "B",
+       "业务助手"
+      ],
+      [
+       "C",
+       "类案推送"
+      ],
+      [
+       "D",
+       "一框式检索"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "登录中国法律知识资源总库后，可在页面看到“案例”“业务助手”“一框式检索”入口；点击案例库之后，可进一步点击“类案推送”查询类案。所以ABCD都是正确答案。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://flk.npc.gov.cn/",
+     "label": "https://flk.npc.gov.cn",
+     "host": "flk.npc.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://www.gov.cn/zhengce/xzfgk/",
+     "label": "http://www.gov.cn/zhengce/xzfgk/",
+     "host": "www.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://xzfg.moj.gov.cn/search2.html",
+     "label": "http://xzfg.moj.gov.cn/search2.html",
+     "host": "xzfg.moj.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm",
+     "label": "https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm",
+     "host": "www.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.moj.gov.cn/pub/sfbgw/gwygzk/index.html",
+     "label": "https://www.moj.gov.cn/pub/sfbgw/gwygzk/index.html",
+     "host": "www.moj.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://rmfyalk.court.gov.cn/",
+     "label": "https://rmfyalk.court.gov.cn",
+     "host": "rmfyalk.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://gongbao.court.gov.cn/",
+     "label": "http://gongbao.court.gov.cn",
+     "host": "gongbao.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://zxgk.court.gov.cn/",
+     "label": "http://zxgk.court.gov.cn",
+     "host": "zxgk.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://tingshen.court.gov.cn/",
+     "label": "http://tingshen.court.gov.cn",
+     "host": "tingshen.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://wenshu.court.gov.cn/",
+     "label": "https://wenshu.court.gov.cn",
+     "host": "wenshu.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://lawpro.cnki.net/",
+     "label": "https://lawpro.cnki.net",
+     "host": "lawpro.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s?__biz=MzA4NTQ4MDkzNA==&mid=2654299012&idx=1&sn=6f7532e280f9a5bdc7012aa4360b9888&chksm=854b38ac89eca8be18ec44081bf02ea3c637b40ca5558c2379f711404eb14e922f8897cf32da&mpshare=1&scene=23&srcid=0612m8yC0d0RF2jEoZXOyZoT&sharer_shareinfo",
+     "label": "https://mp.weixin.qq.com/s?__biz=MzA4NTQ4MDkzNA==&mid=2654299012&idx=1&sn=6f7532e280f9a5bdc7012aa4360b9888&chksm=",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://flk.npc.gov.cn",
+     "label": "",
+     "host": "flk.npc.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://rmfyalk.court.gov.cn",
+     "label": "",
+     "host": "rmfyalk.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://gongbao.court.gov.cn",
+     "label": "",
+     "host": "gongbao.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://zxgk.court.gov.cn",
+     "label": "",
+     "host": "zxgk.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://tingshen.court.gov.cn",
+     "label": "",
+     "host": "tingshen.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://wenshu.court.gov.cn",
+     "label": "",
+     "host": "wenshu.court.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s?__biz=MzA4NTQ4MDkzNA==&mid=2654299012&idx=1&sn=6f7532e280f9a5bdc7012aa4360b9888&chksm=",
+     "label": "",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "tingshen.court.gov.cn",
+    "gongbao.court.gov.cn",
+    "rmfyalk.court.gov.cn",
+    "wenshu.court.gov.cn",
+    "zxgk.court.gov.cn",
+    "lawpro.cnki.net",
+    "xzfg.moj.gov.cn",
+    "flk.npc.gov.cn",
+    "www.moj.gov.cn",
+    "search2.html",
+    "index.html",
+    "www.gov.cn",
+    "index.htm",
+    "zhengce",
+    "gwygzk",
+    "gjgzk",
+    "https",
+    "sfbgw"
+   ]
+  },
+  {
+   "no": 11,
+   "id": "ecee819e-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块11：标准与商标信息资源",
+   "use": "U3",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee819e-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 能够通过国家标准全文公开系统（https://openstd.samr.gov.cn）查询我国国家标准，并从中获取需要的信息。",
+    "2. 能够通过全国标准信息公共服务平台（http://std.samr.gov.cn/gb）查询我国国家标准、地方标准、行业标准，并从中获取需要的信息。",
+    "3. 能够在相关部委的网站中找到食品安全（https://sppt.cfsa.net.cn:8086/db； http://gb2760.cfsa.net.cn； https://sppt.cfsa.net.cn:8087/db ）、生态环境（https://www.mee.gov.cn/ywgz/fgbz/bz/）、工程建设（https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html）三类国家标准（国家标准全文公开系统中没有收录这三类国家标准）。",
+    "4. 能够用CNKI（www.cnki.net）、万方数据知识服务平台（https://www.wanfangdata.com.cn）、维普网（https://www.cqvip.com）检索标准。",
+    "5. 能够通过国家知识产权局商标局的“商标查询系统”（https://sbj.cnipa.gov.cn/sbj/sbcx）查询并获取商标信息。"
+   ],
+   "explore": [
+    "1.探索：某一个标准PDF全文倒数第2页最后一个字是什么？给定一个标准，能够找到并获取全文。",
+    "2.探索：注册登录商标查询系统，从中查询某一个公司注册的商标并获取细节。",
+    "4.根据学习要求中提供的网址，进入相关网址，深度体验、探索，熟悉这些网站中的内容。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "2020年5月6日，国家标准《儿童口罩技术规范》（标准号：GB/T 38880-2020）发布并实施。以下所列哪一位不是该标准的起草人？（ ）",
+     "options": [
+      [
+       "A",
+       "高尚荣"
+      ],
+      [
+       "B",
+       "李桂梅"
+      ],
+      [
+       "C",
+       "许伟民"
+      ],
+      [
+       "D",
+       "李建全"
+      ]
+     ],
+     "answer": "C",
+     "explain": "国家标准全文公开系统里利用标准号查到该标准全文，第2页“本标准主要起草人”中查询即得。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://openstd.samr.gov.cn/",
+     "label": "https://openstd.samr.gov.cn",
+     "host": "openstd.samr.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://std.samr.gov.cn/gb",
+     "label": "http://std.samr.gov.cn/gb",
+     "host": "std.samr.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://sppt.cfsa.net.cn:8086/db",
+     "label": "https://sppt.cfsa.net.cn:8086/db",
+     "host": "sppt.cfsa.net.cn:8086",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://gb2760.cfsa.net.cn/",
+     "label": "http://gb2760.cfsa.net.cn",
+     "host": "gb2760.cfsa.net.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://sppt.cfsa.net.cn:8087/db",
+     "label": "https://sppt.cfsa.net.cn:8087/db",
+     "host": "sppt.cfsa.net.cn:8087",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.mee.gov.cn/ywgz/fgbz/bz/",
+     "label": "https://www.mee.gov.cn/ywgz/fgbz/bz/",
+     "host": "www.mee.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html",
+     "label": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html",
+     "host": "www.mohurd.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://www.cnki.net/",
+     "label": "www.cnki.net",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "https://www.wanfangdata.com.cn",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "https://www.cqvip.com",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://sbj.cnipa.gov.cn/sbj/sbcx",
+     "label": "https://sbj.cnipa.gov.cn/sbj/sbcx",
+     "host": "sbj.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://openstd.samr.gov.cn",
+     "label": "",
+     "host": "openstd.samr.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://gb2760.cfsa.net.cn",
+     "label": "",
+     "host": "gb2760.cfsa.net.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn",
+     "label": "",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com",
+     "label": "",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.wanfangdata.com.cn",
+    "openstd.samr.gov.cn",
+    "gb2760.cfsa.net.cn",
+    "www.mohurd.gov.cn",
+    "sbj.cnipa.gov.cn",
+    "sppt.cfsa.net.cn",
+    "std.samr.gov.cn",
+    "www.mee.gov.cn",
+    "www.cqvip.com",
+    "www.cnki.net",
+    "index.html",
+    "fdzdgknr",
+    "gongkai",
+    "https",
+    "CNKI",
+    "bzgg",
+    "fgbz",
+    "http"
+   ]
+  },
+  {
+   "no": 12,
+   "id": "ecee7ec5-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块12：专利和地理标志",
+   "use": "U3",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee7ec5-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 能够在国家知识产权局的“专利公布公告”系统（http://epub.cnipa.gov.cn/）和 “专利检索及分析”系统（ https://pss-system.cponline.cnipa.gov.cn/）进行专利检索获取专利文献全文，并能从全文获取信息。",
+    "2. 能够在美国专利商标局的专利检索系统PPUBS（https://www.uspto.gov/patents/search/patent-public-search）、欧洲专利局的espacenet（https://ie.espacenet.com）、世界知识产权组织的patentscope（https://patentscope2.wipo.int/search/en/search.jsf）中检索专利并获取专利文献全文。",
+    "3. 能够用CNKI（www.cnki.net）、万方数据知识服务平台（https://www.wanfangdata.com.cn）、维普网（https://www.cqvip.com）检索专利。",
+    "4. 能够在国家知识产权局（https://www.cnipa.gov.cn）的“地理标志产品检索”系统（国家知识产权局首页→“政务服务”→“地理标志”）的https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery ）中搜索相关公告内容。"
+   ],
+   "explore": [
+    "2.探索：在国家知识产权局旗下的中国专利公布公告、专利检索及分析系统，以及PPUBS、espacenet、patentscope、cnki、万方、维普查找最近3年华为公司申请的专利。",
+    "3.根据学习要求中提供的网址，进入相关网址，深度探索，熟悉这些网站中的内容。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "小米公司持有一项名为“一种用于耳机插头的连接部件、耳机插孔及终端”的发明专利，通过国家知识产权局专利检索系统搜索并阅读专利原文，在文献的说明书部分，了解到该专利的技术领域为（ ），附图共有（ ）页。",
+     "options": [
+      [
+       "A",
+       "电子工程，3"
+      ],
+      [
+       "B",
+       "物联网，4"
+      ],
+      [
+       "C",
+       "电子技术，5"
+      ],
+      [
+       "D",
+       "制造技术，6"
+      ]
+     ],
+     "answer": "C",
+     "explain": "在国家知识产权局的专利库中查找专利原文，阅读文献即可查到该专利的技术领域和附图。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://epub.cnipa.gov.cn/",
+     "label": "http://epub.cnipa.gov.cn/",
+     "host": "epub.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://pss-system.cponline.cnipa.gov.cn/",
+     "label": "https://pss-system.cponline.cnipa.gov.cn/",
+     "host": "pss-system.cponline.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.uspto.gov/patents/search/patent-public-search",
+     "label": "https://www.uspto.gov/patents/search/patent-public-search",
+     "host": "www.uspto.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ie.espacenet.com/",
+     "label": "https://ie.espacenet.com",
+     "host": "ie.espacenet.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://patentscope2.wipo.int/search/en/search.jsf",
+     "label": "https://patentscope2.wipo.int/search/en/search.jsf",
+     "host": "patentscope2.wipo.int",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.cnki.net/",
+     "label": "www.cnki.net",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "https://www.wanfangdata.com.cn",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "https://www.cqvip.com",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cnipa.gov.cn/",
+     "label": "https://www.cnipa.gov.cn",
+     "host": "www.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery",
+     "label": "https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery",
+     "host": "ggfw.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://ie.espacenet.com",
+     "label": "",
+     "host": "ie.espacenet.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn",
+     "label": "",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com",
+     "label": "",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cnipa.gov.cn",
+     "label": "",
+     "host": "www.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "pss-system.cponline.cnipa.gov.c",
+    "www.wanfangdata.com.cn",
+    "patentscope2.wipo.int",
+    "patent-public-search",
+    "epub.cnipa.gov.cn",
+    "ggfw.cnipa.gov.cn",
+    "ie.espacenet.com",
+    "www.cnipa.gov.cn",
+    "www.cqvip.com",
+    "www.uspto.gov",
+    "www.cnki.net",
+    "patentscope",
+    "search.jsf",
+    "espacenet",
+    "dbQuery",
+    "patents",
+    "dlbzsq",
+    "search"
+   ]
+  },
+  {
+   "no": 13,
+   "id": "ecee96a8-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块13：反诈防骗信息资源",
+   "use": "U3",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee96a8-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够从国家反诈中心APP中找到指定的资源、判断信息的真伪。",
+    "2.了解反诈防骗的常识。",
+    "3.了解中国互联网联合辟谣平台（http://www.piyao.org.cn）、辟谣相关微信公众号（全民较真、科学辟谣）、微信小程序（微信辟谣助手、腾讯较真辟谣）和微博账号（微博辟谣）。"
+   ],
+   "explore": [
+    "2.进入中国互联网联合辟谣平台实质性探索。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在中国互联网联合辟谣平台官网有一个“辟谣信息查证”的栏目，提供搜索和筛选功能。 请问：筛选中的“按分类分”，系统提供的筛选项包括以下哪些？（ ）",
+     "options": [
+      [
+       "A",
+       "科学常识"
+      ],
+      [
+       "B",
+       "时事政治"
+      ],
+      [
+       "C",
+       "公共政策"
+      ],
+      [
+       "D",
+       "公共安全"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "进入这个网站，在首页找到入口，进去这个栏目（https://www.piyao.org.cn/pysjk/frontsql.htm）实地查一下。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://www.piyao.org.cn/",
+     "label": "http://www.piyao.org.cn",
+     "host": "www.piyao.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.piyao.org.cn/pysjk/frontsql.htm",
+     "label": "https://www.piyao.org.cn/pysjk/frontsql.htm",
+     "host": "www.piyao.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "http://www.piyao.org.cn",
+     "label": "",
+     "host": "www.piyao.org.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.piyao.org.cn",
+    "http",
+    "APP"
+   ]
+  },
+  {
+   "no": 14,
+   "id": "ecee85ef-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块14：医卫信息查询",
+   "use": "U4",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee85ef-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解卫健委官网（ http://www.nhc.gov.cn ，首页左侧服务栏目）提供的医卫信息查询服务项目，能够查医生的资质信息。",
+    "2.能够通过国家药品监督管理局网站上的查询系统查询药品、化妆品、医疗器械相关信息。（https://datasearch.nmpa.gov.cn/datasearch/home-index.html ）。",
+    "3. 掌握CHKD AI（https://chkd.cnki.net/ai/）等与科研相关的AI工具或AI功能。"
+   ],
+   "explore": [
+    "1. 根据学习要求中提供的网址，进入相关网站，深度体验、探索，熟悉这些网站中的内容。",
+    "2. 探索：分别查询一项药品、化妆品、医疗器械的信息。",
+    "3. 探索：找一位知名的医生，看能否查到他/她的执业资格证书编号？",
+    "4. 探索：利用CHKD AI的AI增强检索和AI辅助分析全面准确获取某一领域的文献，并进行批量文献分析和总结，利用AI智能伴读对多篇文献进行对比分析功能，梳理文献研究方法、结论和创新点，利用AI知识问答查询某个疾病的治疗方案、护理方案等。"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "某一款注册证编号为“辽械注准 20202140101” 的医疗器械，它的产品名称是一次性手术隔离服。（ ）",
+     "options": [],
+     "answer": "错误",
+     "explain": "先通过搜索引擎找到国家药品监督管理局官网；找到医疗器械栏目下的医疗器械查询；在高级检索中选择“注册证查询 ”，输入关键词，即可看到结果。"
+    },
+    {
+     "type": "单选题",
+     "stem": "CHKD AI有一个功能可用于结构化临床问题，帮助医生精准定位证据、提升决策科学性，请问是哪一个？",
+     "options": [
+      [
+       "A",
+       "机制研究"
+      ],
+      [
+       "B",
+       "PICO 分析"
+      ],
+      [
+       "C",
+       "疾病鉴别"
+      ],
+      [
+       "D",
+       "基因分析"
+      ]
+     ],
+     "answer": "B",
+     "explain": "在知识问答功能界面，【知识扩展】下的【PICO分析】可用于结构化临床问题。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://www.nhc.gov.cn/",
+     "label": "http://www.nhc.gov.cn",
+     "host": "www.nhc.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://datasearch.nmpa.gov.cn/datasearch/home-index.html",
+     "label": "https://datasearch.nmpa.gov.cn/datasearch/home-index.html",
+     "host": "datasearch.nmpa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://chkd.cnki.net/ai/",
+     "label": "https://chkd.cnki.net/ai/",
+     "host": "chkd.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/f3h8pTh8o7vHrfNTvAq6bA",
+     "label": "https://mp.weixin.qq.com/s/f3h8pTh8o7vHrfNTvAq6bA",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.nhc.gov.cn",
+     "label": "",
+     "host": "www.nhc.gov.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "datasearch.nmpa.gov.cn",
+    "home-index.html",
+    "www.nhc.gov.cn",
+    "chkd.cnki.net",
+    "datasearch",
+    "https",
+    "CHKD",
+    "http"
+   ]
+  },
+  {
+   "no": 15,
+   "id": "ecee930b-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块15：文教信息查询",
+   "use": "U4",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee930b-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够利用中国教育考试网（https://www.neea.edu.cn）查询包括大学英语四六级考试、全国计算机等级考试、中小学教师资格考试在内的多种考试信息。",
+    "2.能够通过研招网（https://yz.chsi.com.cn 查询研究生（硕士和博士）招生相关信息。",
+    "3.能够通过国家大学生就业服务平台（https://www.ncss.cn）及下属平台（高校毕业生到国际组织实习任职信息服务平台：https://gj.ncss.cn；全国大学生创业服务网：https://cy.ncss.cn）查找就业和创业信息。"
+   ],
+   "explore": [
+    "1. 根据学习要求中提供的网址，进入相关网址，深度体验、探索，熟悉这些网站中的内容。",
+    "1. 探索：在研招网中查询哪个“双一流”建设高校有图书馆学专业的硕士点和博士点，并且接受退役大学生士兵专项计划考生报考？",
+    "2. 探索：在国家大学生就业服务平台找工作地点在杭州的小学教师的岗位。",
+    "3. 探索：在高校毕业生到国际组织实习任职信息服务平台中查询适合自己的职位。",
+    "4. 探索：在全国大学生创业服务网中找投资人。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "通过研招网查询可知，招天体物理专业硕士研究生并且接受退役大学生士兵专项计划考试报考的“双一流”建设高校是（ ）。",
+     "options": [
+      [
+       "A",
+       "北京大学"
+      ],
+      [
+       "B",
+       "中国科学院大学"
+      ],
+      [
+       "C",
+       "天津师范大学"
+      ],
+      [
+       "D",
+       "云南大学"
+      ]
+     ],
+     "answer": "B",
+     "explain": "在研招网的硕士专业目录检索界面中输入专业名称“天体物理”，是否接收退役大学生士兵专项计划考生报考筛选条件选择“是”，找到检索结果，点击“开设院校”按钮，在检索结果中勾选“双一流”建设高校，可以看到答案。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.neea.edu.cn/",
+     "label": "https://www.neea.edu.cn",
+     "host": "www.neea.edu.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://yz.chsi.com.cn/",
+     "label": "https://yz.chsi.com.cn",
+     "host": "yz.chsi.com.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ncss.cn/",
+     "label": "https://www.ncss.cn",
+     "host": "www.ncss.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://gj.ncss.cn/",
+     "label": "https://gj.ncss.cn",
+     "host": "gj.ncss.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://cy.ncss.cn/",
+     "label": "https://cy.ncss.cn",
+     "host": "cy.ncss.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.neea.edu.cn",
+     "label": "",
+     "host": "www.neea.edu.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://yz.chsi.com.cn",
+     "label": "",
+     "host": "yz.chsi.com.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ncss.cn",
+     "label": "",
+     "host": "www.ncss.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://gj.ncss.cn",
+     "label": "",
+     "host": "gj.ncss.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://cy.ncss.cn",
+     "label": "",
+     "host": "cy.ncss.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.neea.edu.cn",
+    "yz.chsi.com.cn",
+    "www.ncss.cn",
+    "cy.ncss.cn",
+    "gj.ncss.cn",
+    "https"
+   ]
+  },
+  {
+   "no": 16,
+   "id": "ecee892b-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块16：证书资格查询",
+   "use": "U4",
+   "legacy": "政府开放信息",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee892b-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够利用学信网（https://www.chsi.com.cn）提供的学历、学位查询功能判断毕业证书、学位证书的真伪。",
+    "2.能够利用中国证券业协会提供的查询系统（https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html）查询证券从业人员信息。",
+    "3.能够利用中国证券投资基金业协会提供的查询系统（https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx）查询基金从业人员资格注册信息。",
+    "4.能够利用银行业协会提供的查询系统（https://www.china-cba.net/Index/lists/catid/31.html）查询银行从业人员资格考试成绩及证书信息。",
+    "5.能够通过中国会计师协会提供的查询系统（https://cmis.cicpa.org.cn）查询注册会计师及会计师事务所信息。",
+    "6.能够利用中华全国律师协会旗下的全国律师执业诚信信息公示平台（https://credit.acla.org.cn）查询律师的执业信息。",
+    "7.能够利用中国记者网提供的查询系统（https://press.nppa.gov.cn）查询记者证信息。"
+   ],
+   "explore": [
+    "1.收藏网址，深度体验、探索。",
+    "2.探索：想办法找到真实的毕业证和学位证，在学信网中实质性查询验证。",
+    "3.探索：查名为“黄一军”的证券从业人员的从业资格信息。",
+    "4.探索：查询名为“李成蹊”的律师的执业信息，请问结果有几人？分别在哪个律师事务所？证书编号的后两位是？",
+    "5.探索：查询北信瑞丰基金管理有限公司的基金从业人员有多少人？任选其中的一个给出从业资格证书编号。",
+    "6.探索：在电视、报纸上找一位记者，在中国记者网中查询ta的记者证信息。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "请在学信网上查询这个毕业证书信息（证书编号：106101201301000019 ，姓名：周建芳 ）。请问这个毕业证书上载明的专业是什么？（ ）",
+     "options": [
+      [
+       "A",
+       "图书馆学"
+      ],
+      [
+       "B",
+       "情报学"
+      ],
+      [
+       "C",
+       "宏观经济学"
+      ],
+      [
+       "D",
+       "信息管理学"
+      ]
+     ],
+     "answer": "C",
+     "explain": "在学信网上点击学历查询下的零散查询，输入证号和姓名查询，检索结果中可以看到专业。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.chsi.com.cn/",
+     "label": "https://www.chsi.com.cn",
+     "host": "www.chsi.com.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html",
+     "label": "https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html",
+     "host": "gs.sac.net.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx",
+     "label": "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx",
+     "host": "www.amac.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.china-cba.net/Index/lists/catid/31.html",
+     "label": "https://www.china-cba.net/Index/lists/catid/31.html",
+     "host": "www.china-cba.net",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://cmis.cicpa.org.cn/",
+     "label": "https://cmis.cicpa.org.cn",
+     "host": "cmis.cicpa.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://credit.acla.org.cn/",
+     "label": "https://credit.acla.org.cn",
+     "host": "credit.acla.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://press.nppa.gov.cn/",
+     "label": "https://press.nppa.gov.cn",
+     "host": "press.nppa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.chsi.com.cn",
+     "label": "",
+     "host": "www.chsi.com.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://cmis.cicpa.org.cn",
+     "label": "",
+     "host": "cmis.cicpa.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://credit.acla.org.cn",
+     "label": "",
+     "host": "credit.acla.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://press.nppa.gov.cn",
+     "label": "",
+     "host": "press.nppa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "new-sac-publicity-org.html",
+    "credit.acla.org.cn",
+    "cmis.cicpa.org.cn",
+    "press.nppa.gov.cn",
+    "www.china-cba.net",
+    "www.amac.org.cn",
+    "www.chsi.com.cn",
+    "gs.sac.net.cn",
+    "registration",
+    "jgcprycx",
+    "Index",
+    "catid",
+    "https",
+    "lists",
+    "pages",
+    "fwdt",
+    "html",
+    "rycx"
+   ]
+  },
+  {
+   "no": 17,
+   "id": "ecee80cf-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块17：在线开放课程资源",
+   "use": "U8",
+   "legacy": "实用学习资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee80cf-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够在中国大学MOOC（https://www.icourse163.org）、学堂在线（https://www.xuetangx.com）、智慧树（https://www.zhihuishu.com）、学银在线（https://www.xueyinonline.com）等MOOC平台中找到指定课程并选课学习。",
+    "2.能够在国家高等教育智慧教育平台（https://higher.smartedu.cn）、国家职业教育智慧教育平台（https://vocational.smartedu.cn）、国家终身教育智慧教育平台（https://lifelong.smartedu.cn）、国家中小学智慧教育平台（https://basic.smartedu.cn）、国家虚拟仿真实验教学课程共享平台（http://www.ilab-x.com）等课程平台中找到指定的课程并选课学习。",
+    "3.能够在爱课程的视频公开课（https://www.icourses.cn/courseInfo?courseIndex=3&courseType=2&courseTypeId=2）、资源共享课（https://www.icourses.cn/courseInfo?courseIndex=4&courseType=1&courseTypeId=1）栏目以及网易公开课（https://open.163.com） 中找到指定课程。"
+   ],
+   "explore": [
+    "3.探索：哪个课程平台中有“大学语文”课程，这些课程的第二节各有几个视频？其中的第一个视频第3分56秒画面上是什么内容？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在中国大学MOOC中有一门四川大学王红老师主讲的课程《中国诗歌艺术》，其中第2.2节讲述的内容（ ）。",
+     "options": [
+      [
+       "A",
+       "诗之声：选音与读音"
+      ],
+      [
+       "B",
+       "诗的语词及构句特点"
+      ],
+      [
+       "C",
+       "不循常规的语序"
+      ],
+      [
+       "D",
+       "诗的节奏与韵律"
+      ]
+     ],
+     "answer": "C",
+     "explain": "在中国大学MOOC中找到这门课，在课程大纲中找到这一节，看一下。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.icourse163.org/",
+     "label": "https://www.icourse163.org",
+     "host": "www.icourse163.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xuetangx.com/",
+     "label": "https://www.xuetangx.com）",
+     "host": "www.xuetangx.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.zhihuishu.com/",
+     "label": "https://www.zhihuishu.com",
+     "host": "www.zhihuishu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xueyinonline.com/",
+     "label": "https://www.xueyinonline.com",
+     "host": "www.xueyinonline.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://higher.smartedu.cn/",
+     "label": "https://higher.smartedu.cn",
+     "host": "higher.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://vocational.smartedu.cn/",
+     "label": "https://vocational.smartedu.cn",
+     "host": "vocational.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://lifelong.smartedu.cn/",
+     "label": "https://lifelong.smartedu.cn",
+     "host": "lifelong.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://basic.smartedu.cn/",
+     "label": "https://basic.smartedu.cn",
+     "host": "basic.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.ilab-x.com/",
+     "label": "http://www.ilab-x.com",
+     "host": "www.ilab-x.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.icourses.cn/courseInfo?courseIndex=3&courseType=2&courseTypeId=2",
+     "label": "https://www.icourses.cn/courseInfo?courseIndex=3&courseType=2&courseTypeId=2",
+     "host": "www.icourses.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.icourses.cn/courseInfo?courseIndex=4&courseType=1&courseTypeId=1",
+     "label": "https://www.icourses.cn/courseInfo?courseIndex=4&courseType=1&courseTypeId=1",
+     "host": "www.icourses.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://open.163.com/",
+     "label": "https://open.163.com",
+     "host": "open.163.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.icourse163.org",
+     "label": "",
+     "host": "www.icourse163.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xuetangx.com",
+     "label": "",
+     "host": "www.xuetangx.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.zhihuishu.com",
+     "label": "",
+     "host": "www.zhihuishu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xueyinonline.com",
+     "label": "",
+     "host": "www.xueyinonline.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://higher.smartedu.cn",
+     "label": "",
+     "host": "higher.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://vocational.smartedu.cn",
+     "label": "",
+     "host": "vocational.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://lifelong.smartedu.cn",
+     "label": "",
+     "host": "lifelong.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://basic.smartedu.cn",
+     "label": "",
+     "host": "basic.smartedu.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.ilab-x.com",
+     "label": "",
+     "host": "www.ilab-x.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://open.163.com",
+     "label": "",
+     "host": "open.163.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "vocational.smartedu.cn",
+    "lifelong.smartedu.cn",
+    "www.xueyinonline.com",
+    "higher.smartedu.cn",
+    "www.icourse163.org",
+    "basic.smartedu.cn",
+    "www.zhihuishu.com",
+    "www.xuetangx.com",
+    "www.icourses.cn",
+    "www.ilab-x.com",
+    "courseTypeId",
+    "open.163.com",
+    "courseIndex",
+    "courseInfo",
+    "courseType",
+    "https",
+    "MOOC",
+    "http"
+   ]
+  },
+  {
+   "no": 18,
+   "id": "ecee81ce-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块18：开放平台中的学习资源",
+   "use": "U8",
+   "legacy": "实用学习资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee81ce-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够从高校信息素养教育数据库的直播讲座栏目（https://suyang.zxhnzq.com/lecture，该栏目完全免费）、知网学术大讲堂（https://k.cnki.net/home），万方视频（https://video.wanfangdata.com.cn）查找免费视频学习资源。",
+    "2.能够从学习强国（https://www.xuexi.cn）、一席（https://www.yixi.tv）、TED（https://www.ted.com）、小红书（https://www.xiaohongshu.com）、B站（https://www.bilibili.com）等平台（包括对应的APP）获取指定视频学习资源。",
+    "3.能够从知乎（https://www.zhihu.com，APP）中获取指定学习资源，熟练掌握AI搜索工具知乎直答（https://zhida.zhihu.com）。",
+    "4.能够从和鲸社区 HeyWhale（https://www.heywhale.com）、百度 AI Studio 飞桨星河社区（https://aistudio.baidu.com）、阿里云天池（https://tianchi.aliyun.com）、DataFountain（https://www.datafountain.cn）等开放平台中获取人工智能、数据科学、机器学习相关的课程、项目、竞赛、代码案例等学习资源。"
+   ],
+   "explore": [
+    "3. 探索：在高校信息素养教育数据库的直播讲座栏目中找到2025年信息素养公益大讲堂第六期第四讲的讲座，请问这个讲座的时长是多少？提醒：这个栏目可以免费访问。",
+    "4. 探索：在一席、TED中分别找一个指定演讲，截取4分28秒的界面。",
+    "5. 探索：在知乎中查找有关EXCEL函数的高赞回答。",
+    "6. 探索：在和鲸社区 HeyWhale 中查找一个数据科学学习项目或实战训练营，查看其名称、学习主题、内容简介和参与方式。",
+    "7. 探索：在百度 AI Studio 飞桨星河社区中查找一个人工智能课程，查看课程名称、学习主题、内容简介和学习方式。",
+    "8. 探索：在 DataFountain 中查找一个数据竞赛，查看其赛题背景、数据与评测栏目、报名要求和数据下载方式。只关注可以免费查看或免费注册后查看的内容，不考查付费课程、付费算力或商业服务。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在高校信息素养教育数据库中可以找到多个全国信息素养公益大讲堂的在线讲座视频，其中包括第三期四川师范大学王一老师主讲的《数字数据可视化——快速搞定炫酷图表》，请问这个在线视频讲座的时长与下列哪个选项最接近？（ ）",
+     "options": [
+      [
+       "A",
+       "45分35秒"
+      ],
+      [
+       "B",
+       "55分55秒"
+      ],
+      [
+       "C",
+       "60分09秒"
+      ],
+      [
+       "D",
+       "65分43秒"
+      ]
+     ],
+     "answer": "B",
+     "explain": "百度一下，找到这个数据库的官网；选择“直播讲座”栏目。（如果不在校园网内，可能会有登录提示，选择“不登录”即可，这个公益讲座是开放的）；选择“公益大讲堂”栏目，找到课程；播放视频，看进度条。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://suyang.zxhnzq.com/lecture",
+     "label": "https://suyang.zxhnzq.com/lecture",
+     "host": "suyang.zxhnzq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://k.cnki.net/home",
+     "label": "https://k.cnki.net/home",
+     "host": "k.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://video.wanfangdata.com.cn/",
+     "label": "https://video.wanfangdata.com.cn",
+     "host": "video.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xuexi.cn/",
+     "label": "https://www.xuexi.cn",
+     "host": "www.xuexi.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.yixi.tv/",
+     "label": "https://www.yixi.tv",
+     "host": "www.yixi.tv",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ted.com/",
+     "label": "https://www.ted.com",
+     "host": "www.ted.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xiaohongshu.com/",
+     "label": "https://www.xiaohongshu.com",
+     "host": "www.xiaohongshu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.bilibili.com/",
+     "label": "https://www.bilibili.com",
+     "host": "www.bilibili.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.zhihu.com/",
+     "label": "https://www.zhihu.com",
+     "host": "www.zhihu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://zhida.zhihu.com/",
+     "label": "https://zhida.zhihu.com",
+     "host": "zhida.zhihu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.heywhale.com/",
+     "label": "https://www.heywhale.com",
+     "host": "www.heywhale.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://aistudio.baidu.com/",
+     "label": "https://aistudio.baidu.com",
+     "host": "aistudio.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://tianchi.aliyun.com/",
+     "label": "https://tianchi.aliyun.com",
+     "host": "tianchi.aliyun.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.datafountain.cn/",
+     "label": "https://www.datafountain.cn",
+     "host": "www.datafountain.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://video.wanfangdata.com.cn",
+     "label": "",
+     "host": "video.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xuexi.cn",
+     "label": "",
+     "host": "www.xuexi.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.yixi.tv",
+     "label": "",
+     "host": "www.yixi.tv",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ted.com",
+     "label": "",
+     "host": "www.ted.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.xiaohongshu.com",
+     "label": "",
+     "host": "www.xiaohongshu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.bilibili.com",
+     "label": "",
+     "host": "www.bilibili.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.zhihu.com",
+     "label": "",
+     "host": "www.zhihu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://zhida.zhihu.com",
+     "label": "",
+     "host": "zhida.zhihu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.heywhale.com",
+     "label": "",
+     "host": "www.heywhale.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://aistudio.baidu.com",
+     "label": "",
+     "host": "aistudio.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://tianchi.aliyun.com",
+     "label": "",
+     "host": "tianchi.aliyun.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.datafountain.cn",
+     "label": "",
+     "host": "www.datafountain.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "video.wanfangdata.com.cn",
+    "www.datafountain.cn",
+    "www.xiaohongshu.com",
+    "aistudio.baidu.com",
+    "tianchi.aliyun.com",
+    "suyang.zxhnzq.com",
+    "www.bilibili.com",
+    "www.heywhale.com",
+    "zhida.zhihu.com",
+    "www.zhihu.com",
+    "DataFountain",
+    "www.xuexi.cn",
+    "www.ted.com",
+    "www.yixi.tv",
+    "k.cnki.net",
+    "HeyWhale",
+    "lecture",
+    "Studio"
+   ]
+  },
+  {
+   "no": 19,
+   "id": "ecee8b96-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块19：免费电子书",
+   "use": "U8",
+   "legacy": "实用学习资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8b96-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够从剑桥数据库中（https://www.cambridge.org/core）、牛津学术数据库（https://academic.oup.com/books）中找到指定OA电子书并获取全文。",
+    "2.能够从NCBI的bookshelf数据库（https://www.ncbi.nlm.nih.gov/books/）中找到指定的OA电子书并获取全文。"
+   ],
+   "explore": [
+    "4.探索：在剑桥数据库中找到名为《Data Management for Social Scientists》的电子书，获取第24页的全文。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在剑桥数据库中找到名为《Big Data and Global Trade Law》的电子书。请问这本电子书的正文第50页（pdf文档第82页）有几张图？（ ）",
+     "options": [
+      [
+       "A",
+       "0"
+      ],
+      [
+       "B",
+       "1"
+      ],
+      [
+       "C",
+       "2"
+      ],
+      [
+       "D",
+       "3"
+      ]
+     ],
+     "answer": "C",
+     "explain": "进入剑桥数据库（https://www.cambridge.org/core）；检索框中输入书名检索；在找到的结果中点击标题或者缩略图进入图书题录页面；找到Open full book PDF按钮打开全文PDF；查看对应页码内容。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cambridge.org/core",
+     "label": "https://www.cambridge.org/core",
+     "host": "www.cambridge.org",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://academic.oup.com/books",
+     "label": "https://academic.oup.com/books",
+     "host": "academic.oup.com",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ncbi.nlm.nih.gov/books/",
+     "label": "https://www.ncbi.nlm.nih.gov/books/",
+     "host": "www.ncbi.nlm.nih.gov",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Data Management for Social Scientists",
+    "www.ncbi.nlm.nih.gov",
+    "www.cambridge.org",
+    "academic.oup.com",
+    "Management",
+    "Scientists",
+    "bookshelf",
+    "Social",
+    "books",
+    "https",
+    "Data",
+    "NCBI",
+    "core",
+    "for"
+   ]
+  },
+  {
+   "no": 20,
+   "id": "ecee9ffd-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块20：国家图书馆免费数字资源",
+   "use": "U8",
+   "legacy": "实用学习资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9ffd-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解我国国家图书馆（http://www.nlc.cn）和美国国会图书馆（https://www.loc.gov）中的免费数字资源，进入各版块大致了解其包含内容。",
+    "2.能够从我国国家图书馆旗下的特色资源库中免费获取数字文献，尤其是其中的中华古籍资源库（http://read.nlc.cn/thematDataSearch/toGujiIndex）和民国时期文献库（http://read.nlc.cn/specialResourse/minguoIndex）。",
+    "3.掌握美国国会图书馆免费数字资源的获取方法，重点关注电子书、地图。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "在国家图书馆旗下的民国时期文献库中可以找到名为图书《代数难题详解》（俞树德编）并查看全文，“二 简易方程式”这一节在正文的第10页。",
+     "options": [],
+     "answer": "正确",
+     "explain": "进入国家图书馆网站。在数字资源栏目下找到“民国时期文献”的链接并进入。搜索书名，找到“在线阅览”入口。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://www.nlc.cn",
+     "label": "http://www.nlc.cn",
+     "host": "www.nlc.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.loc.gov",
+     "label": "https://www.loc.gov",
+     "host": "www.loc.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://read.nlc.cn/thematDataSearch/toGujiIndex",
+     "label": "http://read.nlc.cn/thematDataSearch/toGujiIndex",
+     "host": "read.nlc.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://read.nlc.cn/specialResourse/minguoIndex",
+     "label": "http://read.nlc.cn/specialResourse/minguoIndex",
+     "host": "read.nlc.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "thematDataSearch",
+    "specialResourse",
+    "minguoIndex",
+    "read.nlc.cn",
+    "toGujiIndex",
+    "www.loc.gov",
+    "www.nlc.cn",
+    "https",
+    "http"
+   ]
+  },
+  {
+   "no": 21,
+   "id": "ecee7f97-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块21：期刊论文的检索",
+   "use": "U5",
+   "legacy": "学术信息资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee7f97-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够使用CNKI、万方、维普等中文学术数据库检索中文期刊论文。",
+    "2.能够使用LeapSpace、ScienceDirect、Wiley、Taylor&Francis、ACM、ASME等外文数据库检索外文期刊论文。",
+    "3.能够使用CNS（Nature、Cell、Science）三大国际顶级学术期刊的官网检索现刊和过刊论文。"
+   ],
+   "explore": [
+    "5. 探索：《图书馆众筹研究》这篇论文在CNKI、万方、维普中都能找到吗？",
+    "6. 探索：《Determining and assessing characteristics of data element names impacting the performance of annotation using Usagi》这篇文章在ScienceDirect、Wiley、Taylor&Francis、ACM数据库中都能找到吗？",
+    "7. 探索：在Nature、Cell、Science的官网上查找2000年6月的过刊论文各1篇。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在Taylor&Francis数据库中找到名为《Labour market mismatch among master’s graduates in the humanities from 1995 to 2015 in Norway》的论文。请问这篇论文PDF全文的页数与下列哪个数字最接近？（ ）",
+     "options": [
+      [
+       "A",
+       "5"
+      ],
+      [
+       "B",
+       "12"
+      ],
+      [
+       "C",
+       "20"
+      ],
+      [
+       "D",
+       "37"
+      ]
+     ],
+     "answer": "C",
+     "explain": "在官网首页直接搜索，找到点击PDF图标即可打开全文。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/leapspace",
+     "label": "LeapSpace",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://asmedigitalcollection.asme.org/",
+     "label": "ASME",
+     "host": "asmedigitalcollection.asme.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.nature.com/",
+     "label": "Nature",
+     "host": "www.nature.com",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cell.com/",
+     "label": "Cell",
+     "host": "www.cell.com",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://www.science.org/journal/science",
+     "label": "Science",
+     "host": "www.science.org",
+     "access": "mixed",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "characteristics",
+    "Taylor&Francis",
+    "ScienceDirect",
+    "Determining",
+    "performance",
+    "annotation",
+    "LeapSpace",
+    "assessing",
+    "impacting",
+    "Science",
+    "element",
+    "图书馆众筹研究",
+    "Nature",
+    "Usagi",
+    "Wiley",
+    "names",
+    "using",
+    "ASME"
+   ]
+  },
+  {
+   "no": 22,
+   "id": "ecee8139-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块22：学术会议论文及会议信息的检索",
+   "use": "U5",
+   "legacy": "学术信息资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8139-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够根据需求查找会议及会议文献，并能从文献中获取想要的信息。",
+    "2.能从CNKI、万方、维普等数据库中检索会议论文。",
+    "3.能从IEEE官网查找IEEE会议信息。",
+    "4.能从CNKI中国学术会议网中查找学术会议信息。"
+   ],
+   "explore": [
+    "2.探索：进入IEEE官网的会议栏目，动手查找“人工智能”方面的会议信息。",
+    "3.探索：从CNKI中国学术会议网中查找最近3个月的会议。",
+    "4.探索：《数字时代背景下体育教师教学推进路径研究》这篇会议论文，在CNKI、万方、维普都能找到吗？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "2026 IEEE IAS Petroleum and Chemical Industry Committee Technical Conference (PCIC)将于2026年9月在美国费城召开。这次会议的论文提交截止时间是（ ）。",
+     "options": [
+      [
+       "A",
+       "2025年8月1日"
+      ],
+      [
+       "B",
+       "2025年11月20日"
+      ],
+      [
+       "C",
+       "2025年10月20日"
+      ],
+      [
+       "D",
+       "2025年11月30日"
+      ]
+     ],
+     "answer": "A",
+     "explain": "通过搜索引擎找到IEEE官网，在会议菜单中选择Upcoming conferences，搜索即可找到，查看详情。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ieee.org/conferences/index.html",
+     "label": "IEEE",
+     "host": "www.ieee.org",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://conf.cnki.net/Home",
+     "label": "CNKI中国学术会议网",
+     "host": "conf.cnki.net",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "数字时代背景下体育教师教学推进路径研究",
+    "CNKI",
+    "IEEE"
+   ]
+  },
+  {
+   "no": 23,
+   "id": "ecee9701-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块23：学位论文及资源获取",
+   "use": "U5",
+   "legacy": "学术信息资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9701-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够从CNKI、万方、维普等学位论文数据库中找到指定的信息。",
+    "2.能够从国家图书馆博士论文数据库中找到指定资源。",
+    "3.能够从MIT Theses中获取指定学位论文全文。"
+   ],
+   "explore": [
+    "2.探索：国家图书馆博士论文数据库可以免费检索，检索标题中包含“大数据”的博士学位论文，结果有多少篇？",
+    "3.探索：MIT Theses可以获取大部分学位论文的全文，查找两篇题目中包含“education”的学位论文，获取全文。",
+    "4.探索：《 接纳承诺疗法对DR患者心理灵活性及负性情绪的干预研究》这篇硕士学位论文在CNKI、万方、维普都能找到吗？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "请问下列哪篇学位论文的指导老师不是西南交通大学的何川老师。（ ）",
+     "options": [
+      [
+       "A",
+       "高地应力层状软岩隧道围岩变形机理与支护结构体系力学行为研究"
+      ],
+      [
+       "B",
+       "高海拔寒区特长公路隧道冻胀特性及防冻研究"
+      ],
+      [
+       "C",
+       "施工期盾构隧道管片结构受力特性及裂损现象分析"
+      ],
+      [
+       "D",
+       "薄层破碎硬质岩隧道（群）施工方法及支护方式研究"
+      ]
+     ],
+     "answer": "D",
+     "explain": "进入到CNKI学位论文数据库。找到这几篇学位论文。点开看详情，可以看到导师。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://read.nlc.cn/allSearch/searchList?searchType=65",
+     "label": "国家图书馆博士论文数据库",
+     "host": "read.nlc.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://dspace.mit.edu/",
+     "label": "MIT Theses",
+     "host": "dspace.mit.edu",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    " 接纳承诺疗法对DR患者心理灵活性及负性情绪的干预研究",
+    "education",
+    "Theses",
+    "CNKI",
+    "MIT"
+   ]
+  },
+  {
+   "no": 24,
+   "id": "ecee8a51-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块24：OA、预印本及其他免费资源",
+   "use": "U5",
+   "legacy": "学术信息资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8a51-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解Open Access、Open Archives和预印本",
+    "2.能够从OA信息资源检索系统DOAJ、OALIB等OA资源检索平台上找到指定的信息。",
+    "3.能够从arXiv、ChinaXiv、medRxiv 等预印本系统中找到指定信息。",
+    "4.能够从维普、LeapSpace、ScienceDirect、Wiley、Taylor&Francis、剑桥期刊数据库、牛津学术数据库、ACM、IOPscience、jstor、BioOne数字图书馆等数据库中找到OA文献资源并获取全文。",
+    "5.能够从抗日战争与近代中日关系文献数据平台、国家哲学社会科学文献中心获取免费文献。",
+    "6.能够通过报纸网站（数字报纸）找到指定报纸具体时间具体版面信息。"
+   ],
+   "explore": [
+    "2. 探索：在LeapSpace中通过prompt提问获取10篇包含“AI”的OA论文。",
+    "3. 探索：在arXiv中找到一篇篇名中包含“education”和“big data”的论文全文。",
+    "4. 探索：在ScienceDirect中找一篇篇名中包含“AIGC”的OA论文并获取全文。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "请在arXiv中找到arXiv identifier为“2108.09800”的文献并打开全文。请问这篇PDF全文共有（ ）页。",
+     "options": [
+      [
+       "A",
+       "9"
+      ],
+      [
+       "B",
+       "14"
+      ],
+      [
+       "C",
+       "18"
+      ],
+      [
+       "D",
+       "23"
+      ]
+     ],
+     "answer": "C",
+     "explain": "搜索找到并打开arXiv这个网站，https://arxiv.org。在页面右上角的搜索区选择检索点“arXiv identifier”，输入检索词为“2108.09800”，确定后即可找到文献。点击页面右侧的View PDF，打开全文。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://doaj.org/",
+     "label": "DOAJ",
+     "host": "doaj.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.oalib.com/",
+     "label": "OALIB",
+     "host": "www.oalib.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://arxiv.org/",
+     "label": "arXiv",
+     "host": "arxiv.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.chinaxiv.org/",
+     "label": "ChinaXiv",
+     "host": "www.chinaxiv.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.medrxiv.org/",
+     "label": "medRxiv",
+     "host": "www.medrxiv.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/leapspace",
+     "label": "LeapSpace",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cambridge.org/core",
+     "label": "剑桥期刊数据库",
+     "host": "www.cambridge.org",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://academic.oup.com/journals",
+     "label": "牛津学术数据库",
+     "host": "academic.oup.com",
+     "access": "mixed",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://iopscience.iop.org/",
+     "label": "IOPscience",
+     "host": "iopscience.iop.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.jstor.org/",
+     "label": "jstor",
+     "host": "www.jstor.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://bioone.org/",
+     "label": "BioOne数字图书馆",
+     "host": "bioone.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.modernhistory.org.cn/",
+     "label": "抗日战争与近代中日关系文献数据平台",
+     "host": "www.modernhistory.org.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.ncpssd.cn/",
+     "label": "国家哲学社会科学文献中心",
+     "host": "www.ncpssd.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://arxiv.org",
+     "label": "",
+     "host": "arxiv.org",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Taylor&Francis",
+    "ScienceDirect",
+    "IOPscience",
+    "LeapSpace",
+    "education",
+    "Archives",
+    "ChinaXiv",
+    "medRxiv",
+    "Access",
+    "BioOne",
+    "prompt",
+    "OALIB",
+    "Wiley",
+    "arXiv",
+    "jstor",
+    "AIGC",
+    "DOAJ",
+    "Open"
+   ]
+  },
+  {
+   "no": 25,
+   "id": "ecee8c40-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块25：科研项目数据库",
+   "use": "U5",
+   "legacy": "学术信息资源",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8c40-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能够在国家社科基金项目数据库找到具体国家社科项目立项信息和结项信息。",
+    "2.能够在国家自然科学基金大数据知识管理服务门户找到指定的立项项目、结题项目、科研成果。"
+   ],
+   "explore": [
+    "2.探索：在国家社科基金项目数据库中检索本校最近4年的国家社科立项信息和结项信息。",
+    "3.探索：在国家自然科学基金大数据知识管理服务门户中查找2023年结题的深度学习方面的自科项目成果。"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "题为“西南地区族际通婚促进民族文化交融机制研究”的2020年国家社科立项项目，负责人是重庆大学的王瑞静。（ ）",
+     "options": [],
+     "answer": "正确",
+     "explain": "登录国家社科基金项目数据库（http://fz.people.com.cn/skygb/sk/index.php/index/index/4541 ）。在“项目名称”检索点下输入“西南地区族际通婚促进民族文化交融机制研究”，然后搜索。在找到的结果中查看信息。注意，点击右箭头可以看到更多信息，“重庆大学”这个信息，就需要这样查看。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://fz.people.com.cn/skygb/sk/index.php/index/index/4541",
+     "label": "国家社科基金项目数据库",
+     "host": "fz.people.com.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://kd.nsfc.cn/",
+     "label": "国家自然科学基金大数据知识管理服务门户",
+     "host": "kd.nsfc.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": []
+  },
+  {
+   "no": 26,
+   "id": "ecee858d-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块26：学术搜索",
+   "use": "U6",
+   "legacy": "信息检索系统",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee858d-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解常用的学术搜索引擎。",
+    "2.掌握百度学术（https://xueshu.baidu.com）的各种功能。",
+    "3.掌握pubmed（https://pubmed.ncbi.nlm.nih.gov）的各项功能。",
+    "4.掌握pubscholar（https://pubscholar.cn）的各项功能。",
+    "5.掌握国家科技图书文献中心NSTL（https://www.nstl.gov.cn）的各项功能。"
+   ],
+   "explore": [
+    "2.探索:《创新、企业规模和市场竞争:基于中国企业层面的面板数据分析》这篇文章，在百度学术中能找到吗？能获取全文吗？",
+    "3.探索：《The role of data science in healthcare advancements: applications, benefits, and future prospects》这篇文章，pubmed给出了哪几种全文获取的链接？"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在 pubscholar 中可以找到《De novo design of functional nucleic acids of aptamers》这篇文献，请问系统给出的原文链接渠道是下面的哪几个？（ ）",
+     "options": [
+      [
+       "A",
+       "本地下载"
+      ],
+      [
+       "B",
+       "期刊官网"
+      ],
+      [
+       "C",
+       "作者共享"
+      ],
+      [
+       "D",
+       "其他来源"
+      ]
+     ],
+     "answer": "CD",
+     "explain": "在 pubscholar 中找到这篇文献，即可看到原文链接渠道。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://xueshu.baidu.com",
+     "label": "https://xueshu.baidu.com",
+     "host": "xueshu.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pubmed.ncbi.nlm.nih.gov",
+     "label": "https://pubmed.ncbi.nlm.nih.gov",
+     "host": "pubmed.ncbi.nlm.nih.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pubscholar.cn",
+     "label": "https://pubscholar.cn",
+     "host": "pubscholar.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.nstl.gov.cn",
+     "label": "https://www.nstl.gov.cn",
+     "host": "www.nstl.gov.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "创新、企业规模和市场竞争:基于中国企业层面的面板数据分析",
+    "pubmed.ncbi.nlm.nih.gov",
+    "xueshu.baidu.com",
+    "www.nstl.gov.cn",
+    "pubscholar.cn",
+    "advancements",
+    "applications",
+    "healthcare",
+    "pubscholar",
+    "prospects",
+    "benefits",
+    "science",
+    "future",
+    "pubmed",
+    "https",
+    "NSTL",
+    "data",
+    "role"
+   ]
+  },
+  {
+   "no": 27,
+   "id": "ecee8d68-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块27：图片搜索",
+   "use": "U6",
+   "legacy": "信息检索系统",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8d68-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 掌握百度、搜狗、360、必应等常用搜索引擎中的图片搜索功能。",
+    "2. 掌握iconfont（https://www.iconfont.cn）、Unsplash（https://unsplash.com）、Pixabay（https://pixabay.com）、CNKI学术图片库（https://image.cnki.net/AI）等图库资源及其检索。",
+    "3. 掌握写作插图资源网站Scidraw（https://scidraw.io）、医学矢量素材网站SMART（https://smart.servier.com）。"
+   ],
+   "explore": [
+    "4. 探索：百度的图片搜索结果页面中，系统提供了哪些筛选项？",
+    "5. 探索：使用CNKI学术图片库中的图片对比、图片解析功能。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "下列检索系统，可以以图识图的有（ ）。",
+     "options": [
+      [
+       "A",
+       "百度的图片搜索（https://image.baidu.com）"
+      ],
+      [
+       "B",
+       "搜过的图片搜索（https://pic.sogou.com）"
+      ],
+      [
+       "C",
+       "360的图片搜索（https://image.so.com）"
+      ],
+      [
+       "D",
+       "CNKI学术图片库（https://image.cnki.net/AI）"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "登录网站，探索一下，即可发现哪些可以以图识图。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.iconfont.cn/",
+     "label": "https://www.iconfont.cn",
+     "host": "www.iconfont.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://unsplash.com/",
+     "label": "https://unsplash.com",
+     "host": "unsplash.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pixabay.com/",
+     "label": "https://pixabay.com",
+     "host": "pixabay.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://image.cnki.net/AI",
+     "label": "https://image.cnki.net/AI",
+     "host": "image.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://scidraw.io",
+     "label": "https://scidraw.io",
+     "host": "scidraw.io",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://smart.servier.com",
+     "label": "https://smart.servier.com",
+     "host": "smart.servier.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://image.baidu.com/",
+     "label": "https://image.baidu.com",
+     "host": "image.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pic.sogou.com/",
+     "label": "https://pic.sogou.com",
+     "host": "pic.sogou.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://image.so.com/",
+     "label": "https://image.so.com",
+     "host": "image.so.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/gNrq_r7t19tZ34vyB99f9w",
+     "label": "https://mp.weixin.qq.com/s/gNrq_r7t19tZ34vyB99f9w",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.iconfont.cn",
+     "label": "",
+     "host": "www.iconfont.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://unsplash.com",
+     "label": "",
+     "host": "unsplash.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pixabay.com",
+     "label": "",
+     "host": "pixabay.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://image.baidu.com",
+     "label": "",
+     "host": "image.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pic.sogou.com",
+     "label": "",
+     "host": "pic.sogou.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://image.so.com",
+     "label": "",
+     "host": "image.so.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "smart.servier.com",
+    "www.iconfont.cn",
+    "image.cnki.net",
+    "unsplash.com",
+    "pixabay.com",
+    "scidraw.io",
+    "Unsplash",
+    "iconfont",
+    "Pixabay",
+    "Scidraw",
+    "SMART",
+    "https",
+    "CNKI"
+   ]
+  },
+  {
+   "no": 28,
+   "id": "ecee8272-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块28：网址导航",
+   "use": "U6",
+   "legacy": "信息检索系统",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8272-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解优设导航（https://hao.uisdc.com）、HIPPTER（http://www.hippter.com）、中国古典文献资源导航系统（也称：奎章阁，https://www.wenxianxue.cn）、AI工具集（https://ai-bot.cn）、等实用网址导航。",
+    "2.能够从这些网址导航网站中找到指定细节。"
+   ],
+   "explore": [
+    "3.探索：AI工具集的“AI智能体”栏目下收录了哪些AI工具网站？",
+    "4.探索：中国古典文献资源导航系统有哪些栏目？"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在中国古典文献资源导航系统的“古籍全文”栏目下，可以找到下列哪些网站？（）",
+     "options": [
+      [
+       "A",
+       "安徽基本古籍库"
+      ],
+      [
+       "B",
+       "登楼古籍检索"
+      ],
+      [
+       "C",
+       "湖南省古籍智慧化平台"
+      ],
+      [
+       "D",
+       "尚古汇典"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "登录中国古典文献资源导航系统，进入“古籍全文”栏目，即可看到答案。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://hao.uisdc.com",
+     "label": "https://hao.uisdc.com",
+     "host": "hao.uisdc.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "http://www.hippter.com",
+     "label": "http://www.hippter.com",
+     "host": "www.hippter.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wenxianxue.cn",
+     "label": "https://www.wenxianxue.cn",
+     "host": "www.wenxianxue.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ai-bot.cn",
+     "label": "https://ai-bot.cn",
+     "host": "ai-bot.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.wenxianxue.cn",
+    "www.hippter.com",
+    "hao.uisdc.com",
+    "ai-bot.cn",
+    "HIPPTER",
+    "https",
+    "http"
+   ]
+  },
+  {
+   "no": 29,
+   "id": "ecee8ca9-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块29：网络指数",
+   "use": "U6",
+   "legacy": "信息检索系统",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8ca9-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解百度指数（https://index.baidu.com/v2/index.html）、微信指数、抖音指数（原巨量算数，https://trendinsight.oceanengine.com）。",
+    "2. 能够利用网络指数数据分析问题。"
+   ],
+   "explore": [
+    "5. 探索：在百度指数和抖音指数（原巨量算数）两个平台上，分别对比最近一个月四川大学和重庆大学在陕西省的指数情况。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "根据百度搜索数据，2021年，网民对火锅的关注量最多的省份是？（ ）",
+     "options": [
+      [
+       "A",
+       "四川"
+      ],
+      [
+       "B",
+       "河南"
+      ],
+      [
+       "C",
+       "江苏"
+      ],
+      [
+       "D",
+       "广东"
+      ]
+     ],
+     "answer": "D",
+     "explain": "通过百度指数搜索火锅，选择人群画像，并限定时间范围为2021年1月1日至2021年12月31日，通过地域分布分析各省份的搜索指数高低。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://index.baidu.com/v2/index.html",
+     "label": "https://index.baidu.com/v2/index.html",
+     "host": "index.baidu.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://trendinsight.oceanengine.com/",
+     "label": "https://trendinsight.oceanengine.com",
+     "host": "trendinsight.oceanengine.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://trendinsight.oceanengine.com",
+     "label": "",
+     "host": "trendinsight.oceanengine.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "trendinsight.oceanengine.com",
+    "index.baidu.com",
+    "index.html",
+    "https"
+   ]
+  },
+  {
+   "no": 30,
+   "id": "ecee8561-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块30：馆藏查询系统",
+   "use": "U6",
+   "legacy": "信息检索系统",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8561-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.能在国内外图书馆网站首页找到馆藏查询系统的入口。",
+    "2.了解中图分类号、索书号。",
+    "3.能在馆藏查询系统中找到指定文献的索书号、馆藏地、在馆情况等信息。"
+   ],
+   "explore": [
+    "4. 探索：《一流大学图书馆治理能力现代化的探索与实践》这本书在四川大学图书馆的索书号是？根据这个索书号中包含的中图分类号判断这本书在中国图书馆分类法体系中所在的大类。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "请问：下列哪些图书馆有贡德·弗兰克所著的《白银资本》这本书？（ ）{提醒：中英文、各版本都要考虑}",
+     "options": [
+      [
+       "A",
+       "重庆大学图书馆"
+      ],
+      [
+       "B",
+       "山东省图书馆"
+      ],
+      [
+       "C",
+       "麻省理工学院图书馆"
+      ],
+      [
+       "D",
+       "兰州大学图书馆"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "找到各图书馆的馆藏书目查询入口，检索字段选择“标题”，检索词输入“白银资本”或“ReOrient: global economy in the Asian Age”，找到结果后验证作者信息。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://lib.scu.edu.cn/",
+     "label": "四川大学图书馆",
+     "host": "lib.scu.edu.cn",
+     "access": "gov",
+     "src": "supp"
+    },
+    {
+     "u": "http://opac.nlc.cn/",
+     "label": "国家图书馆联机公共目录",
+     "host": "opac.nlc.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://www.duxiu.com/",
+     "label": "读秀学术搜索",
+     "host": "www.duxiu.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://www.chaoxing.com/",
+     "label": "超星发现",
+     "host": "www.chaoxing.com",
+     "access": "open",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "一流大学图书馆治理能力现代化的探索与实践"
+   ]
+  },
+  {
+   "no": 31,
+   "id": "ecee8951-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块31：高级检索",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8951-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解各种学术数据库中高级检索的入口。",
+    "2.能够熟练应用CNKI、万方、维普、ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore、SPIE数字图书馆等常用中英文数据库的高级搜索功能。"
+   ],
+   "explore": [
+    "3.探索：在CNKI、万方、维普的高级检索界面，选择不同的文献类型，高级检索界面一样吗？",
+    "4.探索：ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore这些数据库的高级检索界面，可以设置哪些检索条件？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在CNKI或者万方数据知识服务平台中检索2015到2021年间发表的篇名中含有“信息素养”的期刊论文，其中被引次数最高的CSSCI论文是发表在哪个期刊上的？（ ）",
+     "options": [
+      [
+       "A",
+       "情报科学"
+      ],
+      [
+       "B",
+       "大学图书馆学报"
+      ],
+      [
+       "C",
+       "图书情报知识"
+      ],
+      [
+       "D",
+       "图书馆学研究"
+      ]
+     ],
+     "answer": "C",
+     "explain": "进入CNKI学术期刊库的高级检索界面，限定篇名含有“信息素养”，在时间范围里把出版年度设置为2015到2021年，来源类别选择CSSCI，得到检索结果并按照被引排序。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://pubmed.gov/",
+     "label": "PubMed",
+     "host": "pubmed.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+     "label": "IEEE Xplore",
+     "host": "ieeexplore.ieee.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.spiedigitallibrary.org/",
+     "label": "SPIE数字图书馆",
+     "host": "www.spiedigitallibrary.org",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Taylor&Francis",
+    "ScienceDirect",
+    "PubMed",
+    "Xplore",
+    "Wiley",
+    "CNKI",
+    "IEEE",
+    "SPIE"
+   ]
+  },
+  {
+   "no": 32,
+   "id": "ecee82a6-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块32：布尔逻辑检索",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee82a6-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解与、或、非三种布尔逻辑检索的含义。",
+    "2.能够熟练应用CNKI、万方、维普、ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore、ACM等常用中英文数据库中布尔检索的表达方式。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在万方中查找2025年以前发表的，篇名中出现“乙肝”或“乙型肝炎”，关键词中出现“治疗”和“评估”，摘要中出现“慢性”但不能出现“模型”的学位论文。”请问找到的结果数量与下列哪个数字最接近（或者就是）？（ ）",
+     "options": [
+      [
+       "A",
+       "1"
+      ],
+      [
+       "B",
+       "6"
+      ],
+      [
+       "C",
+       "24"
+      ],
+      [
+       "D",
+       "47"
+      ]
+     ],
+     "answer": "B",
+     "explain": "在万方数据知识服务平台的高级检索中，文献类型选择“学位论文”，题目检索字段对应的检索框中输入：乙肝 OR 乙型肝炎，关键词字段对应的检索框中输入：治疗 AND 评估，摘要字段对应的检索框中输入：慢性 NOT 模型，关键词和摘要前面选择“与”。点击“检索”按钮，看结果。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://pubmed.gov/",
+     "label": "PubMed",
+     "host": "pubmed.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+     "label": "IEEE Xplore",
+     "host": "ieeexplore.ieee.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Taylor&Francis",
+    "ScienceDirect",
+    "PubMed",
+    "Xplore",
+    "Wiley",
+    "CNKI",
+    "IEEE",
+    "ACM"
+   ]
+  },
+  {
+   "no": 33,
+   "id": "ecee94f4-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块33：截词检索",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee94f4-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解截词检索的基本定义及应用场景。",
+    "2.了解不同学术数据库对截词检索的支持情况。",
+    "3.掌握PubMed、Wiley、ACM、中国专利公布公告系统等数据库中的截词运算符。"
+   ],
+   "explore": [
+    "3. 探索：找到上面提到的四个数据库中与截词检索相关的帮助说明，了解具体规则。",
+    "4. 探索：在PubMed的检索框中输入 comput*[title] ，查看检索结果，分析检索结果的标题，看是否实现了截词检索。",
+    "5. 探索：在中国专利公布公告系统的高级查询页面，检索字段选择“申请人”，检索框中输入：中国%大学 ，分析检索结果中的申请人，思考%的作用。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在有些外文数据库中，可以\"analy( )e\"匹配\"analyse\"(英式)和\"analyze\"(美式)，在ACM数据库中，搜索范围限定在“The ACM Full-Text collection”检索标题中包含这个单词，摘要中包含一个以“comput”开头的单词，时间限定在2020-2023年之间。请问找到括号中应该填写的字母是？找到的结果数量与下列哪个最接近？（ ）",
+     "options": [
+      [
+       "A",
+       "* ，1325"
+      ],
+      [
+       "B",
+       "？ ，1325"
+      ],
+      [
+       "C",
+       "* ，3412"
+      ],
+      [
+       "D",
+       "？ ，3412"
+      ]
+     ],
+     "answer": "B",
+     "explain": "在ACM数据库中，星号代表可能的一个或多个字母，问号代表一个字母，所以，括号中应该是问号。在高级检索中，按照题目中给出的条件设置，找到的结果应该是1327条。"
+    }
+   ],
+   "links": [
+    {
+     "u": "http://pubmed.gov/",
+     "label": "PubMed",
+     "host": "pubmed.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://epub.cnipa.gov.cn/",
+     "label": "中国专利公布公告系统",
+     "host": "epub.cnipa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "PubMed",
+    "comput",
+    "Wiley",
+    "title",
+    "ACM"
+   ]
+  },
+  {
+   "no": 34,
+   "id": "ecee89cc-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块34：精确与模糊匹配",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee89cc-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解CNKI、维普、万方等数据库中不同检索字段下精确匹配与模糊匹配的区别。",
+    "2. 了解外文数据库中“精确匹配”的表达方式。",
+    "3. 能够利用各数据库精确与模糊匹配选项调整检索结果。"
+   ],
+   "explore": [
+    "2.探索：在CNKI的高级检索中，通过实践理解精确匹配在不同检索字段（如标题、作者单位）下含义的不同。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在CNKI的高级检索中，文献类型选择“学术期刊”，“篇名”和“作者”检索字段进行如图设置，其他条件默认。请问：这样的检索条件，下列哪些论文可能出现在检索结果中？（ ）",
+     "options": [
+      [
+       "A",
+       "张建. 住宅楼项目全过程造价控制方法的研究 [J]. 居舍, 2023, (35): 169-172."
+      ],
+      [
+       "B",
+       "张建红. 控制接触网施工误差的方法探讨 [J]. 科技与企业, 2012, (23): 188."
+      ],
+      [
+       "C",
+       "张建彬. 水泥混凝土路面施工质量控制方法 [J]. 交通世界, 2017, (15): 76-77."
+      ],
+      [
+       "D",
+       "张建. PID控制参数优化方法及基于MATLAB的仿真 [J]. 信息通信, 2013, (02): 40."
+      ]
+     ],
+     "answer": "AD",
+     "explain": "在CNKI中：“篇名”检索字段下，“精确”匹配指的是不能拆分，“模糊”匹配指的是可以拆分；“第一作者”检索字段下，“精确”指的是完全一致，模糊指的是包含。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "中国知网 CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "supp"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM Digital Library",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "CNKI"
+   ]
+  },
+  {
+   "no": 35,
+   "id": "ecee8514-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块35：结果筛选",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8514-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解CNKI、万方、维普、ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore、ACM等中英文数据库的结果筛选功能。",
+    "2.能够使用这些数据库的结果筛选功能解决具体问题。",
+    "3.能够利用检索系统筛选功能内置的分组统计功能对检索结果进行简单分析。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在Wiley（https://onlinelibrary.wiley.com）数据库首页的检索框中输入检索词“AIGC”，回车后的检索结果中可以选择的筛选字段不包括（ ）。",
+     "options": [
+      [
+       "A",
+       "Publication Type"
+      ],
+      [
+       "B",
+       "Publication Date"
+      ],
+      [
+       "C",
+       "Subjects"
+      ],
+      [
+       "D",
+       "title"
+      ]
+     ],
+     "answer": "D",
+     "explain": "根据题目中给出的条件检索，查看检索结果左侧的筛选区。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://pubmed.gov/",
+     "label": "PubMed",
+     "host": "pubmed.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+     "label": "IEEE Xplore",
+     "host": "ieeexplore.ieee.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com",
+     "label": "",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Taylor&Francis",
+    "ScienceDirect",
+    "PubMed",
+    "Xplore",
+    "Wiley",
+    "CNKI",
+    "IEEE",
+    "ACM"
+   ]
+  },
+  {
+   "no": 36,
+   "id": "ecee9d94-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块36：字段限制检索",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9d94-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解中外文数据库中常用检索字段（也称：检索点、检索项、检索途径）的含义。",
+    "2.能够在CNKI、万方、维普、ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore、ACM等数据库中根据需求熟练运用不同检索字段进行检索。",
+    "3.掌握PubMed中用检索表达式实现字段限制检索技术的方法。"
+   ],
+   "explore": [
+    "2.探索：找研究“鲁迅”的文章，检索字段应该是？"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在CNKI期刊论文数据库中（或者是在CNKI数据库的高级检索中文献类型选择“学术期刊”），可选的检索字段不包括（ ）。",
+     "options": [
+      [
+       "A",
+       "关键词"
+      ],
+      [
+       "B",
+       "题名"
+      ],
+      [
+       "C",
+       "作者单位"
+      ],
+      [
+       "D",
+       "期刊名称"
+      ]
+     ],
+     "answer": "B",
+     "explain": "进入系统，打开核对一下。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cnki.net/",
+     "label": "CNKI",
+     "host": "www.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wanfangdata.com.cn/",
+     "label": "万方",
+     "host": "www.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.cqvip.com/",
+     "label": "维普",
+     "host": "www.cqvip.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/",
+     "label": "ScienceDirect",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://onlinelibrary.wiley.com/",
+     "label": "Wiley",
+     "host": "onlinelibrary.wiley.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://www.tandfonline.com/",
+     "label": "Taylor&Francis",
+     "host": "www.tandfonline.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "http://pubmed.gov/",
+     "label": "PubMed",
+     "host": "pubmed.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+     "label": "IEEE Xplore",
+     "host": "ieeexplore.ieee.org",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://dl.acm.org/",
+     "label": "ACM",
+     "host": "dl.acm.org",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "Taylor&Francis",
+    "ScienceDirect",
+    "PubMed",
+    "Xplore",
+    "Wiley",
+    "CNKI",
+    "IEEE",
+    "ACM"
+   ]
+  },
+  {
+   "no": 37,
+   "id": "ecee84c1-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块37：搜索引擎的检索语法和高级搜索",
+   "use": "U7",
+   "legacy": "信息检索理论与技术",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee84c1-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.了解搜索引擎的检索语法及应用场景，如filetype、site、inurl等搜索语法。",
+    "2.熟练掌握每种语法的规则。",
+    "3.了解百度、搜狗、360等主流搜索引擎的高级搜索入口。",
+    "4.掌握百度、搜狗、360高级搜索的具体用法。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在百度的高级检索界面中有一个“关键词位置”的限定，其中可以选择（ ）。",
+     "options": [
+      [
+       "A",
+       "网页任何地方"
+      ],
+      [
+       "B",
+       "仅网页标题中"
+      ],
+      [
+       "C",
+       "仅URL中"
+      ],
+      [
+       "D",
+       "仅网页图片中"
+      ]
+     ],
+     "answer": "ABC",
+     "explain": "在百度页面的右上角点击“设置”，在弹出的菜单中选择“高级检索”，仔细看一下“关键词位置”这个选项。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.baidu.com/gaoji/advanced.html",
+     "label": "https://www.baidu.com/gaoji/advanced.html",
+     "host": "www.baidu.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "filetype",
+    "inurl",
+    "site"
+   ]
+  },
+  {
+   "no": 38,
+   "id": "ecee8d02-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块38：思维导图、笔记软件、问卷调查",
+   "use": "U10",
+   "legacy": "知识管理工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8d02-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 熟练掌握腾讯文档思维导图（https://docs.qq.com）、WPS 思维导图（https://www.wps.cn）、有道云笔记脑图（https://note.youdao.com）的常用功能。",
+    "2. 熟练掌握有道云笔记（https://note.youdao.com）的笔记管理、内容收藏、脑图笔记等功能。",
+    "3. 能够利用豆包（https://www.doubao.com）、通义/千问（https://www.qianwen.com）的实时记录功能，完成录音转文字、课堂笔记整理、会议纪要生成、重点内容提炼和待办事项提取等任务。",
+    "4. 熟练掌握问卷星（https://www.wjx.cn）的常用功能。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "下列哪些工具具有思维导图功能？（ ）。",
+     "options": [
+      [
+       "A",
+       "腾讯文档"
+      ],
+      [
+       "B",
+       "WPS"
+      ],
+      [
+       "C",
+       "有道云笔记"
+      ],
+      [
+       "D",
+       "问卷星"
+      ]
+     ],
+     "answer": "ABC",
+     "explain": "腾讯文档和WPS均提供思维导图功能，有道云笔记也提供脑图功能，因此 A、B、C 正确；问卷星主要用于问卷调查，不属于思维导图工具，因此 D 错误。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://docs.qq.com/",
+     "label": "https://docs.qq.com",
+     "host": "docs.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wps.cn/",
+     "label": "https://www.wps.cn",
+     "host": "www.wps.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://note.youdao.com/",
+     "label": "https://note.youdao.com",
+     "host": "note.youdao.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.doubao.com/",
+     "label": "https://www.doubao.com",
+     "host": "www.doubao.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.qianwen.com/",
+     "label": "https://www.qianwen.com",
+     "host": "www.qianwen.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wjx.cn/",
+     "label": "https://www.wjx.cn",
+     "host": "www.wjx.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://docs.qq.com",
+     "label": "",
+     "host": "docs.qq.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wps.cn",
+     "label": "",
+     "host": "www.wps.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://note.youdao.com",
+     "label": "",
+     "host": "note.youdao.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.doubao.com",
+     "label": "",
+     "host": "www.doubao.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.qianwen.com",
+     "label": "",
+     "host": "www.qianwen.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.wjx.cn",
+     "label": "",
+     "host": "www.wjx.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "note.youdao.com",
+    "www.qianwen.com",
+    "www.doubao.com",
+    "docs.qq.com",
+    "www.wjx.cn",
+    "www.wps.cn",
+    "https",
+    "WPS"
+   ]
+  },
+  {
+   "no": 39,
+   "id": "ecee9493-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块39：OFFICE插件和浏览器插件",
+   "use": "U10",
+   "legacy": "知识管理工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9493-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解常用的OFFICE插件，如WORD/WPS插件小恐龙公文排版助手（https://gw.xkonglong.com）、PPT插件雨课堂（https://www.yuketang.cn）、WORD/EXCEL/WPS插件OfficeAI助手（https://www.office-ai.cn）。",
+    "2. 了解浏览器插件（也称为浏览器扩展）。",
+    "3. 能够从Microsoft Edge浏览器的扩展商店和360浏览器的扩展中心找到指定插件并安装到浏览器中。",
+    "4. 熟练掌握PPT插件雨课堂的安装与使用。",
+    "5. 熟练掌握WORD/WPS插件小恐龙公文排版助手的安装与使用。",
+    "6. 熟练掌握WORD/EXCEL/WPS插件OfficeAI助手的安装与使用。",
+    "7. 熟练掌握智谱清言的浏览器插件的安装与使用。"
+   ],
+   "explore": [
+    "2. 探索：用雨课堂插件在PPT中增加一个多选题。",
+    "3. 探索：用OfficeAI助手把word文档中单行字体颜色改为红色，双行字体颜色改为蓝色。",
+    "4. 探索：用智谱清言浏览器插件自动在arXiv中检索文献。",
+    "5. 探索：用小恐龙公文排版助手批量把半角标点符号改为全角。",
+    "6. 探索：Microsoft Edge浏览器的扩展商店中有哪些与AI相关的浏览器插件。"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "雨课堂是一个PPT插件，可以免费安装使用，可以弹幕，支持单选、多选、填空、主观题等多种题型，有分组功能。（ ）",
+     "options": [],
+     "answer": "正确",
+     "explain": "装上这个插件，深度使用一下，就知道了。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://gw.xkonglong.com/",
+     "label": "https://gw.xkonglong.com",
+     "host": "gw.xkonglong.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.yuketang.cn/",
+     "label": "https://www.yuketang.cn",
+     "host": "www.yuketang.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.office-ai.cn/",
+     "label": "https://www.office-ai.cn",
+     "host": "www.office-ai.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://gw.xkonglong.com",
+     "label": "",
+     "host": "gw.xkonglong.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.yuketang.cn",
+     "label": "",
+     "host": "www.yuketang.cn",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.office-ai.cn",
+     "label": "",
+     "host": "www.office-ai.cn",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "gw.xkonglong.com",
+    "www.office-ai.cn",
+    "www.yuketang.cn",
+    "Microsoft",
+    "OfficeAI",
+    "OFFICE",
+    "EXCEL",
+    "arXiv",
+    "https",
+    "Edge",
+    "WORD",
+    "word",
+    "PPT",
+    "WPS"
+   ]
+  },
+  {
+   "no": 40,
+   "id": "ecee7f17-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块40：截图与录屏",
+   "use": "U10",
+   "legacy": "知识管理工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee7f17-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1.掌握QQ的截图、贴图、录屏等功能。",
+    "2.能够熟练使用软件LICEcap把屏幕操作录制成gif动图。"
+   ],
+   "explore": [
+    "2.探索：用LICEcap录制一段屏幕操作，然后把录制好的gif动图贴在ppt中播放，看效果。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "用qq的截图功能，框选截图区域后，系统会弹出一个工具条，工具条中有一个图钉状图标。请问这个图钉状图标的功能是什么？（）",
+     "options": [
+      [
+       "A",
+       "打马赛克"
+      ],
+      [
+       "B",
+       "添加文字"
+      ],
+      [
+       "C",
+       "把图片贴在桌面上"
+      ],
+      [
+       "D",
+       "识别截图区域的文字"
+      ]
+     ],
+     "answer": "C",
+     "explain": "图钉状图标，功能是贴图。可以贴多张图片到桌面上，双击即可销毁。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.cockos.com/licecap/",
+     "label": "LICEcap（GIF 录屏）",
+     "host": "www.cockos.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://zh.snipaste.com/",
+     "label": "Snipaste（截图 / 贴图）",
+     "host": "zh.snipaste.com",
+     "access": "open",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "LICEcap",
+    "gif",
+    "ppt"
+   ]
+  },
+  {
+   "no": 41,
+   "id": "ecee883c-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块41：PDF文件处理",
+   "use": "U10",
+   "legacy": "知识管理工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee883c-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 熟练掌握WORD、EXCEL、PPT转PDF的方法。",
+    "2. 熟练掌握云展网（https://www.yunzhan365.com/tools/pdf-to-word）中与PDF相关的在线工具。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "在云展网PDF在线工具页面中，可以使用多种PDF处理功能。下列哪些属于该平台提供的PDF相关功能？（ ）",
+     "options": [
+      [
+       "A",
+       "PDF 转 Word"
+      ],
+      [
+       "B",
+       "PDF合并"
+      ],
+      [
+       "C",
+       "PDF 拆分"
+      ],
+      [
+       "D",
+       "PDF 压缩"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "进入云展网 PDF 在线工具页面（https://www.yunzhan365.com/tools/pdf-to-word），可以看到 PDF 转 Word、PDF 合并、PDF 拆分、PDF 压缩等常用 PDF 处理工具。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.yunzhan365.com/tools/pdf-to-word",
+     "label": "https://www.yunzhan365.com/tools/pdf-to-word",
+     "host": "www.yunzhan365.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.yunzhan365.com",
+    "pdf-to-word",
+    "EXCEL",
+    "https",
+    "tools",
+    "WORD",
+    "PDF",
+    "PPT"
+   ]
+  },
+  {
+   "no": 42,
+   "id": "ecee9623-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块42：学术评价与投稿选刊",
+   "use": "U9",
+   "legacy": "学术写作",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9623-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 掌握影响因子、H指数的含义、计算、查询。",
+    "2. 能够使用CNKI、万方、维普判断一本中文期刊/文章是不是在SCI、CSSCI、北大核心、CSCD、AMI收录范围内。",
+    "3. 能够通过国家新闻出版署提供的期刊查询系统（https://www.nppa.gov.cn/bsfw/cyjghcpcx）查询期刊信息，判断期刊真伪。",
+    "4. 能够使用CNKI写作投稿服务平台（xztg.cnki.net）追踪学术热点、选题分析、智能选刊（其他商用功能不命题）",
+    "5. 能够使用LeapSpace匹配合适的投稿期刊。"
+   ],
+   "explore": [
+    "3. 探索：《会计之友》是不是正规的期刊？是不是北大核心期刊？是不是CSSCI期刊？是不是AMI期刊？是不是CSCD期刊？在CNKI中的综合影响因子和复合影响因子分别是多少？",
+    "4. 探索：在CNKI写作投稿服务平台页面，输入篇名、摘要等信息，适配对应期刊。",
+    "5. 探索：在 LeapSpace 中通过提示词（如“研究方向”、“期刊匹配”、“分区解读”、“投稿匹配矩阵”等），适配对应期刊。"
+   ],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "刊发学术论文《基于认捐模式的图书馆受赠研究》的期刊属于（ ）期刊。",
+     "options": [
+      [
+       "A",
+       "CSSCI"
+      ],
+      [
+       "B",
+       "SSCI"
+      ],
+      [
+       "C",
+       "北大核心"
+      ],
+      [
+       "D",
+       "CSCD"
+      ]
+     ],
+     "answer": "AC",
+     "explain": "在CNKI（或万方、维普）中找到这篇论文，确定所在期刊，进入期刊主页，即可看到答案。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.nppa.gov.cn/bsfw/cyjghcpcx",
+     "label": "https://www.nppa.gov.cn/bsfw/cyjghcpcx",
+     "host": "www.nppa.gov.cn",
+     "access": "gov",
+     "src": "page"
+    },
+    {
+     "u": "https://www.sciencedirect.com/leapspace",
+     "label": "LeapSpace",
+     "host": "www.sciencedirect.com",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/nT8hcUnQj6TmvsW1RK5Emw?click_id=451899144",
+     "label": "https://mp.weixin.qq.com/s/nT8hcUnQj6TmvsW1RK5Emw?click_id=451899144",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.nppa.gov.cn",
+    "xztg.cnki.net",
+    "LeapSpace",
+    "cyjghcpcx",
+    "CSSCI",
+    "https",
+    "CNKI",
+    "CSCD",
+    "bsfw",
+    "会计之友",
+    "AMI",
+    "SCI"
+   ]
+  },
+  {
+   "no": 43,
+   "id": "ecee939a-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块43：学术伦理",
+   "use": "U9",
+   "legacy": "学术写作",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee939a-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解学术伦理，树立学术诚信意识，了解学术不端行为以及学术不端问题带来的危害。",
+    "2. 熟悉行业标准《学术出版规范 期刊学术不端行为界定》（CY/T 174—2019）以及教育部颁布的《高等学校预防与处理学术不端行为办法》中列出的学术不端行为。",
+    "3. 熟悉2023年科技部监督司发布的《负责任研究行为规范指引（2023）》的规范引用指南，尤其对生成式人工智能内容的引用规则仔细理解。",
+    "4. 能够使用万方数据科研诚信培训系统（https://cx.wanfangdata.com.cn/e-training）查找指定资源。（免费注册个人账号后，可免费观看直播、公益讲座等内容。）"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "多选题",
+     "stem": "下列行为，属于“一稿多投”的是（ ）。",
+     "options": [
+      [
+       "A",
+       "论文以不同或同一种文字在同一种期刊的国际版本上再次发表"
+      ],
+      [
+       "B",
+       "将主要数据和图表相同的两篇论文分别投稿不同期刊"
+      ],
+      [
+       "C",
+       "将同一篇论文同时投稿多家期刊"
+      ],
+      [
+       "D",
+       "将发表过的会议论文充实50%以上数据后再次向期刊投稿，引用上次发表的论文并向编辑部说明"
+      ]
+     ],
+     "answer": "BC",
+     "explain": "论文以不同或同一种文字在同一种期刊的国际版本上再次发表，或者将发表过的会议论文充实50%以上数据后再次向期刊投稿，引用上次发表的论文并向编辑部说明不属于“一稿多投”。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://cx.wanfangdata.com.cn/e-training",
+     "label": "https://cx.wanfangdata.com.cn/e-training",
+     "host": "cx.wanfangdata.com.cn",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "cx.wanfangdata.com.cn",
+    "学术出版规范 期刊学术不端行为界定",
+    "负责任研究行为规范指引（2023）",
+    "高等学校预防与处理学术不端行为办法",
+    "e-training",
+    "https"
+   ]
+  },
+  {
+   "no": 44,
+   "id": "ecee9666-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块44：参考文献著录格式",
+   "use": "U9",
+   "legacy": "学术写作",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9666-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 掌握GB/T 7714-2025、APA、MLA等参考文献著录格式。",
+    "2. 能够查询、确定指定期刊要求的参考文献著录格式。",
+    "3. 能够在CNKI、万方、维普中按照指定格式导出文献题录。"
+   ],
+   "explore": [
+    "2. 探索：找几本被SCI收录期刊，查看其中文章的参考文献，确定具体格式。",
+    "3. 探索：从CNKI中查找文献，选定期刊论文、学位论文、会议论文、标准、专利各一篇，按照GB/T 7714-2025的格式导出。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "以下哪一种符合GB/T 7714-2025参考文献著录标准？（ ）",
+     "options": [
+      [
+       "A",
+       "朱晓灿.新时代科普类图书出版趋势探析.传播与版权[J],2021(9):29-31+41."
+      ],
+      [
+       "B",
+       "朱晓灿.\"新时代科普类图书出版趋势探析.\"传播与版权,2021(9):29-31+41."
+      ],
+      [
+       "C",
+       "朱晓灿.新时代科普类图书出版趋势探析[J].《传播与版权》,2021(9):29-31+41."
+      ],
+      [
+       "D",
+       "朱晓灿.新时代科普类图书出版趋势探析[J].传播与版权,2021(9):29-31+41."
+      ]
+     ],
+     "answer": "D",
+     "explain": "对照国家标准著录。从CNKI、万方等学术数据库中也可以导出。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/zghd/media/web/2026/05/28/%E6%96%87%E5%90%8E%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E8%91%97%E5%BD%95%E8%A7%84%E5%88%99%EF%BC%88GB%20T%207714%E2%80%94%202025%EF%BC%89.pdf",
+     "label": "GB/T 7714-2025",
+     "host": "publishmedia.cbpt.cnki.net",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "CNKI",
+    "APA",
+    "MLA",
+    "SCI"
+   ]
+  },
+  {
+   "no": 45,
+   "id": "ecee9dd9-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块45：论文排版",
+   "use": "U9",
+   "legacy": "学术写作",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9dd9-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 熟练掌握word（wps）中涉及论文排版的常用功能，如插入脚注尾注、分节、设置页码页眉页脚、自动生成目录、标题样式、word文件批量合并等。",
+    "2. 熟练掌握word（wps）中替换中的各种符号和功能。"
+   ],
+   "explore": [
+    "3. 探索：在word（或wps）的替换中把“^p^p”替换为“^p”，替换效果是什么？",
+    "4. 探索：在word（或wps）的替换中，把“正确答案”替换为“^m正确答案”，替换效果是什么？",
+    "5. 探索：在word（或wps）的替换中，如何把文档中的“信息”两字批量替换为红色？",
+    "6. 探索：在word（或wps）的替换中，如何把文档中含有“节 ”（“节”字后面接一个空格）的段落批量设置为三级标题样式？"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "用word进行论文排版，自动生成目录前要先设置标题样式。（ ）",
+     "options": [],
+     "answer": "正确",
+     "explain": "找段文字，试着做一下，就明白了。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.wps.cn/",
+     "label": "WPS Office",
+     "host": "www.wps.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://shimo.im/",
+     "label": "石墨文档",
+     "host": "shimo.im",
+     "access": "open",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "word",
+    "wps"
+   ]
+  },
+  {
+   "no": 46,
+   "id": "ecee8de6-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块46：文献管理工具",
+   "use": "U9",
+   "legacy": "科研工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee8de6-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解常用的文献管理工具，如Mendeley、Zotero、知网研学E-study、EndNote、NoteExpress（后两个工具不做命题）。",
+    "2. 掌握Mendeley、Zotero、知网研学E-study的常用功能。"
+   ],
+   "explore": [
+    "3. 探索：在知网研学E-study页面，了解如何将参考文献导入文献管理软件"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "在mendeley网页版和客户端中，都可以根据DOI搜索添加文献。（ ）",
+     "options": [],
+     "answer": "正确",
+     "explain": "在mendeley网页版或客户端中，点击add new按钮，选择Add entry manually可以看到提示。"
+    },
+    {
+     "type": "多选题",
+     "stem": "使用知网研学桌面端查找、下载、添加中外文文献时，可以采用下列哪些方式？（）",
+     "options": [
+      [
+       "A",
+       "通过内置的数据库添加文献"
+      ],
+      [
+       "B",
+       "通过DOI添加文献"
+      ],
+      [
+       "C",
+       "从常用学术搜索网站检索添加文献"
+      ],
+      [
+       "D",
+       "导入第三方题录或本地上传"
+      ]
+     ],
+     "answer": "ABCD",
+     "explain": "在知网研学桌面端查找、下载、添加中外文文献时有多种方式，包括：通过内置的数据库添加、DOI添加、常用学术搜索网站检索添加、导入第三方题录、本地上传。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://x.cnki.net/web/search/#/down",
+     "label": "https://x.cnki.net/web/search/#/down",
+     "host": "x.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://mp.weixin.qq.com/s/YozwFYMEX7QUjYFDDT0LmA",
+     "label": "https://mp.weixin.qq.com/s/YozwFYMEX7QUjYFDDT0LmA",
+     "host": "mp.weixin.qq.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "NoteExpress",
+    "Mendeley",
+    "E-study",
+    "EndNote",
+    "Zotero"
+   ]
+  },
+  {
+   "no": 47,
+   "id": "ecee95ac-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块47：文献追踪工具",
+   "use": "U9",
+   "legacy": "科研工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee95ac-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解文献追踪的含义：跟踪期刊、学科、机构、学者的最新科研成果。",
+    "2. 了解常用的文献追踪方式：邮箱订阅、主题订阅和RSS。",
+    "3. 掌握PUBMED、CNKI、万方的文献追踪方式。",
+    "4. 了解RSS阅读器以及基于RSS插件追踪文献的操作方法。"
+   ],
+   "explore": [],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "中文期刊《马克思主义研究》在CNKI中的RSS订阅地址是什么？（ ）",
+     "options": [
+      [
+       "A",
+       "https://navi.cnki.net/knavi/RSS/STUD"
+      ],
+      [
+       "B",
+       "https://navi.cnki.net/knavi/RSS/RST"
+      ],
+      [
+       "C",
+       "https://navi.cnki.net/knavi/RSS/STYU"
+      ],
+      [
+       "D",
+       "https://navi.cnki.net/knavi/RSS/STEU"
+      ]
+     ],
+     "answer": "A",
+     "explain": "CNKI的期刊导航中找到该期刊的详细页面，页面中有RSS订阅图标，点击后即可获取URL。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://pubmed.ncbi.nlm.nih.gov/",
+     "label": "https://pubmed.ncbi.nlm.nih.gov",
+     "host": "pubmed.ncbi.nlm.nih.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://pubmed.ncbi.nlm.nih.gov",
+     "label": "",
+     "host": "pubmed.ncbi.nlm.nih.gov",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://navi.cnki.net/knavi/RSS/STUD",
+     "label": "",
+     "host": "navi.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://navi.cnki.net/knavi/RSS/RST",
+     "label": "",
+     "host": "navi.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://navi.cnki.net/knavi/RSS/STYU",
+     "label": "",
+     "host": "navi.cnki.net",
+     "access": "login",
+     "src": "page"
+    },
+    {
+     "u": "https://navi.cnki.net/knavi/RSS/STEU",
+     "label": "",
+     "host": "navi.cnki.net",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "PUBMED",
+    "CNKI",
+    "RSS"
+   ]
+  },
+  {
+   "no": 48,
+   "id": "ecee88f0-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块48：数据处理工具",
+   "use": "U10",
+   "legacy": "科研工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee88f0-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1、 熟练掌握EXCEL在数据处理中的应用，重点关注LEFT、RIGHT、MID、FIND、TRIM、REPLACE、SUBSTITUTE、CONCAT、&、CLEAN、VLOOKUP、COUNTIF、 COUNTIFS、SUMIF、SUMIFS、IF、INDEX、MATCH等函数。",
+    "2、 了解AI结合EXCEL函数处理数据的方法。",
+    "3、 能够从开放数据集平台下载 CSV、XLSX、JSON等常见格式数据，并利用 EXCEL 或 AI 工具进行简单的数据清洗、筛选、统计和分析。"
+   ],
+   "explore": [
+    "2、 探索：基于excel中的数据，让AI给出实现具体需求的excel函数。",
+    "3、 探索：从百度 AI Studio、阿里云天池、OpenDataLab、OpenML 或 UCI Machine Learning Repository（Classic 版或 Beta 版）中下载一个表格型数据集，查看其字段名称、样本数量、数据格式和缺失值情况，并基于下载的数据集，让 AI 工具给出 EXCEL 函数或数据处理步骤，并对结果进行人工核验。"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "在EXCEL中提取身份证号码中的出生年月日，最合适的函数是（）函数。",
+     "options": [
+      [
+       "A",
+       "left( )"
+      ],
+      [
+       "B",
+       "right( )"
+      ],
+      [
+       "C",
+       "mid( )"
+      ],
+      [
+       "D",
+       "trim( )"
+      ]
+     ],
+     "answer": "C",
+     "explain": "在EXCEL中，mid()函数可以在指定的字符串中从指定的字符开始提取指定数量的字符。如果身份证号码在A1单元格，提取出生年月日的函数表达是：=mid(A1,7,8)。LEFT（）函数可以提取最左边的指定数量字符。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.epsnet.com.cn/index.html",
+     "label": "EPS数据平台",
+     "host": "www.epsnet.com.cn",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://public.tableau.com/app",
+     "label": "Tableau Public",
+     "host": "public.tableau.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://www.weiciyun.com/",
+     "label": "微词云",
+     "host": "www.weiciyun.com",
+     "access": "open",
+     "src": "supp"
+    },
+    {
+     "u": "https://echarts.apache.org/zh/index.html",
+     "label": "Apache ECharts",
+     "host": "echarts.apache.org",
+     "access": "open",
+     "src": "supp"
+    }
+   ],
+   "kw": [
+    "OpenDataLab",
+    "Repository",
+    "SUBSTITUTE",
+    "COUNTIFS",
+    "Learning",
+    "COUNTIF",
+    "Classic",
+    "Machine",
+    "REPLACE",
+    "VLOOKUP",
+    "CONCAT",
+    "OpenML",
+    "SUMIFS",
+    "Studio",
+    "CLEAN",
+    "EXCEL",
+    "INDEX",
+    "MATCH"
+   ]
+  },
+  {
+   "no": 49,
+   "id": "ecee9771-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块49：数据可视化工具",
+   "use": "U10",
+   "legacy": "科研工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee9771-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1、 熟悉ECharts（https://echarts.apache.org/zh/index.html）可视化图表库。",
+    "2、 能够使用常用AI工具结合ECharts生成包含JavaScript代码的HTML网页，呈现可视化图形。",
+    "3、 熟悉AI工具豆包的数据分析功能。",
+    "4、 能够使用微词云（https://www.weiciyun.com）统计长文本词频并生成词云图（非会员每日只能免费使用三次词频统计，请同学们在考试当天谨慎使用此功能！！！）。",
+    "5、 能够基于开放数据集平台获取的数据，使用 ECharts、EXCEL 图表或 AI 工具生成基础可视化图表，并能够判断图表类型与数据类型是否匹配。"
+   ],
+   "explore": [
+    "2、探索：ECharts中有哪些图表，要能够找到，并且能看到代码和效果。",
+    "3、探索：基于excel中的数据，让AI结合echarts生成网页代码，生成炫酷图表。",
+    "4、探索：今年政府工作报告的高频动词，排名前十的是哪几个？用高频名词做一个点赞手势词云图。"
+   ],
+   "questions": [
+    {
+     "type": "判断题",
+     "stem": "在微词云（ https://www.weiciyun.com ）中统计2021年总理所做的政府工作报告。可以发现，“经济”这个词出现的次数高于“发展”。（ ）",
+     "options": [],
+     "answer": "错误",
+     "explain": "先找到2021年的政府工作报告，全文复制。在微词云网站上选择“在线分词”，粘贴复制的文本，然后下一步。微信扫码关注后即可看到结果。“发展”的词频高于“经济”。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://echarts.apache.org/zh/index.html",
+     "label": "https://echarts.apache.org/zh/index.html",
+     "host": "echarts.apache.org",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.weiciyun.com/",
+     "label": "https://www.weiciyun.com",
+     "host": "www.weiciyun.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://www.weiciyun.com",
+     "label": "",
+     "host": "www.weiciyun.com",
+     "access": "open",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "echarts.apache.org",
+    "www.weiciyun.com",
+    "JavaScript",
+    "index.html",
+    "ECharts",
+    "echarts",
+    "EXCEL",
+    "excel",
+    "https",
+    "HTML"
+   ]
+  },
+  {
+   "no": 50,
+   "id": "ecee973e-46a5-11f0-8ca6-b8599f11e190",
+   "title": "知识模块50：文献可视化工具",
+   "use": "U10",
+   "legacy": "科研工具",
+   "detail": "https://csc.xxsuyang.com/detail?id=ecee973e-46a5-11f0-8ca6-b8599f11e190",
+   "req": [
+    "1. 了解文献可视化（知识图谱）工具，如CiteSpace、VOSViewer等。",
+    "2. 熟练掌握赛特新思（https://www.citexs.com/Paperpicky）的文献调研分析功能。",
+    "3. 熟练掌握CNKI及CNKI AI(ai.cnki.net)、万方数据知识服务平台、维普中文期刊服务平台的文献可视化分析功能。"
+   ],
+   "explore": [
+    "5. 探索：在赛特新思的文献调研分析功能界面中，学科选择“医学”，关键词输入“大数据”，可视化图形中圆圈最大的文献是哪一篇？",
+    "6. 探索：2020—2025年西安交通大学发表CSSCI论文数量排名前5的作者依次是？",
+    "7. 探索：在CNKI AI文献计量分析功能界面，输入研究方向，了解近十年发文趋势"
+   ],
+   "questions": [
+    {
+     "type": "单选题",
+     "stem": "请问2011年至2020年间以“四川师范大学”为第一作者单位发表CSSCI论文最多的作者是（ ）。",
+     "options": [
+      [
+       "A",
+       "谭光辉"
+      ],
+      [
+       "B",
+       "汪洪亮"
+      ],
+      [
+       "C",
+       "唐代兴"
+      ],
+      [
+       "D",
+       "蔡方鹿"
+      ]
+     ],
+     "answer": "C",
+     "explain": "CSSCI论文，一般在中文期刊论文数据库中检索，其中比较常用的是CNKI、维普、万方。在这三个数据库中，只有CNKI有“第一单位”（第一作者单位）这个检索点。所以选择CNKI。在CNKI的高级检索界面，文献类型选择“学术期刊”，检索点选择“第一单位”，检索词输入“四川师范大学”，匹配方式选择默认的“模糊”，时间限制2011-2020，来源期刊勾选“CSSCI”，然后点击“检索”。在检索结果页面，选择“导出与分析”→“可视化分析”→“全部检索结果分析”，在分析结果页面，选择“中国作者分布”项，即可看到高频作者排序柱状图。"
+    }
+   ],
+   "links": [
+    {
+     "u": "https://www.citexs.com/Paperpicky",
+     "label": "https://www.citexs.com/Paperpicky",
+     "host": "www.citexs.com",
+     "access": "open",
+     "src": "page"
+    },
+    {
+     "u": "https://ai.cnki.net/chat/home",
+     "label": "ai.cnki.net",
+     "host": "ai.cnki.net",
+     "access": "login",
+     "src": "page"
+    }
+   ],
+   "kw": [
+    "www.citexs.com",
+    "ai.cnki.net",
+    "Paperpicky",
+    "CiteSpace",
+    "VOSViewer",
+    "CSSCI",
+    "https",
+    "CNKI"
+   ]
+  }
+ ],
+ "platforms": [
+  {
+   "host": "www.sciencedirect.com",
+   "name": "ScienceDirect",
+   "url": "https://www.sciencedirect.com/",
+   "urls": [
+    "https://www.sciencedirect.com/leapspace",
+    "https://www.sciencedirect.com/leapspace/",
+    "https://www.sciencedirect.com/"
+   ],
+   "mods": [
+    "知识模块05：科研场景下的AI工具",
+    "知识模块21：期刊论文的检索",
+    "知识模块24：OA、预印本及其他免费资源",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索",
+    "知识模块42：学术评价与投稿选刊"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.wanfangdata.com.cn",
+   "name": "万方数据知识服务平台",
+   "url": "https://www.wanfangdata.com.cn",
+   "urls": [
+    "https://www.wanfangdata.com.cn/",
+    "https://www.wanfangdata.com.cn"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源",
+    "知识模块12：专利和地理标志",
+    "知识模块21：期刊论文的检索",
+    "知识模块22：学术会议论文及会议信息的检索",
+    "知识模块23：学位论文及资源获取",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.cnki.net",
+   "name": "中国知网 CNKI",
+   "url": "https://www.cnki.net/",
+   "urls": [
+    "http://www.cnki.net/",
+    "https://www.cnki.net/"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源",
+    "知识模块12：专利和地理标志",
+    "知识模块21：期刊论文的检索",
+    "知识模块22：学术会议论文及会议信息的检索",
+    "知识模块23：学位论文及资源获取",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.cqvip.com",
+   "name": "维普期刊资源整合服务平台",
+   "url": "https://www.cqvip.com",
+   "urls": [
+    "https://www.cqvip.com/",
+    "https://www.cqvip.com"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源",
+    "知识模块12：专利和地理标志",
+    "知识模块21：期刊论文的检索",
+    "知识模块22：学术会议论文及会议信息的检索",
+    "知识模块23：学位论文及资源获取",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "pubmed.gov",
+   "name": "PubMed",
+   "url": "http://pubmed.gov/",
+   "urls": [
+    "https://pubmed.ncbi.nlm.nih.gov",
+    "https://pubmed.ncbi.nlm.nih.gov/",
+    "http://pubmed.gov/"
+   ],
+   "mods": [
+    "知识模块26：学术搜索",
+    "知识模块47：文献追踪工具",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块33：截词检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "onlinelibrary.wiley.com",
+   "name": "Wiley Online Library",
+   "url": "https://onlinelibrary.wiley.com",
+   "urls": [
+    "https://onlinelibrary.wiley.com/",
+    "https://onlinelibrary.wiley.com"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索",
+    "知识模块24：OA、预印本及其他免费资源",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块33：截词检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "mp.weixin.qq.com",
+   "name": "微信公众号文章",
+   "url": "https://mp.weixin.qq.com/s/YozwFYMEX7QUjYFDDT0LmA",
+   "urls": [
+    "https://mp.weixin.qq.com/s/yMzjuReWiBDgP6sJLkSA-A",
+    "https://mp.weixin.qq.com/s/uWR2BMvQtpuGkv9oXTZDdQ",
+    "https://mp.weixin.qq.com/s?__biz=MzA4NTQ4MDkzNA==&mid=2654299012&idx=1&sn=6f7532e280f9a5bdc7012aa4360b9888&chksm=854b38ac89eca8be18ec44081bf02ea3c637b40ca5558c2379f711404eb14e922f8897cf32da&mpshare=1&scene=23&srcid=0612m8yC0d0RF2jEoZXOyZoT&sharer_shareinfo",
+    "https://mp.weixin.qq.com/s?__biz=MzA4NTQ4MDkzNA==&mid=2654299012&idx=1&sn=6f7532e280f9a5bdc7012aa4360b9888&chksm=",
+    "https://mp.weixin.qq.com/s/f3h8pTh8o7vHrfNTvAq6bA",
+    "https://mp.weixin.qq.com/s/gNrq_r7t19tZ34vyB99f9w",
+    "https://mp.weixin.qq.com/s/nT8hcUnQj6TmvsW1RK5Emw?click_id=451899144",
+    "https://mp.weixin.qq.com/s/YozwFYMEX7QUjYFDDT0LmA"
+   ],
+   "mods": [
+    "知识模块05：科研场景下的AI工具",
+    "知识模块09：开放数据资源",
+    "知识模块10：法律信息资源",
+    "知识模块14：医卫信息查询",
+    "知识模块27：图片搜索",
+    "知识模块42：学术评价与投稿选刊",
+    "知识模块46：文献管理工具"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "dl.acm.org",
+   "name": "ACM Digital Library",
+   "url": "https://dl.acm.org/",
+   "urls": [
+    "https://dl.acm.org/"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索",
+    "知识模块24：OA、预印本及其他免费资源",
+    "知识模块32：布尔逻辑检索",
+    "知识模块33：截词检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.tandfonline.com",
+   "name": "Taylor & Francis",
+   "url": "https://www.tandfonline.com/",
+   "urls": [
+    "https://www.tandfonline.com/"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索",
+    "知识模块24：OA、预印本及其他免费资源",
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "ieeexplore.ieee.org",
+   "name": "IEEE Xplore",
+   "url": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+   "urls": [
+    "https://ieeexplore.ieee.org/Xplore/home.jsp"
+   ],
+   "mods": [
+    "知识模块31：高级检索",
+    "知识模块32：布尔逻辑检索",
+    "知识模块35：结果筛选",
+    "知识模块36：字段限制检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "ai.cnki.net",
+   "name": "CNKI AI 学术研究助手",
+   "url": "https://ai.cnki.net/chat/home",
+   "urls": [
+    "https://ai.cnki.net/chat/home"
+   ],
+   "mods": [
+    "知识模块05：科研场景下的AI工具",
+    "知识模块50：文献可视化工具"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.cambridge.org",
+   "name": "Cambridge Core",
+   "url": "https://www.cambridge.org/core",
+   "urls": [
+    "https://www.cambridge.org/core"
+   ],
+   "mods": [
+    "知识模块19：免费电子书",
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "www.datafountain.cn",
+   "name": "DataFountain",
+   "url": "https://www.datafountain.cn",
+   "urls": [
+    "https://www.datafountain.cn/",
+    "https://www.datafountain.cn"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用",
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "academic.oup.com",
+   "name": "Oxford Academic",
+   "url": "https://academic.oup.com/journals",
+   "urls": [
+    "https://academic.oup.com/books",
+    "https://academic.oup.com/journals"
+   ],
+   "mods": [
+    "知识模块19：免费电子书",
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "epub.cnipa.gov.cn",
+   "name": "中国专利公布公告",
+   "url": "http://epub.cnipa.gov.cn/",
+   "urls": [
+    "http://epub.cnipa.gov.cn/"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志",
+    "知识模块33：截词检索"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.gov.cn",
+   "name": "中国政府网",
+   "url": "https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm",
+   "urls": [
+    "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm",
+    "http://www.gov.cn/zhengce/xzfgk/",
+    "https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范",
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.heywhale.com",
+   "name": "和鲸社区 HeyWhale",
+   "url": "https://www.heywhale.com",
+   "urls": [
+    "https://www.heywhale.com/home/dataset",
+    "https://www.heywhale.com/",
+    "https://www.heywhale.com"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用",
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "read.nlc.cn",
+   "name": "国家图书馆·中华古籍资源库",
+   "url": "http://read.nlc.cn/allSearch/searchList?searchType=65",
+   "urls": [
+    "http://read.nlc.cn/thematDataSearch/toGujiIndex",
+    "http://read.nlc.cn/specialResourse/minguoIndex",
+    "http://read.nlc.cn/allSearch/searchList?searchType=65"
+   ],
+   "mods": [
+    "知识模块20：国家图书馆免费数字资源",
+    "知识模块23：学位论文及资源获取"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.nppa.gov.cn",
+   "name": "国家新闻出版署",
+   "url": "https://www.nppa.gov.cn/bsfw/cyjghcpcx",
+   "urls": [
+    "https://press.nppa.gov.cn/",
+    "https://press.nppa.gov.cn",
+    "https://www.nppa.gov.cn/bsfw/cyjghcpcx"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询",
+    "知识模块42：学术评价与投稿选刊"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "aistudio.baidu.com",
+   "name": "百度 AI Studio 飞桨星河社区",
+   "url": "https://aistudio.baidu.com",
+   "urls": [
+    "https://aistudio.baidu.com/",
+    "https://aistudio.baidu.com"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用",
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.doubao.com",
+   "name": "豆包",
+   "url": "https://www.doubao.com",
+   "urls": [
+    "https://www.doubao.com/",
+    "https://www.doubao.com"
+   ],
+   "mods": [
+    "知识模块06：多模态AI工具",
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "tianchi.aliyun.com",
+   "name": "阿里云天池",
+   "url": "https://tianchi.aliyun.com",
+   "urls": [
+    "https://tianchi.aliyun.com/dataset",
+    "https://tianchi.aliyun.com/",
+    "https://tianchi.aliyun.com"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用",
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "image.so.com",
+   "name": "360 图片",
+   "url": "https://image.so.com",
+   "urls": [
+    "https://image.so.com/",
+    "https://image.so.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "ai-bot.cn",
+   "name": "AI 工具集",
+   "url": "https://ai-bot.cn",
+   "urls": [
+    "https://ai-bot.cn"
+   ],
+   "mods": [
+    "知识模块28：网址导航"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "asmedigitalcollection.asme.org",
+   "name": "ASME Digital Collection",
+   "url": "https://asmedigitalcollection.asme.org/",
+   "urls": [
+    "https://asmedigitalcollection.asme.org/"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "echarts.apache.org",
+   "name": "Apache ECharts",
+   "url": "https://echarts.apache.org/zh/index.html",
+   "urls": [
+    "https://echarts.apache.org/zh/index.html"
+   ],
+   "mods": [
+    "知识模块49：数据可视化工具"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "bioone.org",
+   "name": "BioOne",
+   "url": "https://bioone.org/",
+   "urls": [
+    "https://bioone.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "conf.cnki.net",
+   "name": "CNKI 中国学术会议网",
+   "url": "https://conf.cnki.net/Home",
+   "urls": [
+    "https://conf.cnki.net/Home"
+   ],
+   "mods": [
+    "知识模块22：学术会议论文及会议信息的检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "publishmedia.cbpt.cnki.net",
+   "name": "CNKI 出版平台",
+   "url": "https://publishmedia.cbpt.cnki.net/portal/minio/webs/zghd/media/web/2026/05/28/%E6%96%87%E5%90%8E%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E8%91%97%E5%BD%95%E8%A7%84%E5%88%99%EF%BC%88GB%20T%207714%E2%80%94%202025%EF%BC%89.pdf",
+   "urls": [
+    "https://publishmedia.cbpt.cnki.net/portal/minio/webs/zghd/media/web/2026/05/28/%E6%96%87%E5%90%8E%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E8%91%97%E5%BD%95%E8%A7%84%E5%88%99%EF%BC%88GB%20T%207714%E2%80%94%202025%EF%BC%89.pdf"
+   ],
+   "mods": [
+    "知识模块44：参考文献著录格式"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "k.cnki.net",
+   "name": "CNKI 在线教学平台",
+   "url": "https://k.cnki.net/home",
+   "urls": [
+    "https://k.cnki.net/home"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "image.cnki.net",
+   "name": "CNKI 学术图片库",
+   "url": "https://image.cnki.net/AI",
+   "urls": [
+    "https://image.cnki.net/AI"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "navi.cnki.net",
+   "name": "CNKI 期刊导航",
+   "url": "https://navi.cnki.net/knavi/RSS/STEU",
+   "urls": [
+    "https://navi.cnki.net/knavi/RSS/STUD",
+    "https://navi.cnki.net/knavi/RSS/RST",
+    "https://navi.cnki.net/knavi/RSS/STYU",
+    "https://navi.cnki.net/knavi/RSS/STEU"
+   ],
+   "mods": [
+    "知识模块47：文献追踪工具"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.cell.com",
+   "name": "Cell Press",
+   "url": "https://www.cell.com/",
+   "urls": [
+    "https://www.cell.com/"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "www.citexs.com",
+   "name": "Citexs 赛特新思",
+   "url": "https://www.citexs.com/Paperpicky",
+   "urls": [
+    "https://www.citexs.com/Paperpicky"
+   ],
+   "mods": [
+    "知识模块50：文献可视化工具"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "doaj.org",
+   "name": "DOAJ 开放获取期刊目录",
+   "url": "https://doaj.org/",
+   "urls": [
+    "https://doaj.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.elementsofai.com",
+   "name": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "urls": [
+    "https://www.elementsofai.com/"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "ie.espacenet.com",
+   "name": "Espacenet 全球专利库",
+   "url": "https://ie.espacenet.com",
+   "urls": [
+    "https://ie.espacenet.com/",
+    "https://ie.espacenet.com"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "gb2760.cfsa.net.cn",
+   "name": "GB 2760 食品添加剂查询",
+   "url": "http://gb2760.cfsa.net.cn",
+   "urls": [
+    "http://gb2760.cfsa.net.cn/",
+    "http://gb2760.cfsa.net.cn"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "github.com",
+   "name": "GitHub",
+   "url": "https://github.com",
+   "urls": [
+    "https://github.com/",
+    "https://github.com/onnx/onnx/tree/main/LICENSES",
+    "https://github.com"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "docs.github.com",
+   "name": "GitHub 文档",
+   "url": "https://docs.github.com/zh",
+   "urls": [
+    "https://docs.github.com/zh"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.hippter.com",
+   "name": "HiPPTER",
+   "url": "http://www.hippter.com",
+   "urls": [
+    "http://www.hippter.com"
+   ],
+   "mods": [
+    "知识模块28：网址导航"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.ieee.org",
+   "name": "IEEE",
+   "url": "https://www.ieee.org/conferences/index.html",
+   "urls": [
+    "https://www.ieee.org/conferences/index.html"
+   ],
+   "mods": [
+    "知识模块22：学术会议论文及会议信息的检索"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "iopscience.iop.org",
+   "name": "IOPscience",
+   "url": "https://iopscience.iop.org/",
+   "urls": [
+    "https://iopscience.iop.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.iconfont.cn",
+   "name": "Iconfont",
+   "url": "https://www.iconfont.cn",
+   "urls": [
+    "https://www.iconfont.cn/",
+    "https://www.iconfont.cn"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.jstor.org",
+   "name": "JSTOR",
+   "url": "https://www.jstor.org/",
+   "urls": [
+    "https://www.jstor.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "dspace.mit.edu",
+   "name": "MIT DSpace（学位论文）",
+   "url": "https://dspace.mit.edu/",
+   "urls": [
+    "https://dspace.mit.edu/"
+   ],
+   "mods": [
+    "知识模块23：学位论文及资源获取"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.ncbi.nlm.nih.gov",
+   "name": "NCBI（PubMed/Bookshelf）",
+   "url": "https://www.ncbi.nlm.nih.gov/books/",
+   "urls": [
+    "https://www.ncbi.nlm.nih.gov/books/"
+   ],
+   "mods": [
+    "知识模块19：免费电子书"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.nature.com",
+   "name": "Nature",
+   "url": "https://www.nature.com/",
+   "urls": [
+    "https://www.nature.com/"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "www.oalib.com",
+   "name": "OA 图书馆",
+   "url": "https://www.oalib.com/",
+   "urls": [
+    "https://www.oalib.com/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.office-ai.cn",
+   "name": "OfficeAI 助手",
+   "url": "https://www.office-ai.cn",
+   "urls": [
+    "https://www.office-ai.cn/",
+    "https://www.office-ai.cn"
+   ],
+   "mods": [
+    "知识模块39：OFFICE插件和浏览器插件"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "opendatalab.com",
+   "name": "OpenDataLab",
+   "url": "https://opendatalab.com/",
+   "urls": [
+    "https://opendatalab.com/"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.openml.org",
+   "name": "OpenML",
+   "url": "https://www.openml.org/search?type=data",
+   "urls": [
+    "https://www.openml.org/search?type=data"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "pixabay.com",
+   "name": "Pixabay",
+   "url": "https://pixabay.com",
+   "urls": [
+    "https://pixabay.com/",
+    "https://pixabay.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "pubscholar.cn",
+   "name": "PubScholar 公益学术平台",
+   "url": "https://pubscholar.cn",
+   "urls": [
+    "https://pubscholar.cn"
+   ],
+   "mods": [
+    "知识模块26：学术搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.spiedigitallibrary.org",
+   "name": "SPIE Digital Library",
+   "url": "https://www.spiedigitallibrary.org/",
+   "urls": [
+    "https://www.spiedigitallibrary.org/"
+   ],
+   "mods": [
+    "知识模块31：高级检索"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "scidraw.io",
+   "name": "SciDraw",
+   "url": "https://scidraw.io",
+   "urls": [
+    "https://scidraw.io"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.science.org",
+   "name": "Science",
+   "url": "https://www.science.org/journal/science",
+   "urls": [
+    "https://www.science.org/journal/science"
+   ],
+   "mods": [
+    "知识模块21：期刊论文的检索"
+   ],
+   "access": "mixed",
+   "src": "page"
+  },
+  {
+   "host": "smart.servier.com",
+   "name": "Servier Medical Art",
+   "url": "https://smart.servier.com",
+   "urls": [
+    "https://smart.servier.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.ted.com",
+   "name": "TED",
+   "url": "https://www.ted.com",
+   "urls": [
+    "https://www.ted.com/",
+    "https://www.ted.com"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "archive.ics.uci.edu",
+   "name": "UCI 机器学习库",
+   "url": "https://archive.ics.uci.edu",
+   "urls": [
+    "https://archive.ics.uci.edu/",
+    "https://archive.ics.uci.edu"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "archive-beta.ics.uci.edu",
+   "name": "UCI 机器学习库（新版）",
+   "url": "https://archive-beta.ics.uci.edu",
+   "urls": [
+    "https://archive-beta.ics.uci.edu/",
+    "https://archive-beta.ics.uci.edu"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "unesdoc.unesco.org",
+   "name": "UNESCO 数字图书馆",
+   "url": "https://unesdoc.unesco.org/ark:/48223/pf0000391104",
+   "urls": [
+    "https://unesdoc.unesco.org/ark:/48223/pf0000381137_chi",
+    "https://unesdoc.unesco.org/ark:/48223/pf0000393559",
+    "https://unesdoc.unesco.org/ark:/48223/pf0000391105",
+    "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.uspto.gov",
+   "name": "USPTO 美国专利商标局",
+   "url": "https://www.uspto.gov/patents/search/patent-public-search",
+   "urls": [
+    "https://www.uspto.gov/patents/search/patent-public-search"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "unsplash.com",
+   "name": "Unsplash",
+   "url": "https://unsplash.com",
+   "urls": [
+    "https://unsplash.com/",
+    "https://unsplash.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "patentscope2.wipo.int",
+   "name": "WIPO PATENTSCOPE",
+   "url": "https://patentscope2.wipo.int/search/en/search.jsf",
+   "urls": [
+    "https://patentscope2.wipo.int/search/en/search.jsf"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.wps.cn",
+   "name": "WPS",
+   "url": "https://www.wps.cn",
+   "urls": [
+    "https://www.wps.cn/",
+    "https://www.wps.cn"
+   ],
+   "mods": [
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "arxiv.org",
+   "name": "arXiv",
+   "url": "https://arxiv.org",
+   "urls": [
+    "https://arxiv.org/",
+    "https://arxiv.org"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.ilab-x.com",
+   "name": "iLAB-X 虚拟仿真实验平台",
+   "url": "http://www.ilab-x.com",
+   "urls": [
+    "http://www.ilab-x.com/",
+    "http://www.ilab-x.com"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.medrxiv.org",
+   "name": "medRxiv",
+   "url": "https://www.medrxiv.org/",
+   "urls": [
+    "https://www.medrxiv.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "202.115.54.22",
+   "name": "《四川大学本科教育教学人工智能工具应用规范（试行）》",
+   "url": "http://202.115.54.22/genai/static/wenjian/%E3%80%8A%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8%E8%A7%84%E8%8C%83%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%20%E3%80%8B%EF%BC%88%E5%B7%9D%E5%A4%A7%E6%95%99%E3%80%942025%E3%80%9528%E5%8F%B7%EF%BC%89.pdf",
+   "urls": [
+    "http://202.115.54.22/genai/static/wenjian/%E3%80%8A%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8%E8%A7%84%E8%8C%83%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%20%E3%80%8B%EF%BC%88%E5%B7%9D%E5%A4%A7%E6%95%99%E3%80%942025%E3%80%9528%E5%8F%B7%EF%BC%89.pdf"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "hulianhutongshequ.cn",
+   "name": "《生成式人工智能服务安全基本要求》",
+   "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202403/1/28716c58bcc84f6db5242dd90363c98c.pdf",
+   "urls": [
+    "https://hulianhutongshequ.cn/upload/tank/report/2024/202403/1/28716c58bcc84f6db5242dd90363c98c.pdf"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.yixi.tv",
+   "name": "一席",
+   "url": "https://www.yixi.tv",
+   "urls": [
+    "https://www.yixi.tv/",
+    "https://www.yixi.tv"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "cx.wanfangdata.com.cn",
+   "name": "万方创新助手",
+   "url": "https://cx.wanfangdata.com.cn/e-training",
+   "urls": [
+    "https://cx.wanfangdata.com.cn/e-training"
+   ],
+   "mods": [
+    "知识模块43：学术伦理"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "video.wanfangdata.com.cn",
+   "name": "万方视频",
+   "url": "https://video.wanfangdata.com.cn",
+   "urls": [
+    "https://video.wanfangdata.com.cn/",
+    "https://video.wanfangdata.com.cn"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.sjtu.edu.cn",
+   "name": "上海交通大学",
+   "url": "https://www.sjtu.edu.cn/tg/20250304/207682.html",
+   "urls": [
+    "https://www.sjtu.edu.cn/tg/20250304/207682.html"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "pss-system.cponline.cnipa.gov.cn",
+   "name": "专利检索及分析系统",
+   "url": "https://pss-system.cponline.cnipa.gov.cn/",
+   "urls": [
+    "https://pss-system.cponline.cnipa.gov.cn/"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "data.worldbank.org",
+   "name": "世界银行开放数据",
+   "url": "https://data.worldbank.org",
+   "urls": [
+    "https://data.worldbank.org/",
+    "https://data.worldbank.org"
+   ],
+   "mods": [
+    "知识模块09：开放数据资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.piyao.org.cn",
+   "name": "中国互联网联合辟谣平台",
+   "url": "http://www.piyao.org.cn",
+   "urls": [
+    "http://www.piyao.org.cn/",
+    "https://www.piyao.org.cn/pysjk/frontsql.htm",
+    "http://www.piyao.org.cn"
+   ],
+   "mods": [
+    "知识模块13：反诈防骗信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "chkd.cnki.net",
+   "name": "中国医院知识总库 CHKD",
+   "url": "https://chkd.cnki.net/ai/",
+   "urls": [
+    "https://chkd.cnki.net/ai/"
+   ],
+   "mods": [
+    "知识模块14：医卫信息查询"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.nlc.cn",
+   "name": "中国国家图书馆",
+   "url": "http://www.nlc.cn",
+   "urls": [
+    "http://www.nlc.cn"
+   ],
+   "mods": [
+    "知识模块20：国家图书馆免费数字资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.icourse163.org",
+   "name": "中国大学 MOOC",
+   "url": "https://www.icourse163.org",
+   "urls": [
+    "https://www.icourse163.org/",
+    "https://www.icourse163.org"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "tingshen.court.gov.cn",
+   "name": "中国庭审公开网",
+   "url": "http://tingshen.court.gov.cn",
+   "urls": [
+    "http://tingshen.court.gov.cn/",
+    "http://tingshen.court.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "zxgk.court.gov.cn",
+   "name": "中国执行信息公开网",
+   "url": "http://zxgk.court.gov.cn",
+   "urls": [
+    "http://zxgk.court.gov.cn/",
+    "http://zxgk.court.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.neea.edu.cn",
+   "name": "中国教育考试网",
+   "url": "https://www.neea.edu.cn",
+   "urls": [
+    "https://www.neea.edu.cn/",
+    "https://www.neea.edu.cn"
+   ],
+   "mods": [
+    "知识模块15：文教信息查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "lawpro.cnki.net",
+   "name": "中国法律知识资源总库",
+   "url": "https://lawpro.cnki.net/",
+   "urls": [
+    "https://lawpro.cnki.net/"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "cmis.cicpa.org.cn",
+   "name": "中国注册会计师协会",
+   "url": "https://cmis.cicpa.org.cn",
+   "urls": [
+    "https://cmis.cicpa.org.cn/",
+    "https://cmis.cicpa.org.cn"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "yz.chsi.com.cn",
+   "name": "中国研究生招生信息网（研招网）",
+   "url": "https://yz.chsi.com.cn",
+   "urls": [
+    "https://yz.chsi.com.cn/",
+    "https://yz.chsi.com.cn"
+   ],
+   "mods": [
+    "知识模块15：文教信息查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.cas.cn",
+   "name": "中国科学院",
+   "url": "https://www.cas.cn/sygz/202409/t20240910_5031186.shtml",
+   "urls": [
+    "https://www.cas.cn/sygz/202409/t20240910_5031186.shtml"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.escience.org.cn",
+   "name": "中国科技资源共享网",
+   "url": "https://www.escience.org.cn/data-center",
+   "urls": [
+    "https://www.escience.org.cn/data-center"
+   ],
+   "mods": [
+    "知识模块09：开放数据资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "wenshu.court.gov.cn",
+   "name": "中国裁判文书网",
+   "url": "https://wenshu.court.gov.cn",
+   "urls": [
+    "https://wenshu.court.gov.cn/",
+    "https://wenshu.court.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "gs.sac.net.cn",
+   "name": "中国证券业协会",
+   "url": "https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html",
+   "urls": [
+    "https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.amac.org.cn",
+   "name": "中国证券投资基金业协会",
+   "url": "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx",
+   "urls": [
+    "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.china-cba.net",
+   "name": "中国银行业协会",
+   "url": "https://www.china-cba.net/Index/lists/catid/31.html",
+   "urls": [
+    "https://www.china-cba.net/Index/lists/catid/31.html"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.chinaxiv.org",
+   "name": "中国预印本平台 ChinaXiv",
+   "url": "http://www.chinaxiv.org/",
+   "urls": [
+    "http://www.chinaxiv.org/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.chsi.com.cn",
+   "name": "中国高等教育学生信息网（学信网）",
+   "url": "https://www.chsi.com.cn",
+   "urls": [
+    "https://www.chsi.com.cn/",
+    "https://www.chsi.com.cn"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "jhsjk.people.cn",
+   "name": "习近平系列重要讲话数据库",
+   "url": "http://jhsjk.people.cn",
+   "urls": [
+    "http://jhsjk.people.cn"
+   ],
+   "mods": [
+    "知识模块08：思政信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.yunzhan365.com",
+   "name": "云展网",
+   "url": "https://www.yunzhan365.com/tools/pdf-to-word",
+   "urls": [
+    "https://www.yunzhan365.com/tools/pdf-to-word"
+   ],
+   "mods": [
+    "知识模块41：PDF文件处理"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "rmfyalk.court.gov.cn",
+   "name": "人民法院案例库",
+   "url": "https://rmfyalk.court.gov.cn",
+   "urls": [
+    "https://rmfyalk.court.gov.cn/",
+    "https://rmfyalk.court.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "hao.uisdc.com",
+   "name": "优设导航",
+   "url": "https://hao.uisdc.com",
+   "urls": [
+    "https://hao.uisdc.com"
+   ],
+   "mods": [
+    "知识模块28：网址导航"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.mohurd.gov.cn",
+   "name": "住房和城乡建设部",
+   "url": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html",
+   "urls": [
+    "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "cy.ncss.cn",
+   "name": "全国大学生创业服务网",
+   "url": "https://cy.ncss.cn",
+   "urls": [
+    "https://cy.ncss.cn/",
+    "https://cy.ncss.cn"
+   ],
+   "mods": [
+    "知识模块15：文教信息查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "credit.acla.org.cn",
+   "name": "全国律师执业诚信信息公示平台",
+   "url": "https://credit.acla.org.cn",
+   "urls": [
+    "https://credit.acla.org.cn/",
+    "https://credit.acla.org.cn"
+   ],
+   "mods": [
+    "知识模块16：证书资格查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "std.samr.gov.cn",
+   "name": "全国标准信息公共服务平台",
+   "url": "http://std.samr.gov.cn/gb",
+   "urls": [
+    "http://std.samr.gov.cn/gb"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.12371.cn",
+   "name": "共产党员网",
+   "url": "https://www.12371.cn",
+   "urls": [
+    "https://www.12371.cn"
+   ],
+   "mods": [
+    "知识模块08：思政信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "zh.d2l.ai",
+   "name": "动手学深度学习",
+   "url": "https://zh.d2l.ai/",
+   "urls": [
+    "https://zh.d2l.ai/"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "research.bjmu.edu.cn",
+   "name": "北京大学医学部科研处",
+   "url": "https://research.bjmu.edu.cn/kycx/0a2253cf83e34201b07578de02cb743a.htm",
+   "urls": [
+    "https://research.bjmu.edu.cn/kycx/0a2253cf83e34201b07578de02cb743a.htm"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "ascend.developer.huaweicloud.com",
+   "name": "华为昇腾 AI 专区",
+   "url": "https://ascend.developer.huaweicloud.com/home",
+   "urls": [
+    "https://ascend.developer.huaweicloud.com/home"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.moj.gov.cn",
+   "name": "司法部",
+   "url": "https://www.moj.gov.cn/pub/sfbgw/gwygzk/index.html",
+   "urls": [
+    "https://www.moj.gov.cn/pub/sfbgw/gwygzk/index.html"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "xzfg.moj.gov.cn",
+   "name": "司法部行政法规库",
+   "url": "http://xzfg.moj.gov.cn/search2.html",
+   "urls": [
+    "http://xzfg.moj.gov.cn/search2.html"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "aisg.tongji.edu.cn",
+   "name": "同济大学 AI 安全治理",
+   "url": "https://aisg.tongji.edu.cn/info/1005/1192.htm",
+   "urls": [
+    "https://aisg.tongji.edu.cn/info/1005/1192.htm"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.bilibili.com",
+   "name": "哔哩哔哩",
+   "url": "https://www.bilibili.com",
+   "urls": [
+    "https://www.bilibili.com/",
+    "https://www.bilibili.com"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "basic.smartedu.cn",
+   "name": "国家中小学智慧教育平台",
+   "url": "https://basic.smartedu.cn",
+   "urls": [
+    "https://basic.smartedu.cn/",
+    "https://basic.smartedu.cn"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.cac.gov.cn",
+   "name": "国家互联网信息办公室",
+   "url": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+   "urls": [
+    "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"
+   ],
+   "mods": [
+    "知识模块01：AI基础知识与伦理规范"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.nhc.gov.cn",
+   "name": "国家卫生健康委员会",
+   "url": "http://www.nhc.gov.cn",
+   "urls": [
+    "http://www.nhc.gov.cn/",
+    "http://www.nhc.gov.cn"
+   ],
+   "mods": [
+    "知识模块14：医卫信息查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.ncpssd.cn",
+   "name": "国家哲学社会科学文献中心",
+   "url": "https://www.ncpssd.cn/",
+   "urls": [
+    "https://www.ncpssd.cn/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.ncss.cn",
+   "name": "国家大学生就业服务平台",
+   "url": "https://www.ncss.cn",
+   "urls": [
+    "https://www.ncss.cn/",
+    "https://www.ncss.cn"
+   ],
+   "mods": [
+    "知识模块15：文教信息查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "openstd.samr.gov.cn",
+   "name": "国家标准全文公开系统",
+   "url": "https://openstd.samr.gov.cn",
+   "urls": [
+    "https://openstd.samr.gov.cn/",
+    "https://openstd.samr.gov.cn"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "flk.npc.gov.cn",
+   "name": "国家法律法规数据库",
+   "url": "https://flk.npc.gov.cn",
+   "urls": [
+    "https://flk.npc.gov.cn/",
+    "https://flk.npc.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.cnipa.gov.cn",
+   "name": "国家知识产权局",
+   "url": "https://www.cnipa.gov.cn",
+   "urls": [
+    "https://www.cnipa.gov.cn/",
+    "https://www.cnipa.gov.cn"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "sbj.cnipa.gov.cn",
+   "name": "国家知识产权局商标局",
+   "url": "https://sbj.cnipa.gov.cn/sbj/sbcx",
+   "urls": [
+    "https://sbj.cnipa.gov.cn/sbj/sbcx"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "fz.people.com.cn",
+   "name": "国家社科基金项目数据库",
+   "url": "http://fz.people.com.cn/skygb/sk/index.php/index/index/4541",
+   "urls": [
+    "http://fz.people.com.cn/skygb/sk/index.php/index/index/4541"
+   ],
+   "mods": [
+    "知识模块25：科研项目数据库"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.nstl.gov.cn",
+   "name": "国家科技图书文献中心 NSTL",
+   "url": "https://www.nstl.gov.cn/",
+   "urls": [
+    "https://www.nstl.gov.cn",
+    "https://www.nstl.gov.cn/"
+   ],
+   "mods": [
+    "知识模块26：学术搜索"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "lifelong.smartedu.cn",
+   "name": "国家终身教育智慧教育平台",
+   "url": "https://lifelong.smartedu.cn",
+   "urls": [
+    "https://lifelong.smartedu.cn/",
+    "https://lifelong.smartedu.cn"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "data.stats.gov.cn",
+   "name": "国家统计局数据查询",
+   "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/home",
+   "urls": [
+    "https://data.stats.gov.cn/dg/website/page.html#/pc/national/home"
+   ],
+   "mods": [
+    "知识模块09：开放数据资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "vocational.smartedu.cn",
+   "name": "国家职业教育智慧教育平台",
+   "url": "https://vocational.smartedu.cn",
+   "urls": [
+    "https://vocational.smartedu.cn/",
+    "https://vocational.smartedu.cn"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "kd.nsfc.cn",
+   "name": "国家自然科学基金大数据知识管理服务门户",
+   "url": "https://kd.nsfc.cn/",
+   "urls": [
+    "https://kd.nsfc.cn/"
+   ],
+   "mods": [
+    "知识模块25：科研项目数据库"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "datasearch.nmpa.gov.cn",
+   "name": "国家药品监督管理局数据查询",
+   "url": "https://datasearch.nmpa.gov.cn/datasearch/home-index.html",
+   "urls": [
+    "https://datasearch.nmpa.gov.cn/datasearch/home-index.html"
+   ],
+   "mods": [
+    "知识模块14：医卫信息查询"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "higher.smartedu.cn",
+   "name": "国家高等教育智慧教育平台",
+   "url": "https://higher.smartedu.cn",
+   "urls": [
+    "https://higher.smartedu.cn/",
+    "https://higher.smartedu.cn"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "ggfw.cnipa.gov.cn",
+   "name": "地理标志产品查询",
+   "url": "https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery",
+   "urls": [
+    "https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery"
+   ],
+   "mods": [
+    "知识模块12：专利和地理标志"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.xuexi.cn",
+   "name": "学习强国",
+   "url": "https://www.xuexi.cn",
+   "urls": [
+    "https://www.xuexi.cn/",
+    "https://www.xuexi.cn"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.xuetangx.com",
+   "name": "学堂在线",
+   "url": "https://www.xuetangx.com",
+   "urls": [
+    "https://www.xuetangx.com/",
+    "https://www.xuetangx.com"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.xueyinonline.com",
+   "name": "学银在线",
+   "url": "https://www.xueyinonline.com",
+   "urls": [
+    "https://www.xueyinonline.com/",
+    "https://www.xueyinonline.com"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "gw.xkonglong.com",
+   "name": "小恐龙公文排版助手",
+   "url": "https://gw.xkonglong.com",
+   "urls": [
+    "https://gw.xkonglong.com/",
+    "https://gw.xkonglong.com"
+   ],
+   "mods": [
+    "知识模块39：OFFICE插件和浏览器插件"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.xiaohongshu.com",
+   "name": "小红书",
+   "url": "https://www.xiaohongshu.com",
+   "urls": [
+    "https://www.xiaohongshu.com/",
+    "https://www.xiaohongshu.com"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.weiciyun.com",
+   "name": "微词云",
+   "url": "https://www.weiciyun.com",
+   "urls": [
+    "https://www.weiciyun.com/",
+    "https://www.weiciyun.com"
+   ],
+   "mods": [
+    "知识模块49：数据可视化工具"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "trendinsight.oceanengine.com",
+   "name": "抖音指数（巨量算数）",
+   "url": "https://trendinsight.oceanengine.com",
+   "urls": [
+    "https://trendinsight.oceanengine.com/",
+    "https://trendinsight.oceanengine.com"
+   ],
+   "mods": [
+    "知识模块29：网络指数"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.modernhistory.org.cn",
+   "name": "抗日战争与近代中日关系文献数据平台",
+   "url": "https://www.modernhistory.org.cn/",
+   "urls": [
+    "https://www.modernhistory.org.cn/"
+   ],
+   "mods": [
+    "知识模块24：OA、预印本及其他免费资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "pic.sogou.com",
+   "name": "搜狗图片",
+   "url": "https://pic.sogou.com",
+   "urls": [
+    "https://pic.sogou.com/",
+    "https://pic.sogou.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.wenxianxue.cn",
+   "name": "文献学",
+   "url": "https://www.wenxianxue.cn",
+   "urls": [
+    "https://www.wenxianxue.cn"
+   ],
+   "mods": [
+    "知识模块28：网址导航"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "xhsz.news.cn",
+   "name": "新华社思政资源",
+   "url": "https://xhsz.news.cn",
+   "urls": [
+    "https://xhsz.news.cn/",
+    "https://xhsz.news.cn"
+   ],
+   "mods": [
+    "知识模块08：思政信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "paper.iflytek.com",
+   "name": "星火科研助手",
+   "url": "https://paper.iflytek.com/",
+   "urls": [
+    "https://paper.iflytek.com/"
+   ],
+   "mods": [
+    "知识模块05：科研场景下的AI工具"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.zhihuishu.com",
+   "name": "智慧树",
+   "url": "https://www.zhihuishu.com",
+   "urls": [
+    "https://www.zhihuishu.com/",
+    "https://www.zhihuishu.com"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "gongbao.court.gov.cn",
+   "name": "最高人民法院公报",
+   "url": "http://gongbao.court.gov.cn",
+   "urls": [
+    "http://gongbao.court.gov.cn/",
+    "http://gongbao.court.gov.cn"
+   ],
+   "mods": [
+    "知识模块10：法律信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "note.youdao.com",
+   "name": "有道云笔记",
+   "url": "https://note.youdao.com",
+   "urls": [
+    "https://note.youdao.com/",
+    "https://note.youdao.com"
+   ],
+   "mods": [
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.lib.szu.edu.cn",
+   "name": "深圳大学图书馆",
+   "url": "https://www.lib.szu.edu.cn/learning/ai",
+   "urls": [
+    "https://www.lib.szu.edu.cn/learning/ai"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "eci.elsevier.cn",
+   "name": "爱思唯尔 LeapSpace",
+   "url": "https://eci.elsevier.cn/resource/LeapSpace.html?fid=165&menuid=358&infoid=2004",
+   "urls": [
+    "https://eci.elsevier.cn/resource/LeapSpace.html?fid=165&menuid=358&infoid=2004"
+   ],
+   "mods": [
+    "知识模块05：科研场景下的AI工具"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.icourses.cn",
+   "name": "爱课程",
+   "url": "https://www.icourses.cn/courseInfo?courseIndex=4&courseType=1&courseTypeId=1",
+   "urls": [
+    "https://www.icourses.cn/courseInfo?courseIndex=3&courseType=2&courseTypeId=2",
+    "https://www.icourses.cn/courseInfo?courseIndex=4&courseType=1&courseTypeId=1"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.mee.gov.cn",
+   "name": "生态环境部",
+   "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/",
+   "urls": [
+    "https://www.mee.gov.cn/ywgz/fgbz/bz/"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "gov",
+   "src": "page"
+  },
+  {
+   "host": "www.baidu.com",
+   "name": "百度",
+   "url": "https://www.baidu.com/gaoji/advanced.html",
+   "urls": [
+    "https://www.baidu.com/gaoji/advanced.html"
+   ],
+   "mods": [
+    "知识模块37：搜索引擎的检索语法和高级搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "image.baidu.com",
+   "name": "百度图片",
+   "url": "https://image.baidu.com",
+   "urls": [
+    "https://image.baidu.com/",
+    "https://image.baidu.com"
+   ],
+   "mods": [
+    "知识模块27：图片搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "xueshu.baidu.com",
+   "name": "百度学术",
+   "url": "https://xueshu.baidu.com/",
+   "urls": [
+    "https://xueshu.baidu.com",
+    "https://xueshu.baidu.com/"
+   ],
+   "mods": [
+    "知识模块26：学术搜索"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "index.baidu.com",
+   "name": "百度指数",
+   "url": "https://index.baidu.com/v2/index.html",
+   "urls": [
+    "https://index.baidu.com/v2/index.html"
+   ],
+   "mods": [
+    "知识模块29：网络指数"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.zhihu.com",
+   "name": "知乎",
+   "url": "https://www.zhihu.com",
+   "urls": [
+    "https://www.zhihu.com/",
+    "https://www.zhihu.com"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "zhida.zhihu.com",
+   "name": "知乎直答",
+   "url": "https://zhida.zhihu.com",
+   "urls": [
+    "https://zhida.zhihu.com/",
+    "https://zhida.zhihu.com"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "x.cnki.net",
+   "name": "知网研学",
+   "url": "https://x.cnki.net/web/search/#/down",
+   "urls": [
+    "https://x.cnki.net/web/search/#/down"
+   ],
+   "mods": [
+    "知识模块46：文献管理工具"
+   ],
+   "access": "login",
+   "src": "page"
+  },
+  {
+   "host": "www.aidaxue.com",
+   "name": "科大讯飞 AI 大学堂",
+   "url": "https://www.aidaxue.com/",
+   "urls": [
+    "https://www.aidaxue.com/"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.scidb.cn",
+   "name": "科学数据银行 ScienceDB",
+   "url": "https://www.scidb.cn",
+   "urls": [
+    "https://www.scidb.cn"
+   ],
+   "mods": [
+    "知识模块09：开放数据资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "open.163.com",
+   "name": "网易公开课",
+   "url": "https://open.163.com",
+   "urls": [
+    "https://open.163.com/",
+    "https://open.163.com"
+   ],
+   "mods": [
+    "知识模块17：在线开放课程资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.loc.gov",
+   "name": "美国国会图书馆",
+   "url": "https://www.loc.gov",
+   "urls": [
+    "https://www.loc.gov"
+   ],
+   "mods": [
+    "知识模块20：国家图书馆免费数字资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "yuanbao.tencent.com",
+   "name": "腾讯元宝",
+   "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+   "urls": [
+    "https://yuanbao.tencent.com/chat/naQivTmsDa"
+   ],
+   "mods": [
+    "知识模块03：通用AI工具认知与应用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "docs.qq.com",
+   "name": "腾讯文档",
+   "url": "https://docs.qq.com",
+   "urls": [
+    "https://docs.qq.com/",
+    "https://docs.qq.com"
+   ],
+   "mods": [
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.qianwen.com",
+   "name": "通义千问",
+   "url": "https://www.qianwen.com",
+   "urls": [
+    "https://www.qianwen.com/",
+    "https://www.qianwen.com"
+   ],
+   "mods": [
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.wjx.cn",
+   "name": "问卷星",
+   "url": "https://www.wjx.cn",
+   "urls": [
+    "https://www.wjx.cn/",
+    "https://www.wjx.cn"
+   ],
+   "mods": [
+    "知识模块38：思维导图、笔记软件、问卷调查"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "developer.aliyun.com",
+   "name": "阿里云开发者社区",
+   "url": "https://developer.aliyun.com/learning/roadmap/ai",
+   "urls": [
+    "https://developer.aliyun.com/learning/roadmap/ai"
+   ],
+   "mods": [
+    "知识模块02：AI学习资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.yuketang.cn",
+   "name": "雨课堂",
+   "url": "https://www.yuketang.cn",
+   "urls": [
+    "https://www.yuketang.cn/",
+    "https://www.yuketang.cn"
+   ],
+   "mods": [
+    "知识模块39：OFFICE插件和浏览器插件"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "sppt.cfsa.net.cn:8086",
+   "name": "食品安全国家标准数据库",
+   "url": "https://sppt.cfsa.net.cn:8086/db",
+   "urls": [
+    "https://sppt.cfsa.net.cn:8086/db"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "sppt.cfsa.net.cn:8087",
+   "name": "食品安全国家标准数据库（新版）",
+   "url": "https://sppt.cfsa.net.cn:8087/db",
+   "urls": [
+    "https://sppt.cfsa.net.cn:8087/db"
+   ],
+   "mods": [
+    "知识模块11：标准与商标信息资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "suyang.zxhnzq.com",
+   "name": "高校信息素养教育数据库",
+   "url": "https://suyang.zxhnzq.com/lecture",
+   "urls": [
+    "https://suyang.zxhnzq.com/lecture"
+   ],
+   "mods": [
+    "知识模块18：开放平台中的学习资源"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "gj.ncss.cn",
+   "name": "高校毕业生到国际组织实习任职信息平台",
+   "url": "https://gj.ncss.cn",
+   "urls": [
+    "https://gj.ncss.cn/",
+    "https://gj.ncss.cn"
+   ],
+   "mods": [
+    "知识模块15：文教信息查询"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "modelscope.cn",
+   "name": "魔搭 ModelScope",
+   "url": "https://modelscope.cn",
+   "urls": [
+    "https://modelscope.cn/",
+    "https://modelscope.cn"
+   ],
+   "mods": [
+    "知识模块07：AI开源与开放数据资源的获取与利用"
+   ],
+   "access": "open",
+   "src": "page"
+  },
+  {
+   "host": "www.aminer.cn",
+   "name": "AMiner",
+   "url": "https://www.aminer.cn/",
+   "urls": [
+    "https://www.aminer.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.deepseek.com",
+   "name": "DeepSeek",
+   "url": "https://www.deepseek.com/",
+   "urls": [
+    "https://www.deepseek.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.epsnet.com.cn",
+   "name": "EPS数据平台",
+   "url": "https://www.epsnet.com.cn/index.html",
+   "urls": [
+    "https://www.epsnet.com.cn/index.html"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "endnote.com",
+   "name": "EndNote",
+   "url": "https://endnote.com/",
+   "urls": [
+    "https://endnote.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.kimi.com",
+   "name": "Kimi（月之暗面）",
+   "url": "https://www.kimi.com/",
+   "urls": [
+    "https://www.kimi.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.cockos.com",
+   "name": "LICEcap（GIF 录屏）",
+   "url": "https://www.cockos.com/licecap/",
+   "urls": [
+    "https://www.cockos.com/licecap/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.mendeley.com",
+   "name": "Mendeley",
+   "url": "https://www.mendeley.com/",
+   "urls": [
+    "https://www.mendeley.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.inoteexpress.com",
+   "name": "NoteExpress",
+   "url": "https://www.inoteexpress.com/",
+   "urls": [
+    "https://www.inoteexpress.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.processon.com",
+   "name": "ProcessOn（在线思维导图）",
+   "url": "https://www.processon.com/",
+   "urls": [
+    "https://www.processon.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "zh.snipaste.com",
+   "name": "Snipaste（截图 / 贴图）",
+   "url": "https://zh.snipaste.com/",
+   "urls": [
+    "https://zh.snipaste.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "public.tableau.com",
+   "name": "Tableau Public",
+   "url": "https://public.tableau.com/app",
+   "urls": [
+    "https://public.tableau.com/app"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.wps.cn",
+   "name": "WPS Office",
+   "url": "https://www.wps.cn/",
+   "urls": [
+    "https://www.wps.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "xmind.cn",
+   "name": "XMind",
+   "url": "https://xmind.cn/",
+   "urls": [
+    "https://xmind.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.zotero.org",
+   "name": "Zotero",
+   "url": "https://www.zotero.org/",
+   "urls": [
+    "https://www.zotero.org/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "data.cnki.net",
+   "name": "中国经济社会大数据研究平台（CNKI）",
+   "url": "https://data.cnki.net/",
+   "urls": [
+    "https://data.cnki.net/"
+   ],
+   "mods": [],
+   "access": "login",
+   "src": "supp"
+  },
+  {
+   "host": "www.stats.gov.cn",
+   "name": "中国统计年鉴",
+   "url": "https://www.stats.gov.cn/sj/ndsj/",
+   "urls": [
+    "https://www.stats.gov.cn/sj/ndsj/"
+   ],
+   "mods": [],
+   "access": "gov",
+   "src": "supp"
+  },
+  {
+   "host": "lib.scu.edu.cn",
+   "name": "四川大学图书馆",
+   "url": "https://lib.scu.edu.cn/",
+   "urls": [
+    "https://lib.scu.edu.cn/"
+   ],
+   "mods": [],
+   "access": "gov",
+   "src": "supp"
+  },
+  {
+   "host": "opac.nlc.cn",
+   "name": "国家图书馆联机公共目录",
+   "url": "http://opac.nlc.cn/",
+   "urls": [
+    "http://opac.nlc.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.stats.gov.cn",
+   "name": "国家统计局",
+   "url": "https://www.stats.gov.cn/",
+   "urls": [
+    "https://www.stats.gov.cn/"
+   ],
+   "mods": [],
+   "access": "gov",
+   "src": "supp"
+  },
+  {
+   "host": "mubu.com",
+   "name": "幕布",
+   "url": "https://mubu.com/home",
+   "urls": [
+    "https://mubu.com/home"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "wenxin.baidu.com",
+   "name": "文心一言",
+   "url": "https://wenxin.baidu.com/?enter_type=yiyan_site",
+   "urls": [
+    "https://wenxin.baidu.com/?enter_type=yiyan_site"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "chatglm.cn",
+   "name": "智谱清言",
+   "url": "https://chatglm.cn/",
+   "urls": [
+    "https://chatglm.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "shimo.im",
+   "name": "石墨文档",
+   "url": "https://shimo.im/",
+   "urls": [
+    "https://shimo.im/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "metaso.cn",
+   "name": "秘塔AI搜索",
+   "url": "https://metaso.cn/",
+   "urls": [
+    "https://metaso.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.n.cn",
+   "name": "纳米AI",
+   "url": "https://www.n.cn/",
+   "urls": [
+    "https://www.n.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "hanabi.cn",
+   "name": "花火 Hanabi",
+   "url": "https://hanabi.cn/",
+   "urls": [
+    "https://hanabi.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "xinghuo.xfyun.cn",
+   "name": "讯飞星火",
+   "url": "https://xinghuo.xfyun.cn/",
+   "urls": [
+    "https://xinghuo.xfyun.cn/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.duxiu.com",
+   "name": "读秀学术搜索",
+   "url": "https://www.duxiu.com/",
+   "urls": [
+    "https://www.duxiu.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "www.chaoxing.com",
+   "name": "超星发现",
+   "url": "https://www.chaoxing.com/",
+   "urls": [
+    "https://www.chaoxing.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  },
+  {
+   "host": "dycharts.com",
+   "name": "镝数图表",
+   "url": "https://dycharts.com/",
+   "urls": [
+    "https://dycharts.com/"
+   ],
+   "mods": [],
+   "access": "open",
+   "src": "supp"
+  }
+ ]
+}

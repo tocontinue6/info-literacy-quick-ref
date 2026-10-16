@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 本地安装的第三方库（用 pip 自行安装即可）----
+libs/
+
+# ---- 第三方 PDF 原文 ----
+# 这些文件版权属于原发布机构，不入库；需要时按资源清单里的链接自行下载。
+pdf/
+
+# ---- 抓取到的站点原始产物（体积大，且可重新获取）----
+raw/app.js
+raw/chunk-*.js
+raw/*.html
+
+# ---- 中间产物 / 校验截图 ----
+# out/ 下只保留重建手册所需的两个数据文件，其余一律忽略
+out/*
+!out/knowledge_raw.json
+!out/app_data.json
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
