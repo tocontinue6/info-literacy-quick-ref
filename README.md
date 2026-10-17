@@ -97,41 +97,54 @@
 
 ---
 
+## 仓库里的界线：发布内容 vs 本地工作区
+
+本仓库**只跟踪对外发布的内容**。抓取数据、构建脚本、诊断脚本都留在本机，不进版本库 ——
+这样以后更新时，`git status` 里只会出现你真正想发布的改动，不会混进一堆中间文件。
+
+| 类别 | 位置 | 是否上传 |
+| --- | --- | --- |
+| **成品手册** | `信息素养与科研工具速查手册.html` | ✅ 上传 |
+| **历史版本** | `考点速查手册.html`、`bug修复/*.html` | ✅ 上传 |
+| **文档** | `README.md`、`CHANGELOG.md`、`资源清单.md`、`bug修复/修复说明.md` | ✅ 上传 |
+| **截图** | `screenshots/` | ✅ 上传 |
+| 构建 / 诊断脚本 | `*.py`、`*.js`、`诊断脚本/` | ❌ 仅本地 |
+| 抓取数据与中间产物 | `raw/`、`out/` | ❌ 仅本地 |
+| 本地依赖与第三方 PDF | `libs/`、`pdf/` | ❌ 仅本地 |
+
+> **日常维护只需要做一件事**：改完手册或文档后，`git add` 你看得见的那几个文件 → `git commit` → `git push`。
+> 被 `.gitignore` 挡住的东西不会自动混进来。
+
+---
+
 ## 仓库结构
 
 ```
+【上传区】被 git 跟踪
 ├── 信息素养与科研工具速查手册.html   ← ★ 成品，双击即用
 ├── README.md                          本文件
 ├── CHANGELOG.md                       按时间顺序的版本说明
 ├── 资源清单.md                         完整资源清单（Markdown 报告）
 ├── 考点速查手册.html                   初版（v1.0）存档
 ├── screenshots/                        预览截图
-│
-├── —— 数据管线 ——
-├── extract.py / fetch.py               抓取与解析
-├── build_data.py                       原始数据 → out/app_data.json
-├── url_fixes.py                        网址勘误表（改这里即可修正变更的网址）
-├── report.py                           生成资源清单报告
-├── linkcheck.py                        批量检测链接可达性
-├── detaillist.py / verify_supp.py      辅助统计与校验
-├── dlpdf.py / pdfparse.py / pdfimg.py  附件下载与 PDF 解析
-│
-├── bug修复/                            历次修订的产物与排查记录
-│   ├── 考点速查手册-v2.0.html
-│   ├── 修复说明.md                      v2.0 问题的完整排查过程
-│   ├── build_html_v2.py                当前生成脚本
-│   ├── check_v2.js / verify_v2.py      回归测试与成品自检
-│   └── build_html.py / check_html.py / check_render.js / mk_shots.py   v1 时代脚本（存档，勿运行）
-│
-├── 诊断脚本/                           一次性排查脚本（保留备查）
-│   └── scan_*.py / diag_*.py / find_dialog.py / check_nmpa.py / probe_api.py / ctx.py / insp.py
-│
-└── out/  raw/                          中间产物（大部分已 gitignore）
+└── bug修复/                            历次修订记录
+    ├── 考点速查手册-v2.0.html
+    ├── 修复说明.md                      v2.0 问题的完整排查过程
+    └── 问题截图.png                     现象截图
+
+【工作区】仅本地，不上传（.gitignore 已排除）
+├── build_data.py / report.py / url_fixes.py   构建与维护
+├── extract.py / fetch.py / linkcheck.py       抓取与链接检测
+├── dlpdf.py / pdfparse.py / pdfimg.py         附件下载与 PDF 解析
+├── bug修复/build_html_v2.py 等                 生成脚本与回归测试
+├── 诊断脚本/                                   一次性排查脚本
+├── out/  raw/                                 抓取数据与中间产物
+└── libs/  pdf/                                本地依赖与第三方 PDF 原文
 ```
 
 ---
 
-## 重新生成
+## 重新生成（仅本机需要，脚本不上传）
 
 ```powershell
 python build_data.py                  # 原始数据 → out/app_data.json
