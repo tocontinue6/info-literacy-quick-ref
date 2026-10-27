@@ -147,7 +147,8 @@
 ## 重新生成（仅本机需要，脚本不上传）
 
 ```powershell
-python build_data.py                  # 原始数据 → out/app_data.json
+python extract.py                      # raw API → out/knowledge_raw.json（数据未更新时可跳过）
+python build_data.py                   # 原始数据 → out/app_data.json
 python "bug修复/build_html_v2.py"      # → 信息素养与科研工具速查手册.html
 node  "bug修复/check_v2.js"            # 39 项回归测试
 python report.py                       # → 资源清单.md
@@ -155,7 +156,7 @@ python report.py                       # → 资源清单.md
 
 ### 网址变更了怎么办
 
-只改 [`url_fixes.py`](url_fixes.py) 里的 `URL_FIXES`，然后重跑上面三步。
+只改 [`url_fixes.py`](url_fixes.py) 里的 `URL_FIXES`，然后重跑上面的生成流程。
 所有下游文件（手册、报告、链接检测）会自动带上勘误，不会因为重新生成而回退。
 
 ```python
@@ -185,10 +186,11 @@ URL_FIXES = {
 
 ## 版本
 
-当前 **v2.1**。完整迭代记录见 [CHANGELOG.md](CHANGELOG.md)，概览：
+当前 **v2.1.1**。完整迭代记录见 [CHANGELOG.md](CHANGELOG.md)，概览：
 
 | 版本 | 日期 | 变更 |
 | --- | --- | --- |
 | v1.0 | 2026-10-13 | 初版：按用途重排 50 个知识模块 |
 | v2.0 | 2026-10-16 | 修复键盘打开网址被环境拦截、反复弹确认框 |
 | v2.1 | 2026-10-16 | 修正已变更的网址；用途从比赛专用改为通用学习科研工具 |
+| v2.1.1 | 2026-10-26 | 维护修订：资源清单同步到 v2.1 口径；修复重新生成链路 |
