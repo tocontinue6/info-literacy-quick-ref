@@ -1,7 +1,8 @@
 # 信息素养与科研工具速查手册
 
-一份给**大学生 / 研究生**用的单文件速查手册：把学习与科研中常用的 **200 个平台和资源**、
-**50 个知识模块**、**56 道例题**整理在一页里，用键盘就能秒查秒开。
+一份给**大学生 / 研究生**用的单文件速查手册：把学习与科研中常用的 **506 个平台和资源**
+（**17 个类别 / 10 个学科**）、**50 个知识模块**、**8 幕科研流程**、**56 道例题**
+整理在一页里，用键盘就能秒查秒开。
 
 > 打开 [`信息素养与科研工具速查手册.html`](信息素养与科研工具速查手册.html) 即可使用。
 > 单文件、**完全离线**（不引用任何外部 CDN），双击用浏览器打开，也可以拷到 U 盘、发到手机。
@@ -9,9 +10,23 @@
 ![主界面](screenshots/预览-主界面.png)
 
 <details>
-<summary>平台速查面板（按 <kbd>p</kbd> 呼出）</summary>
+<summary>资源地图 · 资源目录（按 <kbd>p</kbd> 呼出）</summary>
 
-![平台速查](screenshots/预览-平台速查.png)
+![资源地图](screenshots/预览-资源地图.png)
+
+</details>
+
+<details>
+<summary>资源地图 · 科研流程（按 <kbd>w</kbd> 呼出）</summary>
+
+![科研流程](screenshots/预览-科研流程.png)
+
+</details>
+
+<details>
+<summary>中文学科专题资源（C16 筛选，60 条）</summary>
+
+![中文学科库](screenshots/预览-中文学科库.png)
 
 </details>
 
@@ -35,7 +50,10 @@
 | --- | --- |
 | 知识模块 | 50 个 |
 | 使用场景分类 | 10 类 |
-| 平台 / 资源 | 200 个 |
+| 平台 / 资源 | **506 个**（原有 200 + 新增 306） |
+| 资源类别 | **17 类** |
+| 学科标签 | **10 个**（全学科 + 9 个学科群） |
+| 科研流程 | **8 幕 / 66 个工具挂载** |
 | 例题（含答案与解析） | 56 道 |
 | 实践任务 | 99 条 |
 
@@ -56,6 +74,44 @@
 
 ---
 
+## 资源地图（v2.2 起）
+
+按 `p` 打开资源地图，里面有两个视图：
+
+**资源目录** —— 506 个平台按 **17 类**组织，可按 **10 个学科**筛选：
+
+| 类别 | 代表资源 |
+| --- | --- |
+| C01 中文文献与学位论文 | 知网、万方、维普、CSCD、CSSCI、NSTL、CASHL |
+| C02 外文期刊与全文库 | ScienceDirect、Wiley、SpringerLink、SAGE、ACS、RSC、IEEE、ACM |
+| C03 综合搜索与学术索引 | Web of Science、Scopus、EI、Google Scholar、Semantic Scholar、OpenAlex |
+| C04 预印本与开放获取 | arXiv、bioRxiv、medRxiv、SSRN、ChemRxiv、DOAJ、Unpaywall |
+| C05 图书与古籍 | 国家图书馆、CADAL、HathiTrust、Internet Archive、书格 |
+| C06 数据与统计 | 国家统计局、国家科学数据中心群、CFPS/CGSS、CSMAR、Wind、IMF/OECD |
+| C07 专利 · 标准 · 法规 | CNIPA、Espacenet、Google Patents、ISO、IEC、北大法宝、Westlaw |
+| C08 文献管理与写作 | Zotero、EndNote、NoteExpress、Overleaf、LaTeX、Mathpix、DeepL |
+| C09 科研 AI 与文献分析 | Elicit、Consensus、Scite、SciSpace、ResearchRabbit、CNKI AI、Kimi |
+| C10 学科专业库 | PubMed、Embase、Cochrane、GEO、PDB、UniProt、SciFinder、MathSciNet、ERIC |
+| C11 期刊评价与投稿 | JCR、LetPub、SJR、JANE、Think.Check.Submit |
+| C12 科研诚信与查重 | 知网/维普/万方检测、Turnitin、iThenticate、Retraction Watch、PubPeer |
+| C13 效率工具与科研绘图 | Obsidian、draw.io、Origin、GraphPad、SPSS、Stata、R、Jupyter |
+| C14 课程与学术社交 | 中国大学 MOOC、Coursera、edX、ORCID、ResearchGate、科学网 |
+| C15 政府公开信息 | 教育部、科技部、NSFC、央行、海关、财政部、自然资源部、气象局 |
+| C16 中文学科专题资源 | 疾控中心、药审中心、贸仲、上交所、巨潮、CHFS、上海图书馆家谱、国博 |
+| C17 学会与科研机构 | 中华医学会、中国法学会、中国社科院、中国农业科学院、中国数学会 |
+
+**科研流程** —— 按 `w` 直接打开，8 幕：
+
+> 选题与立项 → 文献检索 → 文献管理与精读 → 数据与实验 → 分析与可视化 →
+> 写作与排版 → 查重与投稿 → 传播与交流
+
+每一幕给出目标、3 条要点、1 条常见坑和 4–10 个推荐工具；点工具名直接打开。
+
+> 资源地图内：输入即过滤；点类别/学科筛选；数字键 `1`…`0` 打开前 10 个结果。
+> 顶部搜索框也能搜到流程，例如输入“查重”“投稿”“预印本”，回车直达对应幕。
+
+---
+
 ## 快捷键
 
 | 键 | 作用 |
@@ -67,7 +123,8 @@
 | `Enter` | 打开选中的模块 |
 | **`1` … `9` `0`** | **打开当前模块的第 1–10 个资源网址**（新标签页） |
 | `l` | 进入链接导航模式，`↑↓` 选链接、`Enter` 打开（第 11 个之后的链接） |
-| **`p`** | **平台速查面板**（200 个平台，输入即过滤，`1`…`0` 打开前 10 个结果） |
+| **`p`** | **资源地图 · 资源目录**（506 个平台，17 类 / 10 学科，输入即过滤，`1`…`0` 打开前 10 个结果） |
+| **`w`** | **资源地图 · 科研流程**（8 幕，点工具名直接打开） |
 | **`t`** | **切换打开方式：新标签页 ⇄ 当前标签页** |
 | `o` / `y` | 打开 / 复制当前模块的原始页面地址 |
 | `Esc` / `?` | 关闭浮层 / 显示快捷键帮助 |
@@ -90,6 +147,27 @@
 
 > 用系统浏览器（Chrome、Edge、Firefox）直接打开不会有这个问题。
 > 详见 [版本说明](CHANGELOG.md) 中 v2.0 的排查过程。
+
+**Q：资源地图里的“需国际网络”“需登录”是什么意思？**
+
+- **需国际网络**：Google Scholar、ChatGPT、Gemini、NotebookLM、Perplexity、Hugging Face 等
+  在当前网络环境下不能直连；用途说明里已标注，可在可访问国际网络时使用。
+- **需登录 / 部分免费**：Web of Science、Scopus、EI、Embase、Cochrane、SciFinder、Reaxys、
+  北大法宝、威科先行、Westlaw 等需要学校/机构订阅；先用校园网或图书馆入口访问。
+- 手册只负责“找到入口”，不提供账号、不绕过任何付费墙。
+
+**Q：中文学科库做过安全检查吗？**
+
+做过。每个新增中文网址都检查了 DNS、HTTPS/TLS 证书（含到期日）、HTTP 状态与重定向、
+Content-Type、强制下载、外部 iframe/脚本与可执行文件链接；81 个 HTML 样本还用 Windows Defender
+做了文件级扫描，未发现威胁。15 个仅支持 HTTP 的站点已在用途说明中标注“HTTP 明文，注意”；
+中国债券信息网的披露文件是 `.zip`，下载后请先扫描。逐站结果见
+[`中文学科库补充说明.md`](中文学科库补充说明.md) 附录 A。
+
+**Q：中科院期刊分区表还能查吗？** 官方在线平台已于 **2026-09-30 停止运行**，
+中科院文献情报中心自 2026 年起不再更新、发布分区表；多数高校明确 2026 年及以后论文
+按 **2025 版分区表**认定（以本单位政策为准）。手册里保留了 JCR、LetPub、SJR 等可用入口，
+并在 LetPub 的用途说明中标注了这一变化。
 
 **Q：需要联网吗？** 手册本身完全离线，点开的具体网站需要联网。
 
@@ -124,6 +202,8 @@
 ├── 信息素养与科研工具速查手册.html   ← ★ 成品，双击即用
 ├── README.md                          本文件
 ├── CHANGELOG.md                       按时间顺序的版本说明
+├── 科研资源扩充说明.md                  v2.2 现状对比、缺口分析、框架与执行结果
+├── 中文学科库补充说明.md                v2.3 中文学科库、安全核验与纳入/剔除记录
 ├── 资源清单.md                         完整资源清单（Markdown 报告）
 ├── 考点速查手册.html                   初版（v1.0）存档
 ├── screenshots/                        预览截图
@@ -134,6 +214,10 @@
 
 【工作区】仅本地，不上传（.gitignore 已排除）
 ├── build_data.py / report.py / url_fixes.py   构建与维护
+├── research_catalog.py                        资源目录与 8 幕流程数据
+├── research_catalog_cn.py                     中文学科库候选与最终清单
+├── verify_catalog.py                          新增网址 HTTP 实测
+├── verify_cn_catalog.py                       中文库 DNS/TLS/页面安全检查
 ├── extract.py / fetch.py / linkcheck.py       抓取与链接检测
 ├── dlpdf.py / pdfparse.py / pdfimg.py         附件下载与 PDF 解析
 ├── bug修复/build_html_v2.py 等                 生成脚本与回归测试
@@ -148,11 +232,16 @@
 
 ```powershell
 python extract.py                      # raw API → out/knowledge_raw.json（数据未更新时可跳过）
-python build_data.py                   # 原始数据 → out/app_data.json
+python verify_catalog.py               # 可选：实测 research_catalog.py 里的新增网址
+python verify_cn_catalog.py            # 可选：中文库 DNS/TLS/内容安全核验
+python build_data.py                   # 原始数据 + 资源目录 → out/app_data.json
 python "bug修复/build_html_v2.py"      # → 信息素养与科研工具速查手册.html
-node  "bug修复/check_v2.js"            # 39 项回归测试
+node  "bug修复/check_v2.js"            # 78 项回归测试
 python report.py                       # → 资源清单.md
 ```
+
+> 新增/修改资源只改 `research_catalog.py`：每条含名称、网址、类别、学科、一句话用途。
+> 重新生成时 `build_data.py` 会自动与原有 200 个平台去重合并；流程工具名找不到会直接报错。
 
 ### 网址变更了怎么办
 
@@ -182,11 +271,17 @@ URL_FIXES = {
 数据版权归原发布方所有；本仓库不包含抓取到的 PDF 原文（见 `.gitignore`），
 需要时按资源清单里的链接自行下载。
 
+> v2.2/v2.3 新增的 306 个资源目录由本地 `research_catalog.py` 与 `research_catalog_cn.py`
+> 维护，参考高校图书馆数据库导航、官方站点与 2026 年科研工具评测整理；
+> 网址均经 HTTP 实测，中文学科库还额外做了 TLS 证书与页面静态安全检查，**不属于源站数据**。
+> 完整对比与证据见 [`科研资源扩充说明.md`](科研资源扩充说明.md) 与
+> [`中文学科库补充说明.md`](中文学科库补充说明.md)。
+
 ---
 
 ## 版本
 
-当前 **v2.1.1**。完整迭代记录见 [CHANGELOG.md](CHANGELOG.md)，概览：
+当前 **v2.3.2**。完整迭代记录见 [CHANGELOG.md](CHANGELOG.md)，概览：
 
 | 版本 | 日期 | 变更 |
 | --- | --- | --- |
@@ -194,3 +289,7 @@ URL_FIXES = {
 | v2.0 | 2026-10-16 | 修复键盘打开网址被环境拦截、反复弹确认框 |
 | v2.1 | 2026-10-16 | 修正已变更的网址；用途从比赛专用改为通用学习科研工具 |
 | v2.1.1 | 2026-10-27 | 维护修订：资源清单同步到 v2.1 口径；修复重新生成链路 |
+| v2.2.0 | 2026-10-27 | 资源地图：平台 200 → 419，新增 15 类 / 10 学科 / 8 幕科研流程；219 个新增网址实测；78 项测试 |
+| v2.3.0 | 2026-10-28 | 中文学科库：+74 中文资源，新增 C16/C17，平台 493 / 17 类；逐站 TLS 与安全核验；78 项测试 |
+| v2.3.1 | 2026-10-28 | 回补 5 个 HTTPS 正式入口；平台 498 / 17 类；79 个中文资源逐站安全表；78 项测试 |
+| **v2.3.2** | **2026-10-28** | **再回补 8 个 HTTP 明文入口（均加显著提示）；平台 506 / 17 类；87 个中文资源安全表；78 项测试** |
